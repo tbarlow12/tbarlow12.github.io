@@ -32,3 +32,8 @@ a{
 span{
 
 }
+
+#links{
+    display: flex;
+    justify-content: space-between;
+}
