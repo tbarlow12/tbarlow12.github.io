@@ -1,0 +1,39 @@
+body {
+    background-color: #315481;
+    background-image: linear-gradient(to bottom, #315481, #BC58DE 100%);
+    background-attachment: fixed;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    padding: 0;
+    margin: 0;
+}
+
+#main {
+    height: 100%;
+    background-color: #f8f8f8;
+    padding: 5px 20px 20px 20px;
+    margin: 20px 0 20px 0;
+    -moz-box-shadow: 0 0 20px black;
+    -webkit-box-shadow: 0 0 20px black;
+    box-shadow: 0 0 20px black;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #f8f8f8;
+    padding: 5px 20px 5px 20px;
+    margin: 20px 0 20px 0;
+    -moz-box-shadow: 0 0 20px black;
+    -webkit-box-shadow: 0 0 20px black;
+    box-shadow: 0 0 20px black;
+    border-radius: 0px;
+}
+
+.btn {
+    border-radius: 0px;
+}
