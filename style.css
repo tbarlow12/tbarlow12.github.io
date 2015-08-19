@@ -1,0 +1,34 @@
+body {
+    background-color: #315481;
+    background-image: linear-gradient(to bottom, #000000, #315481 100%);
+    background-attachment: fixed;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    padding: 0;
+    margin: 0;
+
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 300%;
+    font-family: microExtend;
+}
+    @font-face {
+        font-family: microExtend;
+        src: url(micro_extend/MicroExtendFLF.ttf);
+    }
+    /*background-image: url("background.jpg");*/
+    /*background-size: 800px 600px;*/
+    /*background-repeat: no-repeat;*/
+
+a{
+    color: #FFFFFF;
+}
+
+span{
+
+}
