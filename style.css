@@ -19,7 +19,7 @@ body {
 }
     @font-face {
         font-family: microExtend;
-        src: url(micro_extend/MicroExtendFLF.ttf);
+        src: url(resources/fonts/micro_extend/MicroExtendFLF.ttf);
     }
     /*background-image: url("background.jpg");*/
     /*background-size: 800px 600px;*/
@@ -29,11 +29,32 @@ a{
     color: #FFFFFF;
 }
 
-span{
+a:link {
+    text-decoration: none;
+}
 
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+span{
+    color: #FF0000;
 }
 
 #links{
     display: flex;
+    font-size:125%;
     justify-content: space-between;
+}
+
+button{
+    width:500;
 }
