@@ -4,9 +4,13 @@ title: About
 permalink: /
 ---
 
-I love my wife, my family, learning, sports, street tacos and coding. I'm a software developer at heart with a passion for creating things that make the world a better place and everyday life more worthwhile.
+I spent the summer of 2015 as a Software Development intern with FamilySearch in Salt Lake City, where I developed tools for a team of data specialists to maintain a database of over 7 million points of data. I have recently accepted a Software Engineer Internship with Microsoft, which will begin in May of 2016.
 
-Visit links below for my portfolio
+I am most interested in data mining, machine learning and all other technologies involving the transformation of data into useful tools and information.
+
+I serve as the [president](http://www.cpuofu.com/board/) of a student group at the University of Utah called [CPU of U](http://www.cpuofu.com/), where we build software and explore different technologies outside of the classroom.
+
+I'm married to the most beautiful girl in the world, I'm an avid basketball player and served an LDS mission in Santiago, Chile.
 
 ### Contact me
 
