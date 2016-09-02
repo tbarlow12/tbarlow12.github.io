@@ -18,6 +18,4 @@ I serve as the [president](http://www.cpuofu.com/board/) of a student group at t
 
 I'm married to the most beautiful girl in the world, I'm an avid basketball player and served an LDS mission in Santiago, Chile.
 
-### Contact me
-
-[tanner.barlow12@gmail.com](mailto:tanner.barlow12@gmail.com)
+### Contact me through [email](mailto:tanner.barlow12@gmail.com) or through one of the social media sites below
