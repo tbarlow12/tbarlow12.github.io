@@ -8,7 +8,7 @@ My name is Tanner Barlow and I am a software engineer.
 
 I love writing code to optimize and improve things I see in the real world. I've been able to use my skills developing software to make a real impact and I've loved every minute of it.
 
-In 2016, I had the opportunity of working with the WDG GS Data Insights team at Microsoft (thank heavens for acronyms). For a more detailed description of the project I worked on, technical challenges I faced, and my overall experience in Redmond, please click [here](blog/Microsoft-Summer1/).
+In 2016, I had the opportunity of working with the WDG GS Data Insights team at Microsoft (thank heavens for acronyms). For a more detailed description of the project I worked on, technical challenges I faced, and my overall experience in Redmond, please click [here](Microsoft-Summer1/).
 
 I spent the summer of 2015 as a Software Development intern with FamilySearch in Salt Lake City, where I developed tools for a team of data specialists to maintain a database of over 7 million points of data.
 
