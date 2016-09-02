@@ -1,4 +1,9 @@
-_config.yml
-_site/*
-*Thumbs.db
+_site
+.DS_Store
+.jekyll
+.bundle
+.sass-cache
+Gemfile
 Gemfile.lock
+node_modules
+package.json
