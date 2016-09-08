@@ -46,6 +46,14 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 30px;
+  a{
+    color: $darkGray;
+    text-decoration: none;
+  	cursor: pointer;
+    &:hover, &:active {
+      color: red;
+    }
+  }
 }
 
 h2 {
@@ -79,9 +87,6 @@ h4 {
 
 p {
   margin: 15px 0;
-}
-head{
-  color: $darkGray;
 }
 
 a {
