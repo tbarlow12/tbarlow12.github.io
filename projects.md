@@ -10,7 +10,7 @@ permalink: /projects/
   Collection of demos that I show as a Microsoft Student Partner. Just recently started using GitHub to host these, so not all of them have been uploaded.
 
 - [Organizer](https://github.com/tbarlow12/Side-Projects/tree/master/Organizer) -
-  Currently working on a system to organize system files according to date. Hoping
+  Currently working on a system to organize system files according to date. Hoping to incorporate Text Analytics APIs to also organize documents based on subjects or themes.
 
 - [Coreference Analyzer](https://github.com/tbarlow12/CoreferenceAnalyzer) -
   Built for my Natural Language Processing course. Coreferencing is being able to determine the correct entity that anaphora refer back to. It was an incredibly fun project, utilized Stanford's CoreNLP Library. (Library not included in repository for size, but used version 3.6.0) We took a statistical approach, which would have worked much better if we had more data to train on, but it did as well as we needed it to.
