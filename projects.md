@@ -3,32 +3,26 @@ layout: page
 title: Favorite Projects
 permalink: /projects/
 ---
-- [InfoExtractionProject](https://github.com/tbarlow12/InfoExtractionProject) -
-  Project for Information Extraction course at the University of Utah. Open-ended project - we get to decide what we work on from Info Extraction. I've been leaning towards Question Answering and have begun building a simple QA engine that answers questions from Wikipedia articles.
-
-- [MSPDemos](https://github.com/tbarlow12/MSPDemos) -
+## Side Projects
+  ..* [MSPDemos](https://github.com/tbarlow12/MSPDemos) -
   Collection of demos that I show as a Microsoft Student Partner. Just recently started using GitHub to host these, so not all of them have been uploaded.
-
-- [Organizer](https://github.com/tbarlow12/Side-Projects/tree/master/Organizer) -
+  ..* [Organizer](https://github.com/tbarlow12/Side-Projects/tree/master/Organizer) -
   Currently working on a system to organize system files according to date. Hoping to incorporate Text Analytics APIs to also organize documents based on subjects or themes.
-
-- [Coreference Analyzer](https://github.com/tbarlow12/CoreferenceAnalyzer) -
-  Built for my Natural Language Processing course. Coreferencing is being able to determine the correct entity that anaphora refer back to. It was an incredibly fun project, utilized Stanford's CoreNLP Library. (Library not included in repository for size, but used version 3.6.0) We took a statistical approach, which would have worked much better if we had more data to train on, but it did as well as we needed it to.
-
-- [HackathonAPI](https://github.com/tbarlow12/HackTheUApi) -
+  ..* [HackathonAPI](https://github.com/tbarlow12/HackTheUApi) -
   Wanted to build a simple REST API for our Hackathon to check in participants, electronically rent out equipment, and various other administrative tasks involved with a Hackathon. We didn't end up using it because MLH has their own software that they use, but it was fun to build!
-
-- [PomoSphero](https://github.com/tbarlow12/Side-Projects/tree/master/SpheroProject) -
+  ..* [PomoSphero](https://github.com/tbarlow12/Side-Projects/tree/master/SpheroProject) -
   This was a fun, fairly simple project once I was able to find the right resources. Works mostly with asynchronous timers that continuously update the RGB value of the Sphero, and then rolls back and forth when timer is completed.
-
-- [Asteroids](https://github.com/tbarlow12/School-Projects/tree/master/Object-Oriented-Programming/Asteroids) -
-  This started as an assignment for a class to build the classic video game 'Asteroids', but my teammate and I kept adding features. We implemented cheat codes, additional weapons, extra bonuses and more.
-
-- [AskD](https://github.com/tbarlow12/Side-Projects/tree/master/AskD) -
+  ..* [AskD](https://github.com/tbarlow12/Side-Projects/tree/master/AskD) -
   My mother-in-law told me that she wanted a program to organize her filing cabinet of documents where each document had its own index. The documents also could have categories, keywords, titles, authors and other features. I implemented this lightweight desktop application in Java to quickly search by any of those attributes. She gave it the name AskD in honor of her own name.
 
-- [SpriteEditor](https://github.com/University-of-Utah-CS3505/u0680482/tree/neverland-dev/A6-SpriteEditor) -
-  The SpriteEditor is an application to edit pixels and frames with the end goal of exporting it to gif. This was done in a team for a school project, but has since been expanded on as team members have implemented more features
-
-- [Collection of School Projects](https://github.com/tbarlow12/School-Projects) -
-  Collection of projects that I have worked on throughout my academic career. Some projects are not included in this collection as they have their own repository, but these projects are broken down by course.
+## School Projects
+  ..* [InfoExtractionProject](https://github.com/tbarlow12/InfoExtractionProject) -
+ Project for Information Extraction course at the University of Utah. Open-ended project - we get to decide what we work on from Info Extraction. I've been leaning towards Question Answering and have begun building a simple QA engine that answers questions from Wikipedia articles.
+ ..* [Coreference Analyzer](https://github.com/tbarlow12/CoreferenceAnalyzer) -
+ Built for my Natural Language Processing course. Coreferencing is being able to determine the correct entity that anaphora refer back to. It was an incredibly fun project, utilized Stanford's CoreNLP Library. (Library not included in repository for size, but used version 3.6.0) We took a statistical approach, which would have worked much better if we had more data to train on, but it did as well as we needed it to.
+ ..* [Asteroids](https://github.com/tbarlow12/School-Projects/tree/master/Object-Oriented-Programming/Asteroids) -
+ This started as an assignment for a class to build the classic video game 'Asteroids', but my teammate and I kept adding features. We implemented cheat codes, additional weapons, extra bonuses and more.
+ ..* [SpriteEditor](https://github.com/University-of-Utah-CS3505/u0680482/tree/neverland-dev/A6-SpriteEditor) -
+ The SpriteEditor is an application to edit pixels and frames with the end goal of exporting it to gif. This was done in a team for a school project, but has since been expanded on as team members have implemented more features
+ ..* [Collection of School Projects](https://github.com/tbarlow12/School-Projects) -
+ Collection of projects that I have worked on throughout my academic career. Some projects are not included in this collection as they have their own repository, but these projects are broken down by course.
