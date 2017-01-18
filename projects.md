@@ -4,6 +4,9 @@ title: Favorite Projects
 permalink: /projects/
 ---
 ## Side Projects
+  - [WikiAnswer](https://github.com/tbarlow12/InfoExtractionProject) -
+  Simple Question Answering engine for Wikipedia articles. Currently only supports getting the age of people with Wikipedia pages.
+
   - [MSPDemos](https://github.com/tbarlow12/MSPDemos) -
   Collection of demos that I show as a Microsoft Student Partner. Just recently started using GitHub to host these, so not all of them have been uploaded.
 
@@ -20,8 +23,6 @@ permalink: /projects/
   My mother-in-law told me that she wanted a program to organize her filing cabinet of documents where each document had its own index. The documents also could have categories, keywords, titles, authors and other features. I implemented this lightweight desktop application in Java to quickly search by any of those attributes. She gave it the name AskD in honor of her own name.
 
 ## School Projects
-  - [InfoExtractionProject](https://github.com/tbarlow12/InfoExtractionProject) -
- Project for Information Extraction course at the University of Utah. Open-ended project - we get to decide what we work on from Info Extraction. I've been leaning towards Question Answering and have begun building a simple QA engine that answers questions from Wikipedia articles.
 
  - [Coreference Analyzer](https://github.com/tbarlow12/CoreferenceAnalyzer) -
  Built for my Natural Language Processing course. Coreferencing is being able to determine the correct entity that anaphora refer back to. It was an incredibly fun project, utilized Stanford's CoreNLP Library. (Library not included in repository for size, but used version 3.6.0) We took a statistical approach, which would have worked much better if we had more data to train on, but it did as well as we needed it to.
