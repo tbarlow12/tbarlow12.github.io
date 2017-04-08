@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Personal Informatics Time Tracking Experiment
+title: NBA Position Clustering
 permalink: /nba-clustering/
 ---
 
