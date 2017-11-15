@@ -14,6 +14,6 @@ Since then, I've signed an offer to return to Microsoft, working with the [Partn
 
 Speaking of hackathons, I think they are the perfect opportunity to learn new technologies and build cool stuff in a short amount of time. I've been involved with hackathons and coding competitions throughout my career. One of my favorite experiences was traveling with a team to Philadelphia for PennApps, where we built a Flask API for people to upload a dataset and get an endpoint to host their own ML models without needing to think about the nitty-gritty of machine learning. I co-founded and have been the Director of Technology for [HackTheU](http://hacktheu.com/), the official University of Utah hackathon, for the past two years. It was an amazing(ly stressful) experience to organize such a large event (our most recent hackathon had 270+ participant attendees) and partner with reputable companies like Galileo Processing, Goldman Sachs, Microsoft, Instructure, and many others.
 
-I'm married to the most beautiful girl in the world, we have a beautiful baby boy, I'm an avid basketball player and served an LDS mission in Santiago, Chile.
+I'm married to the most beautiful girl in the world, we have a beautiful baby boy, I'm an avid basketball player and served an LDS mission in Santiago, Chile. 
 
 ### Contact me through [email](mailto:tanner.barlow12@gmail.com) or through one of the social media sites below
