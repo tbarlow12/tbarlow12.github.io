@@ -35,7 +35,7 @@ We began our analysis by doing simple comparisons among the four positions we ha
 
 ![alt text](/resources/images/nba-4.png)
 
-##Clustering
+## Clustering
 
 We began with clustering our dataset using both hierarchical clustering with single-link distance metrics and assignment-based clustering using k-means++ and Lloyd’s algorithm. We originally used Gonzalez’s as well but found it less effective and switched our comparisons to single-link and k-means++. For both algorithms, we clustered the data from k = 3 to k = 8, using every combination of 7 statistical feature sets for each player: box score, advanced statistics, shot zone, shot range, shot area, action type and shot type. We ran assignment-based clustering for larger values of k, but with the amount of time required to run single-link hierarchical clustering, we limited our comparison from k = 3 to k = 8. Even with the limited scope, this resulted in almost 10,000 different clusterings with no simple way to identify which were better suited for our purposes. In order to find which clusterings best represented our chosen positions, we began searching for “polarity” among the results. We define “polarity” for a group of clusters as the average percentage of the dominant position for each cluster. Ideally, we would want a group of clusters to have a polarity of 100%, which would mean each cluster would consist entirely of one position.
 
