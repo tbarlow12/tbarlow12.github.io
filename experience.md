@@ -4,7 +4,7 @@ title: Experience
 permalink: /experience/
 ---
 
-## Jan. 2018 - present <br> Microsoft (CSE) - Software Engineer
+### Jan. 2018 - present <br> Microsoft (CSE) - Software Engineer
 <details>
   <summary>
    Show details
@@ -16,7 +16,7 @@ permalink: /experience/
   </ul>
 </details> 
 
-## May 2017 - July 2017 <br> Microsoft (WDG) - Software Engineer Intern
+### May 2017 - July 2017 <br> Microsoft (WDG) - Software Engineer Intern
 <details>
   <summary>
    Show details
@@ -35,7 +35,7 @@ permalink: /experience/
   </ul>
 </details> 
 
-## May 2016 - July 2016 <br> Microsoft (WDG) - Software Engineer Intern
+### May 2016 - July 2016 <br> Microsoft (WDG) - Software Engineer Intern
 <details>
   <summary>
    Show details
@@ -54,7 +54,7 @@ permalink: /experience/
   </ul>
 </details> 
 
-## May 2015 - Aug. 2015 <br> FamilySearch - Software Development Intern
+### May 2015 - Aug. 2015 <br> FamilySearch - Software Development Intern
 <details>
   <summary>
    Show details
@@ -75,7 +75,7 @@ permalink: /experience/
 
 # Leadership
 
-## May 2016 - Dec. 2017 <br> [HackTheU](https://hacktheu.com/) - Co-Founder & Director of Technology
+### May 2016 - Dec. 2017 <br> [HackTheU](https://hacktheu.com/) - Co-Founder & Director of Technology
 <details>
     <summary>
         Show details
@@ -88,7 +88,7 @@ permalink: /experience/
     </ul>
 </details>
 
-## Aug. 2016 - May 2017 <br> Microsoft - Intern Ambassador
+### Aug. 2016 - May 2017 <br> Microsoft - Intern Ambassador
 <details>
     <summary>
         Show details
@@ -99,7 +99,7 @@ permalink: /experience/
     </ul>
 </details>
 
-## Jan. 2016 - May 2017 <br> Microsoft - Student Partner
+### Jan. 2016 - May 2017 <br> Microsoft - Student Partner
 <details>
     <summary>
         Show details
@@ -110,7 +110,7 @@ permalink: /experience/
     </ul>
 </details>
 
-## Nov. 2015 - May 2016 <br> CPU of U - Founder & President
+### Nov. 2015 - May 2016 <br> CPU of U - Founder & President
 <details>
     <summary>
         Show details
