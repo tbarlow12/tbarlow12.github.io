@@ -25,10 +25,12 @@ A lot of the work I have done in school, internships and in side projects has be
 
 
 # Experience 
-## May 2015-Aug. 2015 <br> **FamilySearch - Software Development Intern**
 <details>
   <summary>
-   Show details
+   <span1>
+   May 2015-Aug. 2015 <br> 
+   <b>FamilySearch - Software Development</b>
+   </span1>
   </summary>
   <ul>
     <li><b>Project</b></li>
@@ -45,10 +47,12 @@ A lot of the work I have done in school, internships and in side projects has be
 </details> 
 
 
-## May 2016-July 2016 <br> **Microsoft (WDG) - Software Engineer Intern**
 <details>
   <summary>
-   Show details
+  <span1>
+   May 2016-July 2016 <br> 
+   <b>Microsoft (WDG) - Software Engineer Intern</b>
+   </span1>
   </summary>
   <ul>
     <li><b>Project</b></li>
@@ -64,10 +68,12 @@ A lot of the work I have done in school, internships and in side projects has be
   </ul>
 </details> 
 
-## May 2017-July 2017 <br> 
 <details>
   <summary>
-   <span1>Microsoft (WDG) - Software Engineer Intern</span1>
+   <span1>
+    May 2017-July 2017 <br> 
+    <b>Microsoft (WDG) - Software Intern</b>
+   </span1>
   </summary>
   <ul>
     <li><b>Project</b></li>
@@ -83,10 +89,12 @@ A lot of the work I have done in school, internships and in side projects has be
   </ul>
 </details> 
 
-## Jan. 2018 - present <br> **Microsoft (CSE)** - Software Engineer
 <details>
   <summary>
-   Show details
+   <span1>
+   Jan. 2018 - present <br> 
+   <b>Microsoft (CSE) - Software Engineer<b>
+   </span1>
   </summary>
   <ul>
     <li>Currently working for the Commercial Software Engineering (CSE) team at Microsoft</li>
