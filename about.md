@@ -25,6 +25,8 @@ A lot of the work I have done in school, internships and in side projects has be
 
 
 # Experience 
+<ul style="list-style: none; margin:0; padding: 0;">
+<li style="margin: 15px 0;">
 <span2>
 May 2015 - Aug. 2015<br> 
 </span2>
@@ -47,7 +49,8 @@ May 2015 - Aug. 2015<br>
         </ul>
   </ul>
 </details> 
-<br>
+</li>
+<li style="margin: 15px 0;">
 <span2>
 May 2016 - July 2016<br> 
 </span2>
@@ -69,8 +72,9 @@ May 2016 - July 2016<br>
             <li>Finished project early, which allowed me to start laying the groundwork for automatically grouping semantically similar feedbacks and combining them under the same bug.</li>
         </ul>
   </ul>
-</details> 
-<br>
+</details>
+</li>
+<li style="margin: 15px 0;">
 <span2>
 May 2017 - July 2017<br> 
 </span2>
@@ -93,7 +97,8 @@ May 2017 - July 2017<br>
         </ul>
   </ul>
 </details> 
-<br>
+</li>
+<li style="margin: 15px 0;">
 <span2>
 Jan. 2018 - present <br> 
 </span2>
@@ -109,6 +114,13 @@ Jan. 2018 - present <br>
     <li>Stay tuned for upcoming adventures!</li>
   </ul>
 </details> 
+</li>
+
+
+ 
+
+
+</ul>
 
 
 # Personal 
