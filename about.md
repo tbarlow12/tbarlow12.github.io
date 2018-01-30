@@ -25,11 +25,13 @@ A lot of the work I have done in school, internships and in side projects has be
 
 
 # Experience 
+<span2>
+May 2015 - Aug. 2015<br> 
+</span2>
 <details>
   <summary>
    <span1>
-   May 2015-Aug. 2015 <br> 
-   <b>FamilySearch - Software Development</b>
+   FamilySearch - Software Development
    </span1>
   </summary>
   <ul>
@@ -46,12 +48,13 @@ A lot of the work I have done in school, internships and in side projects has be
   </ul>
 </details> 
 
-
+<span2>
+May 2016 - July 2016<br> 
+</span2>
 <details>
   <summary>
   <span1>
-   May 2016-July 2016 <br> 
-   <b>Microsoft (WDG) - Software Engineer Intern</b>
+   Microsoft (WDG) - Software Engineer Intern
    </span1>
   </summary>
   <ul>
@@ -67,12 +70,13 @@ A lot of the work I have done in school, internships and in side projects has be
         </ul>
   </ul>
 </details> 
-
+<span2>
+May 2017 - July 2017<br> 
+</span2>
 <details>
   <summary>
    <span1>
-    May 2017-July 2017 <br> 
-    <b>Microsoft (WDG) - Software Intern</b>
+    Microsoft (WDG) - Software Intern
    </span1>
   </summary>
   <ul>
@@ -88,12 +92,13 @@ A lot of the work I have done in school, internships and in side projects has be
         </ul>
   </ul>
 </details> 
-
+<span2>
+Jan. 2018 - present <br> 
+</span2>
 <details>
   <summary>
    <span1>
-   Jan. 2018 - present <br> 
-   <b>Microsoft (CSE) - Software Engineer<b>
+   Microsoft (CSE) - Software Engineer
    </span1>
   </summary>
   <ul>
