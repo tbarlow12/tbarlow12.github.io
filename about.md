@@ -25,16 +25,10 @@ A lot of the work I have done in school, internships and in side projects has be
 
 
 # Experience 
-<ul style="list-style: none; margin:0; padding: 0;">
-<li style="margin: 15px 0;">
-<span2>
-May 2015 - Aug. 2015<br> 
-</span2>
+## May 2015-Aug. 2015 <br> **FamilySearch - Software Development Intern**
 <details>
   <summary>
-   <span1>
-   FamilySearch - Software Development
-   </span1>
+   Show details
   </summary>
   <ul>
     <li><b>Project</b></li>
@@ -49,16 +43,12 @@ May 2015 - Aug. 2015<br>
         </ul>
   </ul>
 </details> 
-</li>
-<li style="margin: 15px 0;">
-<span2>
-May 2016 - July 2016<br> 
-</span2>
+
+
+## May 2016-July 2016 <br> **Microsoft (WDG) - Software Engineer Intern**
 <details>
   <summary>
-  <span1>
-   Microsoft (WDG) - Software Engineer Intern
-   </span1>
+   Show details
   </summary>
   <ul>
     <li><b>Project</b></li>
@@ -72,17 +62,12 @@ May 2016 - July 2016<br>
             <li>Finished project early, which allowed me to start laying the groundwork for automatically grouping semantically similar feedbacks and combining them under the same bug.</li>
         </ul>
   </ul>
-</details>
-</li>
-<li style="margin: 15px 0;">
-<span2>
-May 2017 - July 2017<br> 
-</span2>
+</details> 
+
+## May 2017-July 2017 <br> **Microsoft (WDG) - Software Engineer Intern**
 <details>
   <summary>
-   <span1>
-    Microsoft (WDG) - Software Intern
-   </span1>
+   Show details
   </summary>
   <ul>
     <li><b>Project</b></li>
@@ -97,16 +82,11 @@ May 2017 - July 2017<br>
         </ul>
   </ul>
 </details> 
-</li>
-<li style="margin: 15px 0;">
-<span2>
-Jan. 2018 - present <br> 
-</span2>
+
+## Jan. 2018 - present <br> **Microsoft (CSE)** - Software Engineer
 <details>
   <summary>
-   <span1>
-   Microsoft (CSE) - Software Engineer
-   </span1>
+   Show details
   </summary>
   <ul>
     <li>Currently working for the Commercial Software Engineering (CSE) team at Microsoft</li>
@@ -114,13 +94,6 @@ Jan. 2018 - present <br>
     <li>Stay tuned for upcoming adventures!</li>
   </ul>
 </details> 
-</li>
-
-
- 
-
-
-</ul>
 
 
 # Personal 
