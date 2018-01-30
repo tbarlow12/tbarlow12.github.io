@@ -4,7 +4,8 @@ title: About
 permalink: /about/
 ---
 
-# Interests <hr>
+# Interests 
+<hr>
 A lot of the work I have done in school, internships and in side projects has been focused on data science and artificial intelligence. Some of my favorite courses I have taken have been in **natural language processing**, **information extraction** and **machine learning**. Go [here]() to read more about some of my favorite projects.
 
 ## Technologies I'm Currently Teaching Myself:
@@ -24,7 +25,8 @@ A lot of the work I have done in school, internships and in side projects has be
 
 
 
-# Experience <hr>
+# Experience 
+<hr>
 
 ## Internships
 
@@ -60,7 +62,8 @@ A lot of the work I have done in school, internships and in side projects has be
 
 
 
-# Personal <hr>
+# Personal 
+<hr>
 I'm married to the most beautiful girl in the world and we have an awesome baby boy. 
 
 I've loved basketball since I could walk (I grew up with a dad and grandpa that coached for 30+ years each), and John Wooden is one of my all-time heroes. For some of my favorite "Wooden-isms", visit [this blog post]().
