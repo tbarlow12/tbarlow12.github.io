@@ -5,7 +5,7 @@ permalink: /experience/
 ---
 
 
-## May 2015 - Aug. 2015 <br> **FamilySearch - Software Development Intern**
+## May 2015 - Aug. 2015 <br> FamilySearch - Software Development Intern
 <details>
   <summary>
    Show details
@@ -25,7 +25,7 @@ permalink: /experience/
 </details> 
 
 
-## May 2016 - July 2016 <br> **Microsoft (WDG) - Software Engineer Intern**
+## May 2016 - July 2016 <br> Microsoft (WDG) - Software Engineer Intern
 <details>
   <summary>
    Show details
@@ -44,7 +44,7 @@ permalink: /experience/
   </ul>
 </details> 
 
-## May 2017 - July 2017 <br> **Microsoft (WDG) - Software Engineer Intern**
+## May 2017 - July 2017 <br> Microsoft (WDG) - Software Engineer Intern
 <details>
   <summary>
    Show details
@@ -63,7 +63,7 @@ permalink: /experience/
   </ul>
 </details> 
 
-## Jan. 2018 - present <br> **Microsoft (CSE)** - Software Engineer
+## Jan. 2018 - present <br> Microsoft (CSE) - Software Engineer
 <details>
   <summary>
    Show details
@@ -74,3 +74,51 @@ permalink: /experience/
     <li>Stay tuned for upcoming adventures!</li>
   </ul>
 </details> 
+
+# Leadership
+
+## May 2016 - Dec. 2017 <br> [HackTheU](https://hacktheu.com/) - Co-Founder & Director of Technology
+<details>
+    <summary>
+        Show details
+    </summary>
+    <ul>
+        <li>Partnered with <a href="https://johnnyle.me/">Johnny Le</a> and a few friends to create what is now the largest hackathon in the state of Utah</li>
+        <li>In our first year, with only a few months of planning, we were able to raise over $17,000 in sponsorship and hosted over 180 participants from across the country</li>
+        <li>In our second year, we raised almost $25,000 and hosted over 260 participants</li>
+        <li>I was directly responsible for managing the hardware lab, coordinating volunteer and organizer schedules, recruiting tutors for various technologies, and organizing judging of hackathon submissions.</li>
+    </ul>
+</details>
+
+## Aug. 2016 - May 2017 <br> Microsoft - Intern Ambassador
+<details>
+    <summary>
+        Show details
+    </summary>
+    <ul>
+        <li>I coordinated with University officials to host Microsoft mini-events that would give students exposure to what it's like to work as an intern at Microsoft.</li>
+        <li>I was a resource for recruiters in helping discover top talent from the University of Utah, many of which have gone on to work for and be successful at Microsoft.</li>
+    </ul>
+</details>
+
+## Jan. 2016 - May 2017 <br> Microsoft - Student Partner
+<details>
+    <summary>
+        Show details
+    </summary>
+    <ul>
+        <li>I hosted monthly workshops for University students, focusing on Azure and Machine Learning topics, with one soft-skills workshop per semester.</li>
+        <li>I collaborated with other student partners across the country on projects and in meetings to discuss our progress.</li>
+    </ul>
+</details>
+
+## Nov. 2015 - May 2016 <br> CPU of U - Founder & President
+<details>
+    <summary>
+        Show details
+    </summary>
+    <ul>
+        <li>Founded organization for University of Utah students who wanted to build cool, relevant software outside of class.</li>
+        <li>Hosted meetings and planning sessions, acting as scrum master for the team</li>
+    </ul>
+</details>
