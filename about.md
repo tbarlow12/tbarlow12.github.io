@@ -47,7 +47,7 @@ May 2015 - Aug. 2015<br>
         </ul>
   </ul>
 </details> 
-
+<br>
 <span2>
 May 2016 - July 2016<br> 
 </span2>
@@ -70,6 +70,7 @@ May 2016 - July 2016<br>
         </ul>
   </ul>
 </details> 
+<br>
 <span2>
 May 2017 - July 2017<br> 
 </span2>
@@ -92,6 +93,7 @@ May 2017 - July 2017<br>
         </ul>
   </ul>
 </details> 
+<br>
 <span2>
 Jan. 2018 - present <br> 
 </span2>
