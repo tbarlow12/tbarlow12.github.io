@@ -64,10 +64,10 @@ A lot of the work I have done in school, internships and in side projects has be
   </ul>
 </details> 
 
-## May 2017-July 2017 <br> **Microsoft (WDG) - Software Engineer Intern**
+## May 2017-July 2017 <br> 
 <details>
   <summary>
-   Show details
+   <span1>Microsoft (WDG) - Software Engineer Intern</span1>
   </summary>
   <ul>
     <li><b>Project</b></li>
