@@ -4,43 +4,15 @@ title: Experience
 permalink: /experience/
 ---
 
-
-## May 2015 - Aug. 2015 <br> FamilySearch - Software Development Intern
+## Jan. 2018 - present <br> Microsoft (CSE) - Software Engineer
 <details>
   <summary>
    Show details
   </summary>
   <ul>
-    <li><b>Project</b></li>
-        <ul>
-            <li>Implemented a Java desktop application for a team of non-technical geographical researchers to perform bulk operations on massive dataset of places. </li>
-        </ul>
-    <li><b>Results</b></li>
-        <ul>
-            <li>Application saved thousands of hours of manual entry.</li>
-            <li>Initial scope of project was to build a command-line tool to perform operations, but upon meeting the team and hearing their frustrations about using the command-line when they didn't have a technical background, I took it upon myself to add a GUI to the tool, also speeding up the time to learn the tool and use it.</li>
-            <li>Finished project 4 weeks ahead of schedule, which gave me the opportunity of participating in the planning, design and prototyping of a REST API to perform similar operations.</li>
-        </ul>
-  </ul>
-</details> 
-
-
-## May 2016 - July 2016 <br> Microsoft (WDG) - Software Engineer Intern
-<details>
-  <summary>
-   Show details
-  </summary>
-  <ul>
-    <li><b>Project</b></li>
-        <ul>
-            <li>Automated process of identifying meaningful customer feedback for international Windows users and passing it along to appropriate team.</li>
-        </ul>
-    <li><b>Results</b></li>
-        <ul>
-            <li>Saved team time and money by eliminating need for manual scanning of customer feedbacks.</li>
-            <li>Worked alongside internal data science team and beta-tested the newest features of an internal NLP engine, discovering bugs and areas for improvement.</li>
-            <li>Finished project early, which allowed me to start laying the groundwork for automatically grouping semantically similar feedbacks and combining them under the same bug.</li>
-        </ul>
+    <li>Currently working for the Commercial Software Engineering (CSE) team at Microsoft</li>
+    <li>We develop new technologies with partners to solve their biggest technical challenges</li>
+    <li>Stay tuned for upcoming adventures!</li>
   </ul>
 </details> 
 
@@ -63,15 +35,41 @@ permalink: /experience/
   </ul>
 </details> 
 
-## Jan. 2018 - present <br> Microsoft (CSE) - Software Engineer
+## May 2016 - July 2016 <br> Microsoft (WDG) - Software Engineer Intern
 <details>
   <summary>
    Show details
   </summary>
   <ul>
-    <li>Currently working for the Commercial Software Engineering (CSE) team at Microsoft</li>
-    <li>We develop new technologies with partners to solve their biggest technical challenges</li>
-    <li>Stay tuned for upcoming adventures!</li>
+    <li><b>Project</b></li>
+        <ul>
+            <li>Automated process of identifying meaningful customer feedback for international Windows users and passing it along to appropriate team.</li>
+        </ul>
+    <li><b>Results</b></li>
+        <ul>
+            <li>Saved team time and money by eliminating need for manual scanning of customer feedbacks.</li>
+            <li>Worked alongside internal data science team and beta-tested the newest features of an internal NLP engine, discovering bugs and areas for improvement.</li>
+            <li>Finished project early, which allowed me to start laying the groundwork for automatically grouping semantically similar feedbacks and combining them under the same bug.</li>
+        </ul>
+  </ul>
+</details> 
+
+## May 2015 - Aug. 2015 <br> FamilySearch - Software Development Intern
+<details>
+  <summary>
+   Show details
+  </summary>
+  <ul>
+    <li><b>Project</b></li>
+        <ul>
+            <li>Implemented a Java desktop application for a team of non-technical geographical researchers to perform bulk operations on massive dataset of places. </li>
+        </ul>
+    <li><b>Results</b></li>
+        <ul>
+            <li>Application saved thousands of hours of manual entry.</li>
+            <li>Initial scope of project was to build a command-line tool to perform operations, but upon meeting the team and hearing their frustrations about using the command-line when they didn't have a technical background, I took it upon myself to add a GUI to the tool, also speeding up the time to learn the tool and use it.</li>
+            <li>Finished project 4 weeks ahead of schedule, which gave me the opportunity of participating in the planning, design and prototyping of a REST API to perform similar operations.</li>
+        </ul>
   </ul>
 </details> 
 
@@ -118,7 +116,7 @@ permalink: /experience/
         Show details
     </summary>
     <ul>
-        <li>Founded organization for University of Utah students who wanted to build cool, relevant software outside of class.</li>
+        <li>Founded organization for University of Utah students who wanted to build cool, relevant tools outside of class and learn to function like a real team in a software setting.</li>
         <li>Hosted meetings and planning sessions, acting as scrum master for the team</li>
     </ul>
 </details>
