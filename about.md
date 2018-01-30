@@ -25,7 +25,7 @@ A lot of the work I have done in school, internships and in side projects has be
 
 
 # Experience 
-## May 2015-Aug. 2015 <br> **FamilySearch - Software Development Intern**
+## May 2015 - Aug. 2015 <br> **FamilySearch - Software Development Intern**
 <details>
   <summary>
    Show details
@@ -45,7 +45,7 @@ A lot of the work I have done in school, internships and in side projects has be
 </details> 
 
 
-## May 2016-July 2016 <br> **Microsoft (WDG) - Software Engineer Intern**
+## May 2016 - July 2016 <br> **Microsoft (WDG) - Software Engineer Intern**
 <details>
   <summary>
    Show details
@@ -64,7 +64,7 @@ A lot of the work I have done in school, internships and in side projects has be
   </ul>
 </details> 
 
-## May 2017-July 2017 <br> **Microsoft (WDG) - Software Engineer Intern**
+## May 2017 - July 2017 <br> **Microsoft (WDG) - Software Engineer Intern**
 <details>
   <summary>
    Show details
