@@ -120,3 +120,12 @@ permalink: /experience/
         <li>Hosted meetings and planning sessions, acting as scrum master for the team</li>
     </ul>
 </details>
+
+# Education
+
+### - Bachelor of Science in Computer Science from the University of Utah
+- Honors at Entrance Full-Ride Scholarship
+- Everton Memorial Scholarship
+- Haglund Scholarship
+- 8-time Dean's List student
+- 3.75 GPA on 4.0 scale
