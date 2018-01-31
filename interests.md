@@ -19,7 +19,7 @@ A lot of the work I have done in school, internships and in side projects has be
 ## Side Projects I'm Currently Working On:
 - [**"Learn It Your Way"**](https://github.com/tbarlow12/Learn-It-Your-Way) - My own Flask API for users to upload a dataset, train one or more models and have a REST endpoint to hit for future predictions
 
-### Personal
+# Personal
 
 I'm married to the most beautiful girl in the world and we have an awesome baby boy. 
 
