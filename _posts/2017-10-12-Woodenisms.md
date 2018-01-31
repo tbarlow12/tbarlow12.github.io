@@ -4,7 +4,7 @@ title: Favorite Woodenisms
 permalink: /woodenisms/
 ---
 
-John Wooden was not only one of the greatest basketball coaches to ever live, but an amazing human being as well. He won 10 National Championships in his 12 seasons with the UCLA Bruins, 7 of which were in conscutive seasons. He revolutionized the game of basketball by rattling teams with his defensive schemes. But with all the success he obtained as a coach, he remained a loving husband and father, a devoted Christian and a lifetime teacher. He coached and taught with compassion, patience and humility. For these reasons and many others, John Wooden is one of my all-time heroes. He had a gift with words, which led others to coin the term "Wooden-isms" for some of his most famous sayings. Here are some of my favorites:
+John Wooden was not only one of the greatest basketball coaches to ever live, but an amazing human being as well. He won 10 National Championships in his 12 seasons with the UCLA Bruins, 7 of which were in conscutive seasons. He revolutionized the game of basketball by rattling teams with his defensive schemes. But with all the success he obtained as a coach, he remained a loving husband and father, a devoted Christian and a lifetime teacher. He coached and taught with compassion, patience and humility. For these reasons and many others, John Wooden is one of my all-time heroes. He had a gift with words, which led others to coin the term "Woodenisms" for some of his most famous sayings. Here are some of my favorites:
 
 ## Top 10
 
