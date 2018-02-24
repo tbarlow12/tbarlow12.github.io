@@ -1,18 +1,25 @@
 ---
 layout: post
-title: The Difference
-permalink: /the-difference/
+title: The In-Between
+permalink: /the-in-between/
 ---
 
 We've all been there. Talking with old friends or new acquaintances about your career as a software engineer, and those magic words pop into the conversation:
 
 _"Bro... I have an idea for this app..."_
 
-I've heard my fair share of ideas through the years. Many of which actually had some merit; some I've actually pursued. My purpose here is not to disparage any idea. I think some of the best ideas in the world are those that sound insane from the start. 
+I've heard my fair share of ideas through the years. Many of which actually had some merit; some I've actually pursued. 
 
-My purpose in this post is to reflect on one of my own experiences - a friend who came to me with an idea (not an idea for an app, but an idea nonetheless), and what made this idea __work__. I want to show what the difference was between this idea and the hundreds of thousands that float around in our heads and in our conversations.
 
-_(cue [flashback music from "Arther"](https://www.youtube.com/watch?v=aYkbu-Kob5s))_
+My purpose here is not to disparage any idea. I think some of the best ideas in the world are those that sound insane from the start. My purpose is to reflect on one of my own experiences
+
+We've all had ideas. We've all heard the stories of ideas that became huge successes. But what happens between an idea's inception and its success? While I don't pretend to be an expert on the topic, I was able to see witness the process, first-hand, from end to end. 
+
+My purpose in this post is to reflect on one of my own experiences - a friend who came to me with an idea (not an idea for an app, but an idea nonetheless), and what made this idea __work__. 
+
+I want to show what the difference was between this idea and the hundreds of thousands that float around in our heads and in our conversations.
+
+_(cue [flashback music from "Arthur"](https://www.youtube.com/watch?v=aYkbu-Kob5s))_
 
 ### The Idea
 
