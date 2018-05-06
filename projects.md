@@ -3,6 +3,12 @@ layout: page
 title: Favorite Projects
 permalink: /projects/
 ---
+## Open-Source Projects
+- [CloudCustodian](https://github.com/capitalone/cloud-custodian) 
+  - Rules engine for cloud fleet management and governance, DSL in yaml for policies to query, filter, and take actions on resources. Contributed to Azure plugin.
+- [Java SDK for Azure KeyVault](https://github.com/Azure/azure-keyvault-java) 
+  - Worked with team at Microsoft to implement Enhanced KeyVault with encrypted body of HTTP requests
+
 ## Side Projects
 - [Learn It Your Way](https://github.com/tbarlow12/Learn-It-Your-Way) 
   - Using Python Flask, I wanted to create a simple web API that allows users to upload a dataset, choose one or more models, store them server side, and then hit an endpoint to get a prediction.
