@@ -28,11 +28,9 @@ It was April of 2016. I was just about to finish one of the most difficult semes
 In the heat of the confusion, rage and tears, my friend approached me with an idea to create the biggest hackathon in the state of Utah, that he wanted it to happen this coming semester and that he wanted me to help him do it. At the time, I thought, _"**How** could we ever do that? **Where** would we even find the time? **Why** put more on our plate than we already have?"_ 
 
 
-FIX THIS PART
+<FIX THIS PART>
 
-{
-After thinking about it a little bit, I thought the idea sounded kind of fun. I told him I'd join him. He recruited a few of our other associates that were either crazy enough to say "yes" or too scared to tell him "no," and we had ourselves a team.
-}
+<After thinking about it a little bit, I thought the idea sounded kind of fun. I told him I'd join him. He recruited a few of our other associates that were either crazy enough to say "yes" or too scared to tell him "no," and we had ourselves a team.>
 
 Our first official meeting was a few weeks later, and was actually a video conference, as several of us were working at internships in different states. We jumped on the call and realized that none of us really knew any of the others, except for this friend that had pulled us into this. We weren't anti-social, but we each had our own spheres and didn't often venture outside them. 
 
