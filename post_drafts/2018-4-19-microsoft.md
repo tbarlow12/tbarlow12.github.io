@@ -46,6 +46,8 @@ The project went well, and laid a foundation for future work in the area. But as
 
 At the end of the summer, I had some difficult decisions to make. I really had enjoyed working with my team for the past two summers. I had learned a lot and was sure there was more to learn from them. But I also felt like broadening my horizons and looking at what other teams/companies had to offer. I had been reaching out to teams throughout Microsoft to see what they were working on and if it was something I could be interested in. They highly encourage this at Microsoft, especially for iterns. 
 
-The company has an internal website where employees can add tags to their profile to indicate what they were working on, and I noticed that a bunch of members of the Partner Catalyst Team had a very diverse set of technologies they were working on. I reached out to the team, set up a couple informationals and ended up deciding to accept an offer as a full-time employee with them. 
+The company has an internal website where employees can add tags to their profile to indicate what they were working on, and I noticed that a bunch of members of the Partner Catalyst Team had a very diverse set of technologies they were working on. I reached out to the team to set up a couple informationals and joined a project with a few of the team members at the company hackathon to see what it was like to work with them.
+
+I was blown away
 
 I talked with and interviewed with several different companies around the West, 
