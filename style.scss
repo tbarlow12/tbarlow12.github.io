@@ -31,7 +31,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  font-family: $courierNew;
   color: $darkerGray;
   font-weight: bold;
 
@@ -59,7 +59,7 @@ h1 {
 h2 {
   font-size: 24px;
   a {
-    color: $blue;
+    color: $darkGray;
     text-decoration: none;
   	cursor: pointer;
     &:hover, &:active {
@@ -71,7 +71,7 @@ h2 {
 h3 {
   font-size: 20px;
   a {
-    color: $blue;
+    color: $darkGray;
     text-decoration: none;
   	cursor: pointer;
     &:hover, &:active {
