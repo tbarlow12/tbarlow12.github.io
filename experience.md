@@ -4,7 +4,7 @@ title: Experience
 permalink: /experience/
 ---
 
-<div class="job">Jan. 2018 - present <br> Microsoft (CSE) - Software Engineer</div>
+#### Jan. 2018 - present <br> Microsoft (CSE) - Software Engineer
 <details>
   <summary>
    Show details
@@ -16,7 +16,7 @@ permalink: /experience/
   </ul>
 </details> 
 
-<div class="job">May 2017 - July 2017 <br> Microsoft (WDG) - Software Engineer Intern</div>
+#### May 2017 - July 2017 <br> Microsoft (WDG) - Software Engineer Intern
 <details>
   <summary>
    Show details
@@ -35,7 +35,7 @@ permalink: /experience/
   </ul>
 </details> 
 
-<div class="job">May 2016 - July 2016 <br> Microsoft (WDG) - Software Engineer Intern</div>
+#### May 2016 - July 2016 <br> Microsoft (WDG) - Software Engineer Intern
 <details>
   <summary>
    Show details
@@ -54,7 +54,7 @@ permalink: /experience/
   </ul>
 </details> 
 
-<div class="job">May 2015 - Aug. 2015 <br> FamilySearch - Software Development Intern</div>
+#### May 2015 - Aug. 2015 <br> FamilySearch - Software Development Intern
 <details>
   <summary>
    Show details
@@ -75,7 +75,7 @@ permalink: /experience/
 
 # Leadership
 
-<div class="job">May 2016 - Dec. 2017 <br> [HackTheU](https://hacktheu.com/) - Co-Founder & Director of Technology</div>
+#### May 2016 - Dec. 2017 <br> [HackTheU](https://hacktheu.com/) - Co-Founder & Director of Technology
 <details>
     <summary>
         Show details
@@ -88,7 +88,7 @@ permalink: /experience/
     </ul>
 </details>
 
-<div class="job">Aug. 2016 - May 2017 <br> Microsoft - Intern Ambassador</div>
+#### Aug. 2016 - May 2017 <br> Microsoft - Intern Ambassador
 <details>
     <summary>
         Show details
@@ -99,7 +99,7 @@ permalink: /experience/
     </ul>
 </details>
 
-<div class="job">Jan. 2016 - May 2017 <br> Microsoft - Student Partner</div>
+#### Jan. 2016 - May 2017 <br> Microsoft - Student Partner
 <details>
     <summary>
         Show details
@@ -110,7 +110,7 @@ permalink: /experience/
     </ul>
 </details>
 
-<div class="job">Nov. 2015 - May 2016 <br> CPU of U - Founder & President</div>
+#### Nov. 2015 - May 2016 <br> CPU of U - Founder & President
 <details>
     <summary>
         Show details
@@ -123,7 +123,7 @@ permalink: /experience/
 
 # Education
 
-<div class="job">Bachelor of Science in Computer Science from the University of Utah</div>
+####Bachelor of Science in Computer Science from the University of Utah
 - Honors at Entrance Full-Ride Scholarship
 - Everton Memorial Scholarship
 - Haglund Scholarship
