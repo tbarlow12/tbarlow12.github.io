@@ -123,7 +123,7 @@ permalink: /experience/
 
 # Education
 
-####Bachelor of Science in Computer Science from the University of Utah
+#### Bachelor of Science in Computer Science from the University of Utah
 - Honors at Entrance Full-Ride Scholarship
 - Everton Memorial Scholarship
 - Haglund Scholarship
