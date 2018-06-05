@@ -8,14 +8,6 @@ My wife and son are heading back to Utah to visit family for a wedding, and I'll
 
 ![alt text](/images/dog.gif) 
 
-So I can either binge-watch the Office for 24th time, or I can make myself productive and accomplish something while they're gone. My goal is to successfully submit a pull request to a project I've never contributed to by the end of the week
-
-
-
-
-
-
-
 The world of open-source software can be a strange and intimidating one. It's hard enough to keep up with projects at school or work, why would anyone write software *for free*? On top of that, all the people that contribute to these projects are super-geniuses that instantly understand
 
 ... INTRO
