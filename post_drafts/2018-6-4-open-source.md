@@ -18,7 +18,18 @@ Aren't they giving up their chance to become the next Zuckerberg by not keeping 
 
 ## Step One: Find a project
 
+In the past, this has always been the roadblock for me. Of course I have lots of interests and I
 
+Resources for finding an open-source project:
+- https://up-for-grabs.net/#/
+- https://www.firsttimersonly.com/
+- https://github.com/explore
+
+
+Potential projects:
+- https://github.com/KELiON/cerebro
+- https://github.com/wekan/wekan
+- https://github.com/yoda-pa/yoda
 
 ## Step Two: Find a bug
 
