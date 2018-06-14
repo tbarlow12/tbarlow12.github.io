@@ -10,13 +10,13 @@ My purpose here is not to disparage any idea. I think some of the best ideas in 
 
 ![alt text](/images/kramer.gif)
 
-This experience I'm talking about was a time that I was able to witness the end to end process of an idea becoming a success. It started similarly to the other experiences I referenced in the beginning of this post - a friend came to me with an idea, and an ambitious one at that. 
+This experience I'm talking about was a time that I was able to witness the end-to-end process of an idea becoming a success. It started similarly to the other experiences I referenced in the beginning of this post - a friend came to me with an idea, and an ambitious one at that. 
 
 _(cue [flashback music from "Arthur"](https://www.youtube.com/watch?v=PMrjMdkKbc0))_
 
 ## The Idea
 
-It was April of 2016. I was just about to finish one of the most difficult semesters I'd had to date. I was trying to understand Turing machines, Database relational algebra and every sorting algorithm ever made since the caveman stacked the biggest rocks at the bottom. I felt like I was drowning... while trying to read a textbook. 
+It was April of 2016. I was just about to finish one of the most difficult semesters I'd had to date. I was trying to understand Turing machines, Database relational algebra and every sorting algorithm ever made since the caveman stacked the biggest rocks at the bottom. For those of you who haven't experienced this, just imagine you're drowning... You cry out for help, hoping someone is close enough hear you... But the only response you get is from your terminal: `Segmentation fault`. 
 
 In the heat of the confusion, rage and tears, this friend approached me with an idea to create the biggest hackathon in the state of Utah. He wanted it to happen in the upcoming semester (in 5 months) and that he wanted me to help him do it. 
 
