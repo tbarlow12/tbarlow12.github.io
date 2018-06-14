@@ -82,7 +82,9 @@ My friend, [Johnny Le](https://johnnyle.me/), went on to win an [award](http://d
 
 I sincerely hope that none of what I have said comes across as hyperbole or sugar-coated. Like all teams and projects, we had our issues and problems. Even Johnny, as great a guy as he is, makes mistakes. 
 
-But [HackTheU](https://hacktheu.com/) didn't end up in the "Good Idea Graveyard" because he and our team treated it differently. I had a front row seat to watch some amazing individuals come together, take collective ownership of a good idea and make it happen through initiative, sacrifice, humility and the unglamorous, frustrating, seemingly never-ending **work**.
+I'm also not saying that these are the only things one needs to do in order to be successful at any given task. I don't pretend to know the secret sauce to success - I'm still trying to find it myself.
+
+But [HackTheU](https://hacktheu.com/) didn't end up in the "Good Idea Graveyard" because Johnny and our team treated it differently. I had a front row seat to watch some amazing individuals come together, take collective ownership of a good idea and make it happen through initiative, sacrifice, humility and the unglamorous, frustrating, seemingly never-ending **work**.
 
 *"You wonder how they do it <br>
 And you look to see the knack<br>
