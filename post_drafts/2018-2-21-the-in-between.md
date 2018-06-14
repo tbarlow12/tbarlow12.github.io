@@ -32,6 +32,25 @@ I thought to myself, "This is quite possibly the most random possible sampling o
 - **A *diverse* team** - Seriously, we could have been a poster for a University marketing campaign. We had just about every demographic covered. But diversity became much more than a box to check. A team with different backgrounds, perspectives, connections and opinions would become crucial to the success of the hackathon.
 - **The *right* people** - Rather than just pick his friends, he went out and picked people that would be right for each job and helped them catch the vision. I'm not saying people on the team weren't his friends, but I think it's easy to fall into the trap of just defaulting to your circle of closest friends, even if they're not right for the job.
 
+## The Sacrifice
+
+I'll never forget the day we went to ASUU (Associated Students of the University of Utah), our school's student government to ask for their financial sponsorship of our event. We came on a day where other clubs and student groups were being grilled by the student-legislators over requests in the $50-100 range. We were coming in asking for $3000. 
+
+But not only did we believe this event would be fun and impactful for each of the participants personally, we strongly felt it would benefit the University and the community in the long run. 
+
+Big hackathons were starting to become one of the ways students from other schools in and out of state were exposed to the University, and many of them would eventually plan on going to graduate school. We felt that if we could show students from other schools how awesome our program, campus and University culture were, more would be inclined to consider the U for future educational opportunities.
+
+These hackathons are also *major* opportunities for companies to recruit potential candidates (hence the corporate sponsors that shelled out $$$ for a booth at the event and their logo on our materials and website). If we could host a large event where students from around the state and country could get face time with local companies, it was possible that many of those participants would receive job offers, work in the area, and boost the local economy. 
+
+So, yes, $3000 from the University seemed like a lot up front, but we felt like the investment would pay for itself many times over.
+
+When we got up to pitch the idea to this group of our peers, many of them caught the vision, but there were also some that just couldn't get over the amount of money we were asking for. 
+
+One of them posed the question, *"What will you do if you don't get the money?"*
+
+My friend answered without hesitation, *"It will come out of my own pocket. I believe in this cause and it's something I'm willing to pay for if we don't get the funding."* I was as surprised as each of them. It's not like he was made of money, either. He worked long hours at the hospital, but he also paid for his own education. Which brings me to the next difference:
+- **You need to be willing to make *real* sacrifices**
+
 ## The Minutiae
 
 We each went about our duties, as busy as we were. We did our best to attend weekly meetings on our progress, where we'd identify any blockers and discuss solutions. It was *a lot* of work for everyone involved.
@@ -42,7 +61,6 @@ However, when it came time for the event, even though we still each owned our pi
 
 No one was above helping anyone else with any activity. We all
 
-## The Sacrifice
 
 ## The Iteration
 
