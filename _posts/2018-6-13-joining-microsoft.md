@@ -4,7 +4,7 @@ title: Joining Microsoft
 permalink: /joining-microsoft/
 ---
 
-I've had a few friends ask me what my journey to Microsoft was like and why I chose to work here. Microsoft, like the Yankees and black licorice, is one of those "love it or hate it" kind of things (I fall into the latter camp for both of those other two, by the way). Obviously, everyone has had reasons or experience that makes them feel one way or the other. As for myself, I've really enjoyed working there, so I thought I'd document a little bit of my journey and why I ended up where I did.
+I've had a few friends ask me what my journey to Microsoft was like and why I chose to work here. Microsoft, like the Yankees and black licorice, is one of those "love it or hate it" kind of things (I fall emphatically into the latter camp for both of those other two). Everyone has reasons or experiences that make them feel one way or the other. As for myself, I've really enjoyed working at Microsoft, so I thought I'd document a little bit of my journey and why I ended up where I did.
 
 ## The Interview
 
@@ -14,9 +14,11 @@ I first interviewed with Microsoft in 2015 for a summer internship. When they ca
 
 I didn't feel great about my interviews - a couple of them felt downright terrible. But I did try hard to explain my thought process and walk my interviewers through my solutions to the problems they presented. 
 
-After our brains had become sufficiently scrambled through the 4-hour interview process, the recruiters took us to lunch at Commons.When we came back from lunch, they handed out Microsoft hoodies and swag (pretty much a participation trophy for interviewing, but **score** nonetheless). I was just about to head out the door to go back to the hotel, intent on enjoying the rest of the weekend in Seattle with my sweet wife, when one of the recruiters I had spent some time chatting with pulled me aside.
+After our brains had become sufficiently scrambled through the 4-hour interview process, the recruiters took us to lunch at the Commons. When we came back from lunch, they handed out Microsoft hoodies and swag (pretty much a participation trophy for interviewing, but **score** nonetheless). I was just about to head out the door to go back to the hotel, intent on enjoying the rest of the weekend in Seattle with my sweet wife, when one of the recruiters I had spent some time chatting with earlier pulled me aside.
 
-We went into a nearby conference room with one of the other recruiters, where they explained that they had an offer on the table for me. Shock doesn't begin to describe what I was feeling. It was cool to see that they were genuinely excited for me. I think they were even more excited for me to tell my wife that I came through on my promise. On principle, I wouldn't officially accept anything until I had talked to Kate first, so I told them I would send them an email later that day. I called Kate as soon as I left the building and could barely contain my excitement as I tried to explain what just happened, not really knowing the answer myself. We spent the night in downtown Seattle, fully able to relax and imagine what our summer would be like in this new place.
+We went into a nearby conference room with one of the other recruiters, where they explained that they had an offer on the table for me. Shock doesn't begin to describe what I was feeling. It was cool to see that they were genuinely excited for me. I think they were even more excited for me to tell my wife. 
+
+On principle, I wouldn't officially accept anything until I had talked to Kate first, so I told them I would send them an email later that day. I called Kate as soon as I left the building and could barely contain my excitement as I tried to explain what just happened, not really knowing the answer myself. We spent the night in downtown Seattle, fully able to relax and imagine what our summer would be like in this new place.
 
 ![alt text](/resources/images/Microsoft/seattle.jpg)
 
@@ -32,7 +34,7 @@ It solved a critical business need for the team, as they had previously been hir
 
 ![alt text](/resources/images/Microsoft/team.jpg)
 
-I accepted an offer to return to the same team the following summer. As these things go, there was a massive re-organization within the team, my manager left Microsoft to pursue a personal dream of civic engagement as the City of Seattle's new Open Data Program Manager, and I would be reporting directly to my previous skip-manager. I was happy with that, as I had gotten to know him well and respected him a great deal. 
+I accepted an offer to return to the same team the following summer. As these things go, there was a massive re-organization within the team, my manager left Microsoft to pursue a personal dream of civic engagement as the City of Seattle's new Open Data Program Manager, and I would be reporting directly to my previous skip-manager. Although I was very sad to hear my manager would be leaving, I was happy to still be working under someone I knew and respected a great deal. 
 
 ## Return of the Intern
 
@@ -50,12 +52,14 @@ The project went well, and laid a foundation for future work in the area. But as
 
 At the end of the summer, I had some difficult decisions to make - whether or not to stay at Microsoft and, if I did stay, whether or not to stay with my current team. I really had enjoyed working with these people for the past two summers. I had learned a lot and was sure there was more to learn from them. But I also felt like broadening my horizons and looking at what other teams/companies had to offer. Two of the main things I was looking for were opportunities to challenge myself and grow, as well as a family-friendly atmosphere.
 
-Throughout the summer, I had been trying to follow the advice of mentors to keep my options open, so I interviewed with several different companies and had informationals with several teams across Microsoft. In that process, I discovered the Partner Catalyst Team, whose charter was basically to code with Microsoft partners on whatever they were building, which often times included contributing to open-source projects and traveling around the world. I met with a couple of the managers from the team, and even jumped on a Hackathon project with one of them as a little test run of what it would be like to work with them. I had a *great* time and learned a great deal in the 3 days we worked together.
+Throughout the summer, I had been trying to follow the advice of mentors to keep my options open, so I interviewed with several different companies and had informationals with several teams across Microsoft. In that process, I discovered the Partner Catalyst Team, whose charter was basically to code with Microsoft partners on whatever they were building, which often times included contributing to open-source projects and traveling around the world. I met with a couple of the managers from the team, and even jumped on a Hackathon project with one of them as a little test run of what it would be like to work with them. I had a *great* time and learned a lot in the 3 days we worked together.
 
-We went home for the summer. I had been talking to and interviewing with several different companies around the West, including leaving my poor wife while she was 8.9 months pregnant to fly to Silicon Valley. After weighing a few options, thinking about what was best for our family and where I could grow the most, I chose to stay at Microsoft, but switch to this new team. Both my wife and I thought this was the right call and were ecstatic.
+We went home for the summer. I was still talking to and interviewing with several different companies around the West, including leaving my poor wife while she was 8.9 months pregnant to fly to Silicon Valley. After weighing a few options, thinking about what was best for our family and where I could grow the most, I chose to stay at Microsoft, but switch to this new team. Both my wife and I thought this was the right call and we were ecstatic.
 
-I went to school and finished my last semester, graduating in December of 2017 and returning to Microsoft on January 8th of 2018. The team had been re-organized and renamed as Commercial Software Engineering (CSE), and I'd be specifically working with the Digital Win Room team. I spent a week with the team, and then took 2 of the 3 available months of paternal leave, which I was able to use at any time before our new son Jack's birthday in August. I couldn't believe how understanding they were and that the team was happy to let me take that time to get the family moved and spend time together before really starting at work.
+I went to school and finished my last semester, graduating in December of 2017 and returning to Microsoft on January 8th of 2018. The team had been re-organized and renamed as Commercial Software Engineering (CSE), and I'd be specifically working with the Digital Win Room team within that organization. I spent a week with the team, and then took 2 of the 3 available months of paternal leave, which I was able to use at any time before our new son Jack's birthday in August. I couldn't believe how understanding they were and that the team was happy to let me take that time to get the family moved and spend time together before really starting at work.
 
-I've been officially back for just about 3 months now, and I have had a blast with some really cool projects and fun adventures. I'll do my best to keep the blog updated on the happenings here in CSE.
+I've been officially back for just about 3 months now, and I have had a blast with some really cool projects and fun adventures. I'll do my best to keep the blog updated on the happenings here.
 
-So, there you have it. I joined Microsoft because I felt like it would be a place where I could grow as a Software Engineer and, even more importantly, as a husband and father. I stay because those things are still true.
+So, there you have it. I joined Microsoft because I felt like it would be a place where I could grow as a Software Engineer and, even more importantly, as a husband and father. I stay because those things are still true. 
+
+If you have any other questions about what it's like to work here, feel free to reach out via any of the communication channels below!
