@@ -6,6 +6,7 @@ permalink: /projects/
 ## Open-Source Projects
 - [CloudCustodian](https://github.com/capitalone/cloud-custodian) 
   - Rules engine for cloud fleet management and governance, DSL in yaml for policies to query, filter, and take actions on resources. Contributed to Azure plugin.
+    - See my contributions [here](https://github.com/capitalone/cloud-custodian/pulls?utf8=%E2%9C%93&q=is%3Amerged+is%3Apr+author%3Atbarlow12+)
 - [Java SDK for Azure KeyVault](https://github.com/Azure/azure-keyvault-java) 
   - Worked with team at Microsoft to implement Enhanced KeyVault with encrypted body of HTTP requests
 
