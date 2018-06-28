@@ -6,14 +6,15 @@ permalink: /interests/
 
 A lot of the work I have done in school, internships and in side projects has been focused on data science and artificial intelligence. Some of my favorite courses I have taken have been in **natural language processing**, **information extraction** and **machine learning**. Go [here](projects.md) to read more about some of my favorite projects.
 
-## My *Recent* Tech-Learning Kanban Board:
+## Technologies I'm Currently Teaching Myself:
+- Apache Spark
+- Microsoft Bot Framework
+- Tensorflow
+- Cognitive Toolkit
 
-| To Learn        | Learning            | Learned            |
-| --------------- | ------------------- | ------------------ |
-| Blockchain      | Apache Kafka        | Databricks         |
-| Azure Functions | CNTK vs. Tensorflow | Apache Spark       |
-| AWS Lambda      |                     | MSFT Bot Framework |
-| Blockchain      |                     |                    |
+## Technologies On-Deck
+- Serverless Computing
+- Blockchain
 
 ## Side Projects I'm Currently Working On:
 - [**"Learn It Your Way"**](https://github.com/tbarlow12/Learn-It-Your-Way) - My own Flask API for users to upload a dataset, train one or more models and have a REST endpoint to hit for future predictions
