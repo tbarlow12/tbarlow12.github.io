@@ -34,7 +34,7 @@ I thought to myself, "This is quite possibly the most random possible sampling o
 
 ## The Sacrifice
 
-I'll never forget the day we went to ASUU (Associated Students of the University of Utah), our school's student government, to ask for their financial sponsorship of our event. We came on a day where other clubs and student groups were being grilled by the student-legislators over requests in the $50-100 range. We were coming in asking for $3000. 
+I'll never forget the day we went to ASUU (Associated Students of the University of Utah), our school's student government, to ask for their financial sponsorship of our event. We came on a day where other clubs and student groups were being grilled by the student-legislators over requests in the $50-$100 range. We were coming in asking for $3,000. 
 
 But not only did we believe this event would be fun and impactful for each of the participants personally, we strongly felt it would benefit the University and the community in the long run. 
 
