@@ -1,0 +1,71 @@
+
+RELEVANT SKILLS
+C#/.NET
+Python
+Java/Android
+C++/C
+Node.js
+TypeScript
+SQL
+Azure
+Machine Learning/AI
+NLP
+Apache Spark
+Apache Kafka
+WORK EXPERIENCE
+Software Engineer	Redmond, Washington
+		Microsoft: Commercial Software Engineering	Jan 2018 – present
+*	Contributed to multiple open-source projects to enable easier and more powerful developer experience on Azure
+*	Collaborated on projects with Microsoft partners to build out custom solutions to solve business needs
+*	Participated in “hacks” to upskill in new areas of technology and provide feedback to Microsoft product teams
+Software Engineer Intern (2x)	Redmond, Washington
+		Microsoft: Windows & Devices Group	May 2017 – July 2017, May 2016 – July 2016
+*	Built out data gathering, cleaning, and clustering workflow to identify clusters of Windows devices
+*	Created scoring heuristic to identify number of devices represented by each individual device 
+*	Automated process of converting meaningful feedback from Windows 10 customers to actionable bugs
+		Software Development Intern	 Salt Lake City, Utah
+		FamilySearch 	May 2015 – August 2015
+*	Implemented Java CLI and designed REST API for bulk operations on database of all places in the world
+EDUCATION	
+Bachelor of Science in Computer Science, Dec 2017
+	University of Utah, Salt Lake City, Utah
+3.75 GPA on 4.0 scale
+Awards and Scholarships
+Honors - Full Scholarship
+Everton Scholarship
+Haglund Scholarship
+Dean’s List (8 times)
+FAVORITE PROJECTS
+
+
+*	“Cloud Custodian” – Cloud Resource Manager
+o	Added ability to filter on live Azure metrics, 
+shutdown/restart VMs and other Azure integrations
+*	“Guide” – Virtual Tour Guide Application
+o	Responsible for ASP.NET backend and SQL database 
+as well as audio encoding and on-demand streaming
+*	“Learn It Your Way” – Machine Learning API
+o	Flask API for users to upload datasets, train models 
+and generate an endpoint for future prediction
+*	“Wiki-Answer” – Wikipedia Question Answerer
+o	Python tool for consuming corpus of Wikipedia 
+articles and answering questions about subjects
+
+
+ADDITIONAL LEADERSHIP EXPERIENCE
+
+
+*	Director of Technology – HackTheU hackathon
+*	Microsoft Intern Ambassador & Student Partner
+*	President - Computer Programmers at the U of U
+*	Leadership positions (trainer, district leader, zone leader 
+and assistant to president) as LDS missionary in Santiago, 
+Chile, leading as many as 204 missionaries at one time
+
+TANNER BARLOW
+Mobile: 801-867-5383 | Email: tanner.barlow@outlook.com | Website: www.tannerbarlow.com 
+LinkedIn: https://www.linkedin.com/in/tannerbarlow | GitHub: https://github.com/tbarlow12
+
+
+
+
