@@ -4,7 +4,7 @@ title: The Difference - What Makes an Idea Work
 permalink: /the-difference/
 ---
 
-We've all been there. Talking with old friends or new acquaintances about your career as a software engineer, and those magical words pop into the conversation: _"Bro... I have an idea for this app..."_ Much to the surprise and chagrin of many aspiring Zuckerbergs, success comes from a heck of a lot more than just a good idea.
+We've all been there. Talking with old friends or new acquaintances about your career as a software engineer, and those magical words pop into the conversation: "_Bro... I have an idea for this app..._" Much to the surprise and chagrin of many aspiring Zuckerbergs, success comes from a heck of a lot more than just a good idea.
 
 My purpose here is not to disparage any idea. I think some of the best ideas in the world are those that sound insane from the start. My purpose is to reflect on one of my own experiences and use it to identify some of the things that separate the successful ideas from... well... the others.
 
