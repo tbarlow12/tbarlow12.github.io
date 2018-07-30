@@ -1,0 +1,58 @@
+Tanner Barlow
+
+801-867-5383, tanner.barlow@outlook.com
+http://tannerbarlow.com/
+
+
+KEY SKILLS
+
+Python, C#, Java, C++, Node.js, TypeScript, SQL, Azure, Machine Learning, NLP, Apache Spark, Flask
+
+WORK EXPERIENCE
+
+Microsoft, Software Engineer, Jan 2018 - Present
+Redmond, WA
+
+* Added Azure operations, unit tests and documentation to “Cloud Custodian” open-source project, including real-time metric filters, scheduled operations, and multi-subscription support
+* Collaborated with Microsoft partners to deliver custom software that unblocked technical obstacles
+
+Microsoft, Software Engineer Intern, May 2016 – Aug 2017
+Redmond, WA
+
+* Designed and implemented big data pipeline and k-means clustering analysis of Windows telemetry with scoring function to approximate the representation factor of each device
+* Delivered C# CLI tool to automate process of identifying actionable feedback from Windows users
+
+FamilySearch, Software Developer Intern, May 2015 – Aug 2015
+Redmond, WA
+
+* Enhanced and maintained Java CLI tool for running bulk operations on database of historical places
+* Designed and created GUI to run on top of existing Java tool for users that struggled using the CLI 
+
+OTHER EXPERIENCE
+
+* Designed and developed backend for virtual tour-guide application using ASP.NET web API, SQL database, Azure blob storage, and Azure Media Services 
+* Co-Founder and Director of Technology for HackTheU (University of Utah official hackathon)
+* Founder and President of Computer Programmers at the U of U (CPU of U)
+* Microsoft Intern Ambassador and Student Partner
+* Trainer, district leader, zone leader and assistant to president as LDS missionary
+
+EDUCATION 
+
+Bachelor of Science: Computer Science
+University of Utah, College of Engineering, Salt Lake City, UT
+Cumulative GPA: 3.75/4.00
+
+Awards: Honors at Entrance Scholarship, Everton Scholarship, Haglund Scholarship, 8-time Dean’s list
+
+
+
+
+
+
+
+
+
+
+
+
+
