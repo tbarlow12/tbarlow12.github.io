@@ -4,6 +4,8 @@ title: My Programming Bucket List
 permalink: /bucket-list/
 ---
 
+This is an ever-growing, ever-changing list of things I would like to accomplish as a software engineer, both in my professional and personal life.
+
 - [ ] Find an interesting open-source project and submit a PR within 24 hours 
 - [ ] File a patent for software you wrote (at work or otherwise)
 - [x] Write a REST API
