@@ -62,5 +62,5 @@ This is an ever-growing, ever-changing list of things I would like to accomplish
     - [ ] Rust
     - [ ] Elixir
     - [ ] Scala
-- [ ] Write a program in a functional programming language
+- [ ] Write a program in a functional language
 - [x] Write a program for a robot
