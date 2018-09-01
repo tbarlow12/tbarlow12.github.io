@@ -10,6 +10,7 @@ This is an ever-growing, ever-changing list of things I would like to accomplish
 - [ ] File a patent for software you wrote (at work or otherwise)
 - [x] Write a REST API
 - [x] Write a serverless function
+- [x] Containerize an application
 - [x] Make your own website
 - [ ] Work pager duty
 - [x] Participate in a hackathon
