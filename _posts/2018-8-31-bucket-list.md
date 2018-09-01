@@ -37,7 +37,7 @@ This is an ever-growing, ever-changing list of things I would like to accomplish
 - [x] Work in an office/cubicle environment
 - [x] Work for a tech giant
 - [ ] Work for a startup with < 10 engineers
-- [ ] Work as a manager for a software development team
+- [ ] Work as a manager for a dev team
 - [ ] Write your favorite game in any language
 - [x] Write a mobile app specifically for one platform
 - [ ] Write a cross-platform mobile app
@@ -47,7 +47,9 @@ This is an ever-growing, ever-changing list of things I would like to accomplish
 - [ ] Write and publish a technical book
 - [ ] Receive a job offer without an interview
 - [ ] Publish a technical tutorial
-- [ ] Have an answer upvoted 100+ times on Stack Overflow
+- [ ] Answer a question on StackOverflow
+- [ ] Have an answer upvoted 100+ times on StackOverflow
+- [ ] Write a program using strictly Vim or Emacs in the terminal
 - [ ] Write a non-trivial program in:
     - [x] C
     - [ ] Go
@@ -64,3 +66,7 @@ This is an ever-growing, ever-changing list of things I would like to accomplish
     - [ ] Scala
 - [ ] Write a program in a functional language
 - [x] Write a program for a robot
+- [ ] Work on software that requires government clearance
+- [ ] Infiltrate a large system undetected
+- [ ] Place top 5 in a Kaggle competition
+- [x] Write a blog about your career 
