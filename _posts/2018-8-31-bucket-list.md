@@ -15,7 +15,7 @@ This is an ever-growing, ever-changing list of things I would like to accomplish
 - [x] Participate in a hackathon
 - [x] Travel to attend a major software conference
 - [ ] Travel to speak or present at a major software conference
-- [x] Find a senior software developer mentor
+- [x] Find a senior developer mentor
 - [ ] Mentor a junior developer
 - [x] Submit code to an online package manager (NPM, NuGet, PyPI, etc.)
 - [ ] Pull an all-nighter coding on a personal project
