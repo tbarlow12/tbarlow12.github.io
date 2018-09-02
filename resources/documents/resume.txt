@@ -24,7 +24,7 @@ Redmond, WA
 * Delivered C# CLI tool to automate process of identifying actionable feedback from Windows users
 
 FamilySearch, Software Developer Intern, May 2015 – Aug 2015
-Redmond, WA
+Salt Lake City, UT
 
 * Enhanced and maintained Java CLI tool for running bulk operations on database of historical places
 * Designed and created GUI to run on top of existing Java tool for users that struggled using the CLI
