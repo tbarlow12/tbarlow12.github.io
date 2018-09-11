@@ -19,6 +19,7 @@ This is an ever-growing, ever-changing list of things I would like to accomplish
 - [x] Find a senior developer mentor
 - [ ] Mentor a junior developer
 - [x] Submit code to an online package manager (NPM, NuGet, PyPI, etc.)
+- [ ] Have a stranger submit a meaningful PR to an open-source project I created
 - [ ] Pull an all-nighter coding on a personal project
 - [x] Write a piece of software just for you that you actually use
 - [ ] Reading list: 
