@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My Programming Bucket List
+title: My Software Dev Bucket List
 permalink: /bucket-list/
 ---
 
