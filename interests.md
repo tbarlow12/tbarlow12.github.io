@@ -21,7 +21,7 @@ A lot of the work I have done in school, internships and in side projects has be
 - Rust
 
 ## Side Projects I'm Currently Working On:
-- [**TaskBoardAssistant**](https://github.com/tbarlow12/task-board-assistant) - A policy engine for managing task board services, like Trello. Do things like clean up completed tasks, alert for inactive tasks, create tasks, assign tasks, analyze task activity, etc. all with a simple .yaml policy file. Currently brainstorming a more catchy name, so if you think of a good one, shoot me a mail!ta
+- [**TaskBoardAssistant**](https://github.com/tbarlow12/task-board-assistant) - A policy engine for managing task board services, like Trello. Do things like clean up completed tasks, alert for inactive tasks, create tasks, assign tasks, analyze task activity, etc. all with a simple .yaml policy file. Currently brainstorming a more catchy name, so if you think of a good one, shoot me a mail!
 - [**"Learn It Your Way"**](https://github.com/tbarlow12/Learn-It-Your-Way) - My own Flask API for users to upload a dataset, train one or more models and have a REST endpoint to hit for future predictions
 
 # Personal
