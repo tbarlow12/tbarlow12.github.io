@@ -25,7 +25,7 @@ def weird_matrix_operation(a, b):
 
 ### Situation
 
-You are told there is a bug in this little nugget of sunshine that uses the [sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes) algorithm to return all prime numbers between 2 and `n`:
+You are told there is a bug in this little one-line nugget of sunshine that uses the [sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes) algorithm to return all prime numbers between 2 and `n`:
 
 ```python
 def sieve_eratosthenes(n):
