@@ -13,7 +13,7 @@ permalink: /experience/
     <li>Collaborated on design and implementation of a serverless workflow for monitoring cloud resources</li>
     <li>Added Azure operations, unit tests and documentation to <a href="https://github.com/capitalone/cloud-custodian">Cloud Custodian</a> open-source Python project, including real-time metric filters, scheduled operations and multi-subscription support</li>
     <li>Developed voice-driven Android application for hands-free control of stationary bicycle</li>
-    <li>With one other engineer, added support for message encryption to Java SDK for Azure Key Vault
+    <li>With one other engineer, added support for message encryption to Java SDK for Azure Key Vault</li>
   </ul>
 </details> 
 
