@@ -18,7 +18,10 @@ This is an ever-growing, ever-changing list of things I would like to accomplish
 - [ ] Travel to speak or present at a major software conference
 - [x] Find a senior developer mentor
 - [ ] Mentor a junior developer
-- [x] Submit code to an online package manager (NPM, NuGet, PyPI, etc.)
+- [ ] Submit code to these online package managers
+    - [x] PyPI
+    - [x] NuGet
+    - [ ] NPM
 - [ ] Have a stranger submit a meaningful PR to an open-source project you created
 - [ ] Pull an all-nighter coding on a personal project
 - [x] Write a piece of software just for you that you actually use
@@ -31,10 +34,10 @@ This is an ever-growing, ever-changing list of things I would like to accomplish
     - [ ] [Refactoring: Improving the Design of Existing Code](https://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672)
     - [ ] [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X)
     - [ ] [Code Complete: A Practical Handbook of Software Construction](https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670/ref=pd_lpo_sbs_14_t_1?_encoding=UTF8&psc=1&refRID=K75WSC0JK6J62XWX4AHR)
-    - [ ] [Real Programmers Don't Use PASCAL](http://web.mit.edu/humor/Computers/real.programmers)
+    - [x] [Real Programmers Don't Use PASCAL](http://web.mit.edu/humor/Computers/real.programmers)
 - [x] Work with a dataset larger than one petabyte
 - [x] Write your own ML model using nothing but a math library (numpy or equivalent)
-- [ ] Throw away code for a project and start from scratch
+- [x] Throw away code for a project and start from scratch
 - [ ] Work in an open-space environment
 - [x] Work in an office/cubicle environment
 - [x] Work for a tech giant
@@ -54,6 +57,7 @@ This is an ever-growing, ever-changing list of things I would like to accomplish
 - [ ] Write a program using strictly Vim or Emacs in the terminal
 - [ ] Write a non-trivial program in:
     - [x] C
+    - [x] MIPS
     - [ ] Go
     - [x] C++
     - [x] C#
