@@ -10,7 +10,7 @@ permalink: /experience/
    Show details
   </summary>
   <ul>
-    <li>Collaborated on design and implementation of a <a href="https://github.com/Microsoft/cloud-scanner-azure-functions-sample">serverless workflow for monitoring cloud resources</a> and its dependencies (<a href="https://github.com/Microsoft/cloud-scanner">cloud-scanner</a>, <a href="https://github.com/Microsoft/cloud-scanner-generic">cloud-scanner-generic</a> and <a href="https://github.com/Microsoft/cloud-scanner-azure">cloud-scanner-azure</a></li>).
+    <li>Collaborated on design and implementation of a <a href="https://github.com/Microsoft/cloud-scanner-azure-functions-sample">serverless workflow for monitoring cloud resources</a> and its dependencies (<a href="https://github.com/Microsoft/cloud-scanner">cloud-scanner</a>, <a href="https://github.com/Microsoft/cloud-scanner-generic">cloud-scanner-generic</a> and <a href="https://github.com/Microsoft/cloud-scanner-azure">cloud-scanner-azure</a>).</li>
     <li>Added Azure operations, unit tests and documentation to <a href="https://github.com/capitalone/cloud-custodian">Cloud Custodian</a> open-source Python project, including real-time metric filters, scheduled operations and multi-subscription support</li>
     <li>Developed voice-driven Android application for hands-free control of stationary bicycle</li>
     <li>With one other engineer, added support for message encryption to Java SDK for Azure Key Vault</li>
