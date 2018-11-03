@@ -17,7 +17,6 @@ def weird_matrix_operation(a, b):
     return (a + b) * 2
 ```
 
-
 ![alt text](/images/too-easy.gif)
 
 You are then told that there is a bug in this little one-line nugget of sunshine that uses the [sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes) algorithm to return all prime numbers between 2 and `n`:
