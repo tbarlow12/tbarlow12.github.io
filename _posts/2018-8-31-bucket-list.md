@@ -62,7 +62,7 @@ This is an ever-growing, ever-changing list of things I would like to accomplish
     - [x] C++
     - [x] C#
     - [x] Node.js
-    - [ ] TypeScript
+    - [x] TypeScript
     - [x] Python
     - [x] Java
     - [x] Android
