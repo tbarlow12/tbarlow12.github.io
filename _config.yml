@@ -18,8 +18,8 @@ avatar: /resources/images/TannerPic.jpg
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: tanner.barlow@outlook.com
-  facebook: eldertannerbarlow
+  email: tanner.barlow12@gmail.com
+  facebook: therealtannerbarlow
   flickr:
   github: tbarlow12
   instagram:
@@ -29,7 +29,6 @@ footer-links:
   twitter:
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: 104293257656766939221 # anything in your profile username that comes after plus.google.com/
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
