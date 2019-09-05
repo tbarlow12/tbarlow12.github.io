@@ -32,5 +32,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/react-router-dom": "^4.3.5",
+    "eslint-plugin-react-hooks": "^2.0.1"
   }
 }
