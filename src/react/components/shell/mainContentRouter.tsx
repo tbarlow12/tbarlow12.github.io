@@ -1,7 +1,7 @@
 import React from "react";
-import { Switch, Route, HashRouter } from "react-router-dom"
-import { HomePage } from "../../pages/homePage"
-import { BlogPage } from "../../pages/blogPage"
+import { Route, Switch } from "react-router-dom";
+import { BlogPage } from "../../pages/blogPage";
+import { HomePage } from "../../pages/homePage";
 
 export default function MainContentRouter() {
   return (

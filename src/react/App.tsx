@@ -1,10 +1,8 @@
 import React from 'react';
+import { HashRouter } from "react-router-dom";
 import '../scss/App.css';
-import MainContentRouter from "./components/shell/mainContentRouter"
-import { Route, NavLink, HashRouter } from "react-router-dom"
-import { HomePage } from './pages/homePage';
-import { BlogPage } from './pages/blogPage';
-import { Sidebar } from "./components/shell/sidebar"
+import MainContentRouter from "./components/shell/mainContentRouter";
+import { Sidebar } from "./components/shell/sidebar";
 
 const App: React.FC = () => {
   return (
