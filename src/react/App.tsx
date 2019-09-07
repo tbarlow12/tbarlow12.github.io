@@ -1,28 +1,20 @@
 import React from 'react';
 import '../scss/App.css';
-import { HomePage } from "./pages/homePage";
+import MainContentRouter from "./components/shell/mainContentRouter"
+import { Route, NavLink, HashRouter } from "react-router-dom"
+import { HomePage } from './pages/homePage';
+import { BlogPage } from './pages/blogPage';
+import { Sidebar } from "./components/shell/sidebar"
 
 const App: React.FC = () => {
   return (
-    <div className="App">
-      {/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header> */}
-      <HomePage
-        clickCount={10}
-      />
-    </div>
+      <div className="app-main">
+        <h1>Application</h1>
+        <HashRouter>
+          <Sidebar/>
+          <MainContentRouter/>
+        </HashRouter>
+      </div>
   );
 }
 
