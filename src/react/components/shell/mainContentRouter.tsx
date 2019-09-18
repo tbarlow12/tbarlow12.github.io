@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
-import { BlogPage } from "../../pages/blogPage";
+import { BlogPage } from "../../pages/blogPage"
 import { HomePage } from "../../pages/homePage";
 
 export default function MainContentRouter() {
