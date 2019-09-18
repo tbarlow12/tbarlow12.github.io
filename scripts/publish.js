@@ -6,7 +6,7 @@ ghpages.publish("build", {
     email: "tanner.barlow.dev@gmail.com"
   },
   message: "Auto-generated commit to publish GitHub page",
-  repo: "https://" + process.env.GITHUB_TOKEN + "@github.com/tbarlow12/personal-website-beta.git",
+  repo: "https://" + process.argv[1] + "@github.com/tbarlow12/personal-website-beta.git",
 },(err) => {
   if (err) {
     console.error(err);
