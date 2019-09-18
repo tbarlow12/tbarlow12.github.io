@@ -18,7 +18,7 @@ export function HomePage() {
 
   return (
     <div>
-      This is my home page
+      This is my home page test
       {/* {pulls && pulls.map((pull: any) => <div>{pull.title}</div>)}
       {events && events.map((event: any) => <div>{event.type}</div>)} */}
     </div>
