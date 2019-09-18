@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import { GitHubService } from "../../services/githubService";
+import React from "react";
 
 export interface HomePageState {
   pulls: any[];
