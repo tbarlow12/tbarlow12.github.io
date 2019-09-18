@@ -1,6 +1,7 @@
 {
   "name": "tbarlow12-personal-website",
   "version": "0.1.0",
+  "homepage": "http://tbarlow12.github.io/personal-website-beta",
   "private": true,
   "dependencies": {
     "@types/jest": "24.0.18",
@@ -18,7 +19,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "node ./scripts/publish.js"
   },
   "eslintConfig": {
     "extends": "react-app"
