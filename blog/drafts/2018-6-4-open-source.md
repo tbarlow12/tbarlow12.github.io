@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Journey to the Center of the Open-Source World
-permalink: /open-source/
 ---
 
 This post started a while ago, when my wife and son were heading back to Utah to visit family for a wedding, and I was left at home alone for a week. I had a choice to either binge-watch The Office, seasons 1-7 (sorry, Robert California, but Pam and Jim's issues are too much for me), or do something productive. My goal was to document the process of finding and contributing to an open-source project. I've contributed to open-source projects [before](https://github.com/tbarlow12), but they've only been projects for school, work or ones I've started myself. I want to document the process from finding the project all the way to successfully merging a pull request. We've all been intimdated at one point or another by this community of people who choose to write software for free, and in most cases, in their spare time. My hope is that this post will show that you don't need to know what you're doing to get started.

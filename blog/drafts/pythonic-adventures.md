@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Pythonic Adventures
-permalink: /pythonic-adventures/
 ---
 
 Over the last few years, Python has become one of the hottest programming languages on the planet. Many have started with Python as their first programming language because it can almost read like English. It has become ubiquitous in the world of data science and has become the language of choice for many OSS projects.

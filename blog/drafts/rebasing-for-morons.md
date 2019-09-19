@@ -1,7 +1,5 @@
 ---
-layout: post
 title: Rebasing for Morons (with merge conflicts)
-permalink: /git-rebase/
 ---
 
 Rebasing for me used to be a little like flossing... You always hear that you should, but it's just so easy not to.

@@ -1,8 +1,5 @@
 ---
-layout: post
-title: My Weekly Planning
-permalink: /weekly-planning/
----
+title: My Weekly Planning---
 
 I know what you're thinking. This guy is going to tell me I've been planning my week all wrong and that he has some "secret sauce" that will make me 1000x more productive... Well, I won't. If you find that secret sauce, let me know. 
 

@@ -1,7 +1,6 @@
 ---
-layout: post
 title: Microsoft - Summer 2016
-permalink: /microsoft-internship/
+date: 2019-9-2
 ---
 
 In 2016, I had the opportunity of working with the WDG GS Data Insights team at Microsoft. While there, I was given the task of automating the process of taking action on international customer feedback. Because Windows 10 gets such a high volume of feedback from its users, a lot of valuable information sits idly in a database without anyone being able to act on it. Of course, there is always a lot of junk to sift through and LOTS of duplicated pieces of feedback, which made the challenge of automating the process even more interesting.

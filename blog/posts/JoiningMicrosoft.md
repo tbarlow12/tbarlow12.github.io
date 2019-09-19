@@ -1,7 +1,6 @@
 ---
-layout: post
 title: Joining Microsoft
-permalink: /joining-microsoft/
+date: 2018-6-1
 ---
 
 I've had a few friends ask me what my journey to Microsoft was like and why I chose to work here. Microsoft, like the Yankees and black licorice, is one of those "love it or hate it" kind of things (I fall emphatically into the latter camp for both of those other two). Everyone has reasons or experiences that make them feel one way or the other. As for myself, I've really enjoyed working at Microsoft, so I thought I'd document a little bit of my journey and why I ended up where I did.

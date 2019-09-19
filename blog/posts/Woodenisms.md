@@ -1,7 +1,6 @@
 ---
-layout: post
 title: Favorite Woodenisms
-permalink: /woodenisms/
+date: 2017-10-12
 ---
 
 John Wooden was not only one of the greatest coaches of all-time (10 National Championships in 12 seasons at UCLA, 7 of those consecutive) and a great human being, but he had a gift with words. His many one-liners and famous sayings have since become known as "Woodenisms." Here are some of my favorites:
