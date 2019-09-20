@@ -1,6 +1,7 @@
 ---
 title: Top 5 (unordered) Learnings from PyCon 2019
 date: 2019-5-6
+path: pycon2019
 ---
 
 This is a summary of 5 of my favorite talks from PyCon 2019. I learned a ton throughout the conference and felt that the learnings needed to be shared. I've tried to summarize as best as I could from the notes that I took. I believe the talks will be available online soon if they are not already. Big thanks to the speakers for all the effort they put in to make their talks so practical and engaging.

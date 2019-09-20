@@ -2,6 +2,7 @@
 title: My Software Dev Bucket List
 date: 2018-8-31
 preview: This is my software dev bucket list
+path: bucketlist
 ---
 
 This is an ever-growing, ever-changing list of things I would like to accomplish as a software engineer, both in my professional and personal life.

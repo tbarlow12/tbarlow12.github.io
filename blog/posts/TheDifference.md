@@ -1,6 +1,7 @@
 ---
 title: The Difference - What Makes an Idea Work
 date: 2018-6-15
+path: thedifference
 ---
 
 We've all been there. Talking with old friends or new acquaintances about your career as a software engineer, and those magical words pop into the conversation: "_Bro... I have an idea for this app..._" Much to the surprise and chagrin of many aspiring Zuckerbergs, success comes from a heck of a lot more than just a good idea.

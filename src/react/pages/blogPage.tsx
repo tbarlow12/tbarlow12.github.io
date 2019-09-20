@@ -9,9 +9,8 @@ export interface BlogPageState {
 export function BlogPage() {
 
   return (
-    <div>
-      This is my blog page
-        {BlogService.getPreviews().map(BlogPostPreview)}
+    <div className="blog-page">
+      {BlogService.getPreviews().map(BlogPostPreview)}
     </div>
   )
 }
