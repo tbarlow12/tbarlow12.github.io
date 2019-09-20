@@ -4,6 +4,7 @@
   "homepage": "http://tbarlow12.github.io/personal-website-beta",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.11.1",
     "@types/jest": "24.0.18",
     "@types/node": "12.7.4",
     "@types/react": "16.9.2",

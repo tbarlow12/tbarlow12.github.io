@@ -37,7 +37,7 @@ export default class MyTerminal extends React.Component<MyTerminalProps> {
     const { location } = this.props;
     
     return (
-      <div className="app-terminal footer">
+      <div className="app-shell-page-terminal">
         <Terminal
           commands={this.commands}
           welcomeMessage={"Welcome to my website! Run help for available commands"}
