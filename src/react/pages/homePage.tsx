@@ -18,8 +18,7 @@ export function HomePage() {
 
   return (
     <div>
-      This is my home page test
-      
+      This is my home page      
       {/* Look at useEffect for fetching data {pulls && pulls.map((pull: any) => <div>{pull.title}</div>)}
       {events && events.map((event: any) => <div>{event.type}</div>)} */}
     </div>

@@ -5,20 +5,19 @@ import "../scss/App.scss";
 import MainContentRouter from "./components/shell/mainContentRouter";
 import { Sidebar } from "./components/shell/sidebar";
 import { TerminalWithRouter } from './components/shell/terminal/terminal';
-import { Header } from './components/header/header';
 
 const App: React.FC = () => {
   return (
-      <div className="app-main">
-        <Header/>
+      <div className="app">
         <HashRouter>
-          <div className="app-shell">
             <Sidebar/>
-            <div className="app-shell-page">
+            <div className="app-main">
+              <div className="app-header">
+                <h1>Tanner Barlow</h1>
+              </div>
               <MainContentRouter/>
               <TerminalWithRouter />
             </div>
-          </div>
         </HashRouter>
       </div>
   );

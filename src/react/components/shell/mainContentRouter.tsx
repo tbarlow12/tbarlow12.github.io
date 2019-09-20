@@ -6,7 +6,7 @@ import { BlogPostPage } from "../../pages/blogPostPage";
 
 export default function MainContentRouter() {
   return (
-    <div className="app-shell-page-content">
+    <div className="app-main-content">
       <Switch>
         <Route path="/" exact component={HomePage} />
         <Route path="/blog" exact component={BlogPage} />
