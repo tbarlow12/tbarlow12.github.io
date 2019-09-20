@@ -12,7 +12,6 @@ export function BlogPage() {
     <div>
       This is my blog page
         {BlogService.getPreviews().map(BlogPostPreview)}
-        <BlogPostPreview {...BlogService.getFullPost("My Software Dev Bucket List")} />
     </div>
   )
 }

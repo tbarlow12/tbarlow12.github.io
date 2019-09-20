@@ -1,6 +1,7 @@
 const fs = require("fs");
 const { join } = require("path")
 const grayMatter = require("gray-matter");
+const md5 = require("md5.js");
 
 const sourcePath = join(
   process.cwd(),
@@ -38,7 +39,10 @@ const fullPosts = {}
 
 posts.forEach((post) => {
   const gm = grayMatter(post.content);
-  fullPosts[gm.data.title] = post
+  const path = (gm.data.path) 
+    ? gm.data.path 
+    : new md5().update(gm.data.title).digest("hex").substr(0, 8);
+  fullPosts[path] = post
 });
 
 fs.writeFileSync(
