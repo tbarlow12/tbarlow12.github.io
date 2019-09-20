@@ -1,14 +1,18 @@
-import React from "react"
-import Terminal from "react-console-emulator"
-import { RouteComponentProps, withRouter } from "react-router"
+import React from "react";
+import Terminal from "react-console-emulator";
+import { RouteComponentProps, withRouter } from "react-router";
+import { StructureService } from "../../../../services/structureService";
 
 export interface MyTerminalProps extends RouteComponentProps { }
 
-
-const home = "~";
-const up = ".."
-
 export default class MyTerminal extends React.Component<MyTerminalProps> {
+
+  private structureService: StructureService;
+
+  public constructor(props: MyTerminalProps) {
+    super(props);
+    this.structureService = new StructureService();
+  }
 
   commands = {
     echo: {
@@ -46,7 +50,9 @@ export default class MyTerminal extends React.Component<MyTerminalProps> {
   }
 
   ls() {
-    return "ls"
+    const { pathname } = this.props.location;
+    const target = arguments[0];
+    return this.structureService.ls(pathname, target);
   }
 
   echo() {
@@ -56,26 +62,12 @@ export default class MyTerminal extends React.Component<MyTerminalProps> {
   cd () {
     const target = arguments[0];
     const location = this.props.location;
-
-    this.props.history.push(this.transformPath(target, location.pathname))
-    // return "";
-  }
-
-  getWelcomeMessage(pathname: string) {
-    if (pathname === "/") {
-      return "Welcome to my website! Run help for available commands";
+    try {
+      const path = this.structureService.transformPath(location.pathname, target);
+      this.props.history.push(path)
+    } catch {
+      return `Invalid path: ${location.pathname + target}`
     }
-    return undefined;
-  }
-
-  transformPath(target: string, pathname: string): string {
-    if (target === "~") {
-      return "/"
-    }
-    if (target === "..") {
-      return pathname.substr(0, pathname.lastIndexOf("/"))
-    }
-    return target;
   }
 
   getPath = (pathname: string) => {
