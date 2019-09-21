@@ -5,6 +5,7 @@ import { StructureService } from "../../../../services/structureService";
 
 export interface MyTerminalProps extends RouteComponentProps {
   open: boolean;
+  closeTerminal: () => void;
 }
 
 export interface MyTerminalState {
@@ -46,6 +47,11 @@ export default class MyTerminal extends React.Component<MyTerminalProps, MyTermi
       description: "Navigate to another page",
       usage: "cd <string>",
       fn: this.cd.bind(this)
+    },
+    kill: {
+      description: "Close terminal",
+      usage: "kill",
+      fn: this.props.closeTerminal,
     }
   }
 

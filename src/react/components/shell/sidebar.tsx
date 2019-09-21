@@ -2,6 +2,13 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { icons } from "../../../scss/icons";
 
+
+export interface SidebarProps {
+  toggleTerminal: () => void;
+  toggleTheme: () => void;
+  darkTheme: boolean;
+}
+
 export interface SidebarItem {
   name: string;
   icon: string;
@@ -19,9 +26,6 @@ export interface SidebarTool extends SidebarItem {
   action: () => void;
 }
 
-export interface SidebarProps {
-  toggleTerminal: () => void;
-}
 
 export function Sidebar(props: SidebarProps) {
 
@@ -37,8 +41,13 @@ export function Sidebar(props: SidebarProps) {
       icon: icons.blog
     },
     {
+      name: "Projects",
+      path: "/projects",
+      icon: icons.code
+    },
+    {
       name: "Resume",
-      path: "/",
+      path: "/resume",
       icon: icons.resume,
     },
     
@@ -69,6 +78,20 @@ export function Sidebar(props: SidebarProps) {
       action: props.toggleTerminal
     }
   ]
+
+  if (props.darkTheme) {
+    tools.push({
+      name: "Light Theme",
+      icon: icons.sun,
+      action: props.toggleTheme
+    })
+  } else {
+    tools.push({
+      name: "Dark Theme",
+      icon: icons.moon,
+      action: props.toggleTheme
+    })
+  }
 
   return (
     <ul className="app-sidebar">

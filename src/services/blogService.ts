@@ -1,8 +1,8 @@
 
 import grayMatter from "gray-matter";
 import { BlogPostMetadata } from "../models/blog";
-import postsPreviews from "../blog/posts-preview.json";
-import postsFull from "../blog/posts-full.json"
+import postsPreviews from "../content/blog/posts-preview.json";
+import postsFull from "../content/blog/posts-full.json"
 const md5 = require("md5.js");
 
 export interface BlogPostJson {

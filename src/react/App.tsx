@@ -9,12 +9,15 @@ import { TerminalWithRouter } from './components/shell/terminal/terminal';
 const App: React.FC = () => {
   
   const [terminalOpen, setTerminalOpen] = useState(true)
+  const [darkTheme, setDarkTheme] = useState(true);
 
   return (
       <div className="app">
         <HashRouter>
             <Sidebar
               toggleTerminal={() => setTerminalOpen(!terminalOpen)}
+              toggleTheme={() => setDarkTheme(!darkTheme)}
+              darkTheme={darkTheme}
             />
             <div className="app-main">
               <div className="app-header">
@@ -23,6 +26,7 @@ const App: React.FC = () => {
               <MainContentRouter/>
               <TerminalWithRouter 
                 open={terminalOpen}
+                closeTerminal={() => setTerminalOpen(false)}
               />
             </div>
         </HashRouter>

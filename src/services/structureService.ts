@@ -1,5 +1,4 @@
-// import postsPreview from "../../../../blog/posts-preview.json";
-import postsFull from "../blog/posts-full.json";
+import postsFull from "../content/blog/posts-full.json";
 
 export interface Structure {
   route: string;
