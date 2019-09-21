@@ -5,10 +5,11 @@ import "../scss/App.scss";
 import MainContentRouter from "./components/shell/mainContentRouter";
 import { Sidebar } from "./components/shell/sidebar";
 import { TerminalWithRouter } from './components/shell/terminal/terminal';
+import { isMobile } from "react-device-detect"
 
 const App: React.FC = () => {
   
-  const [terminalOpen, setTerminalOpen] = useState(true)
+  const [terminalOpen, setTerminalOpen] = useState(!isMobile)
   const [darkTheme, setDarkTheme] = useState(true);
 
   return (

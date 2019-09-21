@@ -1,4 +1,6 @@
 import React from "react";
+import ReactMarkdown from "react-markdown";
+import { ContentPageProps } from "../../models/generic";
 
 export interface HomePageState {
   pulls: any[];
@@ -17,8 +19,10 @@ export function HomePage() {
   //   .then((eventsResult) => setEvents(eventsResult))
 
   return (
-    <div>
-      This is my home page      
+    <div className="app-page-home">
+      {"content"}
+      {/* <ReactMarkdown source={content} /> */}
+        
       {/* Look at useEffect for fetching data {pulls && pulls.map((pull: any) => <div>{pull.title}</div>)}
       {events && events.map((event: any) => <div>{event.type}</div>)} */}
     </div>

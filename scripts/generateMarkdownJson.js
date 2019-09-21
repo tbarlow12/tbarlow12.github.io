@@ -3,10 +3,9 @@ const { join } = require("path")
 const grayMatter = require("gray-matter");
 const md5 = require("md5.js");
 
-const markdownPath = join(
-  process.cwd(),
-  "markdown"
-);
+const soruceBlogPath = join(__dirname, "..", "blog", "posts");
+const destContentPath = join(__dirname, "..", "src", "content");
+const destBlogPath = join(destContentPath, "blog");
 
 function getFiles(path) {
   const files = fs.readdirSync(path);
@@ -20,14 +19,6 @@ function getFiles(path) {
   });
 }
 
-function getPages() {
-  return getFiles(join(markdownPath, "pages"));
-}
-
-function getBlogPosts() {
-  return getFiles(join(markdownPath,"blog","posts"));
-}
-
 function generatePreviewFiles(files, destPath) {
   fs.writeFileSync(
     destPath,
@@ -38,16 +29,6 @@ function generatePreviewFiles(files, destPath) {
       }
     }))
   );
-}
-
-function generateBlogPostPreviews(posts) {
-  generatePreviewFiles(posts, join(
-    process.cwd(),
-    "src",
-    "content",
-    "blog",
-    "posts-preview.json"
-  ));  
 }
 
 function generateFullFiles(files, destPath) {
@@ -65,28 +46,26 @@ function generateFullFiles(files, destPath) {
   );
 }
 
-function generateBlogPostFull(posts) {
-  generateFullFiles(posts, join(
-    process.cwd(),
-    "src",
-    "content",
-    "blog",
-    "posts-full.json"
-  ));
+function getBlogPosts() {
+  return getFiles(soruceBlogPath);
 }
 
-function generatePageMarkdown(pages) {
-  generateFullFiles(pages, join(
-    "src",
-    "content",
-    "pages",
-    "pages.json"
-  ))
+function generateBlogPostPreviews(posts) {
+  generatePreviewFiles(posts, join(
+    destBlogPath,
+    "posts-preview.json"
+  ));  
+}
+
+
+
+function generateBlogPostFull(posts) {
+  generateFullFiles(posts, join(
+    destBlogPath,
+    "posts-full.json"
+  ));
 }
 
 const posts = getBlogPosts();
 generateBlogPostPreviews(posts);
 generateBlogPostFull(posts);
-
-const pages = getPages();
-generatePageMarkdown(pages);
