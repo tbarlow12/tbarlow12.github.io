@@ -1,22 +1,27 @@
-html, body, .app {
+@import './theme.scss';
+
+html, body, #root, .app {
   height: 100%;
+  width: 100%;
 }
 
 .app {
   display: flex;
+  height: 100%;
   flex-direction: row;
 
   &-sidebar {
     list-style-type: none;
     padding: 0;
+    margin: 0;
   
-    background-color: red;
+    background-color: $darker-16;
   
     &-item {
       font-size: 40px;
       padding: 10px;
       &-icon {
-        color: white;
+        color: $lighter-16;
       }
     }
   }
@@ -25,9 +30,11 @@ html, body, .app {
     display: flex;
     flex-direction: column;
     height: 100%;
+    width: 100%;
     
     &-header {
       flex: 0 0 auto;
+      padding: 10px;
       background-color: blue;
     }
   
@@ -35,10 +42,12 @@ html, body, .app {
       flex: 1 1 auto;
       position: relative;
       overflow-y: auto;
+      padding: 0 15px
     }
     
     &-footer {
       flex: 0 0 auto;
+      min-width: 100%;
     }
   }
 }

@@ -9,4 +9,5 @@ export const icons = {
   education: "fas fa-user-graduate",
   basketball: "fas fa-basketball-ball",
   volunteer: "fas fa-hands-helping",
+  terminal: "fas fa-terminal"
 }

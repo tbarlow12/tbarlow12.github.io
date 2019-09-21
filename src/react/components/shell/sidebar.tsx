@@ -22,6 +22,11 @@ export function Sidebar() {
       icon: icons.blog
     },
     {
+      name: "Resume",
+      path: "/",
+      icon: icons.resume,
+    },
+    {
       name: "GitHub",
       path: "/github",
       icon: icons.github
@@ -30,6 +35,16 @@ export function Sidebar() {
       name: "LinkedIn",
       path: "/linkedin",
       icon: icons.linkedin
+    },
+    {
+      name: "Interests",
+      path: "/interests",
+      icon: icons.basketball,
+    },
+    {
+      name: "Terminal",
+      path: "/",
+      icon: icons.terminal,
     }
   ]
 
