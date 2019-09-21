@@ -14,15 +14,29 @@ html, body, #root, .app {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    display: flex;
+    flex-direction: column;
   
     background-color: $darker-16;
   
     &-item {
-      font-size: 40px;
+      font-size: 30px;
       padding: 10px;
+      display: block;
+      text-align: center;
+
       &-icon {
-        color: $lighter-16;
+        color: $lighter-14;
+        &:hover {
+          color: $lighter-18;
+        }
       }
+    }
+
+    &-tools {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column-reverse;     
     }
   }
 
@@ -34,8 +48,10 @@ html, body, #root, .app {
     
     &-header {
       flex: 0 0 auto;
-      padding: 10px;
       background-color: blue;
+      h1 {
+        padding: 10px;
+      }
     }
   
     &-content {

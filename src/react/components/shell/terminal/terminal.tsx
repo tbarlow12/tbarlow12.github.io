@@ -3,15 +3,32 @@ import Terminal from "react-console-emulator";
 import { RouteComponentProps, withRouter } from "react-router";
 import { StructureService } from "../../../../services/structureService";
 
-export interface MyTerminalProps extends RouteComponentProps { }
+export interface MyTerminalProps extends RouteComponentProps {
+  open: boolean;
+}
 
-export default class MyTerminal extends React.Component<MyTerminalProps> {
+export interface MyTerminalState {
+  open: boolean;
+}
+
+export default class MyTerminal extends React.Component<MyTerminalProps, MyTerminalState> {
 
   private structureService: StructureService;
 
   public constructor(props: MyTerminalProps) {
     super(props);
     this.structureService = new StructureService();
+    this.state = {
+      open: props.open
+    }
+  }
+
+  public componentDidUpdate() {
+    if (this.props.open !== this.state.open) {
+      this.setState({
+        open: this.props.open
+      })
+    }
   }
 
   commands = {
@@ -38,13 +55,13 @@ export default class MyTerminal extends React.Component<MyTerminalProps> {
     
     return (
       <div className="app-main-footer">
-        <Terminal
+        {this.props.open && <Terminal
           commands={this.commands}
           welcomeMessage={"Welcome to my website! Run help for available commands"}
           promptLabel={`user@TBarlow:${this.getPath(location.pathname)}`}
           promptLabelStyle={{color: "#66CCCC"}}
           noHistory={true}
-        />
+        />}
       </div>
     )
   }
