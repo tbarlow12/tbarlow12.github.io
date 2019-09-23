@@ -1,29 +1,11 @@
 import React from "react";
-
-export interface HomePageState {
-  pulls: any[];
-  events: any[]
-}
+import homePage from "../../content/pages/home.json";
+import ReactMarkdown from "react-markdown";
 
 export function HomePage() {
-
-  // const [pulls, setPulls] = useState();
-  // const [events, setEvents] = useState();
-
-  // const githubService = new GitHubService();
-  // githubService.pulls("serverless", "serverless-azure-functions")
-  //   .then((pullResult) => setPulls(pullResult));
-  // githubService.userEvents("tbarlow12")
-  //   .then((eventsResult) => setEvents(eventsResult))
-
   return (
     <div className="app-page-home">
-      <p>Welcome to my landing page. Feel free to </p>
-      {"content"}
-      {/* <ReactMarkdown source={content} /> */}
-        
-      {/* Look at useEffect for fetching data {pulls && pulls.map((pull: any) => <div>{pull.title}</div>)}
-      {events && events.map((event: any) => <div>{event.type}</div>)} */}
+      <ReactMarkdown source={homePage.content} />
     </div>
   )
 }

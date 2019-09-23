@@ -71,6 +71,28 @@ export class StructureService {
       children: {}
     }
 
+    const projectsStructure: Structure =  {
+      route: "/projects",
+      children: {},
+      parent: structure
+    }
+
+    const interestsStructure: Structure =  {
+      route: "/interests",
+      children: {},
+      parent: structure
+    }
+
+    const resumeStructure: Structure = {
+      route: "/resume",
+      children: {},
+      parent: structure
+    }
+
+    structure.children["projects"] = projectsStructure;
+    structure.children["interests"] = interestsStructure;
+    structure.children["resume"] = resumeStructure;
+
     const blogStructure: Structure = {
       route: "/blog",
       children: {},

@@ -38,22 +38,27 @@ function generatePreviewFiles(files, destPath) {
 }
 
 function generateFullFiles(files, destPath, separate = false) {
+  const fullFiles = {}
+
+  files.forEach((file) => {
+    const gm = grayMatter(file.content);
+    const path = gm.data.path;
+    if (!separate) {
+      fullFiles[path] = file
+    } else {
+      fs.writeFileSync(
+        join(destPath, `${gm.data.title.toLowerCase()}.json`),
+        JSON.stringify(gm)
+      );
+    }
+  });
 
   if (!separate) {
-    const fullFiles = {}
-
-    files.forEach((file) => {
-      const gm = grayMatter(file.content);
-      const path = gm.data.path;
-      fullFiles[path] = file
-    });
-  
     fs.writeFileSync(
       destPath,
       JSON.stringify(fullFiles)
     );
-  }
-  
+  }  
 }
 
 function getBlogPosts() {
@@ -78,5 +83,5 @@ const posts = getBlogPosts();
 generateBlogPostPreviews(posts);
 generateBlogPostFull(posts);
 
-// const pages = getFiles(destPagesPath);
-// generateFullFiles(pages, destPagesPath);
+const pages = getFiles(sourcePagesPath);
+generateFullFiles(pages, destPagesPath, true);
