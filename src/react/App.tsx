@@ -6,6 +6,7 @@ import MainContentRouter from "./components/shell/mainContentRouter";
 import { Sidebar } from "./components/shell/sidebar";
 import { TerminalWithRouter } from './components/shell/terminal/terminal';
 import { isMobile } from "react-device-detect"
+import { Header } from './components/shell/header';
 
 const App: React.FC = () => {
   
@@ -13,7 +14,7 @@ const App: React.FC = () => {
   const [darkTheme, setDarkTheme] = useState(true);
 
   return (
-      <div className="app">
+      <div className={`app`}>
         <HashRouter>
             <Sidebar
               toggleTerminal={() => setTerminalOpen(!terminalOpen)}
@@ -21,9 +22,7 @@ const App: React.FC = () => {
               darkTheme={darkTheme}
             />
             <div className="app-main">
-              <div className="app-header">
-                <h1>Tanner Barlow</h1>
-              </div>
+              <Header/>
               <MainContentRouter/>
               <TerminalWithRouter 
                 open={terminalOpen}

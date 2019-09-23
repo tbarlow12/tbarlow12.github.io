@@ -2,6 +2,7 @@ import React from "react";
 import Terminal from "react-console-emulator";
 import { RouteComponentProps, withRouter } from "react-router";
 import { StructureService } from "../../../../services/structureService";
+import { icons } from "../../../../scss/icons";
 
 export interface MyTerminalProps extends RouteComponentProps {
   open: boolean;
@@ -61,13 +62,28 @@ export default class MyTerminal extends React.Component<MyTerminalProps, MyTermi
     
     return (
       <div className="app-main-footer">
-        {this.props.open && <Terminal
-          commands={this.commands}
-          welcomeMessage={"Welcome to my website! Run help for available commands"}
-          promptLabel={`user@TBarlow:${this.getPath(location.pathname)}`}
-          promptLabelStyle={{color: "#66CCCC"}}
-          noHistory={true}
-        />}
+        {this.props.open && <div className="app-main-footer-container">
+          <div className="app-main-footer-header">
+            <div className="app-main-footer-header-tabs">
+              <div className="app-main-footer-header-tabs-title">TERMINAL</div>
+            </div>
+            <div className="app-main-footer-header-tools">
+              <div className="app-main-footer-header-tools-trash">
+                <i className={`${icons.trash}`} onClick={this.props.closeTerminal}></i>
+              </div>
+            </div>
+          </div>
+          <Terminal
+            commands={this.commands}
+            welcomeMessage={"Welcome to my website! Run help for available commands"}
+            promptLabel={`user@TBarlow:${this.getPath(location.pathname)}`}
+            promptLabelStyle={{color: "#66CCCC"}}
+            noHistory={true}
+            styles={{
+              maxHeight: "300px",
+            }}
+          />
+        </div>}        
       </div>
     )
   }

@@ -1,6 +1,4 @@
 import React from "react";
-import ReactMarkdown from "react-markdown";
-import { ContentPageProps } from "../../models/generic";
 
 export interface HomePageState {
   pulls: any[];
@@ -20,6 +18,7 @@ export function HomePage() {
 
   return (
     <div className="app-page-home">
+      <p>Welcome to my landing page. Feel free to </p>
       {"content"}
       {/* <ReactMarkdown source={content} /> */}
         

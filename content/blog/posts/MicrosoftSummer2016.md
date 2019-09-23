@@ -1,6 +1,6 @@
 ---
 title: Microsoft - Summer 2016
-date: 2019-9-2
+date: 2016-9-2
 path: microsoft2016
 ---
 

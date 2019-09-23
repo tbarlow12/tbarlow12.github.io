@@ -11,5 +11,6 @@ export const icons = {
   volunteer: "fas fa-hands-helping",
   terminal: "fas fa-terminal",
   sun: "fas fa-sun",
-  moon: "fas fa-moon"
+  moon: "fas fa-moon",
+  trash: "far fa-trash-alt",
 }

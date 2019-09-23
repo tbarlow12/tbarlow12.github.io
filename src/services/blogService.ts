@@ -28,7 +28,11 @@ export class BlogService {
   }
 
   private static getBlogPosts(posts: BlogPostJson[]): BlogPostMetadata[] {
-    return posts.map(this.getBlogPost);
+    return posts
+      .map(this.getBlogPost)
+      .sort((a, b) =>
+        (new Date(a.data.date) < new Date(b.data.date)) ? 1 : -1
+      );
   }
 
   private static getBlogPost(post: BlogPostJson): BlogPostMetadata {
