@@ -30,8 +30,7 @@ function generatePreviewFiles(files, destPath) {
     destPath,
     JSON.stringify(files.map((file) => {
       return {
-        ...file,
-        content: file.content.match(/---.*---/gs)[0]
+        ...new grayMatter(file.content.match(/---.*---/gs)[0])
       }
     }))
   );
@@ -44,10 +43,12 @@ function generateFullFiles(files, destPath, separate = false) {
     const gm = grayMatter(file.content);
     const path = gm.data.path;
     if (!separate) {
-      fullFiles[path] = file
+      fullFiles[path] = gm;
     } else {
+      const name = file.name;
+      const filename = name.substr(0, name.indexOf("."));
       fs.writeFileSync(
-        join(destPath, `${gm.data.title.toLowerCase()}.json`),
+        join(destPath, `${filename}.json`),
         JSON.stringify(gm)
       );
     }

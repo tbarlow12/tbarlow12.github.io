@@ -7,6 +7,10 @@ export function BlogPostPreview(blogPost: BlogPostMetadata) {
 
   return (
     <div className="blog-post-preview">
+      {blogPost.data.thumbnail &&
+      <div className="blog-post-preview-thumbnail">
+        <img src={`/content/images/${blogPost.data.thumbnail}`} alt=""></img>
+      </div>}
       <div className="blog-post-preview-title">
         <NavLink title={blogPost.data.title} to={`/blog/${blogPost.data.path}`} >{blogPost.data.title}</NavLink>
       </div>

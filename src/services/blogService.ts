@@ -1,14 +1,8 @@
 
-import grayMatter from "gray-matter";
-import { BlogPostMetadata } from "../models/blog";
+import postsFull from "../content/blog/posts-full.json";
 import postsPreviews from "../content/blog/posts-preview.json";
-import postsFull from "../content/blog/posts-full.json"
+import { BlogPostMetadata } from "../models/blog";
 const md5 = require("md5.js");
-
-export interface BlogPostJson {
-  name: string;
-  content: string;
-}
 
 export class BlogService {
   
@@ -24,25 +18,13 @@ export class BlogService {
   }
 
   public static getFullPost(blogPostId: string) {
-    return this.getBlogPost((postsFull as { [id: string]: BlogPostJson })[blogPostId]);
+    return (postsFull as { [id: string]: BlogPostMetadata })[blogPostId];
   }
 
-  private static getBlogPosts(posts: BlogPostJson[]): BlogPostMetadata[] {
+  private static getBlogPosts(posts: BlogPostMetadata[]): BlogPostMetadata[] {
     return posts
-      .map(this.getBlogPost)
       .sort((a, b) =>
         (new Date(a.data.date) < new Date(b.data.date)) ? 1 : -1
       );
-  }
-
-  private static getBlogPost(post: BlogPostJson): BlogPostMetadata {
-    const blogPost: BlogPostMetadata = grayMatter(post.content) as any;
-    if (!blogPost.data.preview) {
-      blogPost.data.preview = "No preview";
-    }
-    if (!blogPost.data.path) {
-      blogPost.data.path = BlogService.getBlogPostPath(blogPost);
-    }
-    return blogPost;
   }
 }

@@ -1,1 +1,84 @@
-[{"name":"BucketList.md","content":"---\r\ntitle: My Software Dev Bucket List\r\ndate: 2018-8-31\r\npreview: This is my software dev bucket list\r\npath: bucketlist\r\n---"},{"name":"JoiningMicrosoft.md","content":"---\r\ntitle: Joining Microsoft\r\ndate: 2018-6-1\r\npath: joiningmicrosoft\r\n---"},{"name":"MicrosoftSummer2016.md","content":"---\r\ntitle: Microsoft - Summer 2016\r\ndate: 2016-9-2\r\npath: microsoft2016\r\n---"},{"name":"NBAclustering.md","content":"---\r\ntitle: NBA Position Clustering\r\ndate: 2017-4-8\r\npath: nbaclustering\r\n---"},{"name":"PersonalInformatics.md","content":"---\r\ntitle: Personal Informatics Time Tracking Experiment\r\ndate: 2017-3-6\r\npath: timetracking\r\n---"},{"name":"Pycon2019.md","content":"---\r\ntitle: Top 5 (unordered) Learnings from PyCon 2019\r\ndate: 2019-5-6\r\npath: pycon2019\r\n---"},{"name":"TheDifference.md","content":"---\r\ntitle: The Difference - What Makes an Idea Work\r\ndate: 2018-6-15\r\npath: thedifference\r\n---"},{"name":"Woodenisms.md","content":"---\r\ntitle: Favorite Woodenisms\r\ndate: 2017-10-12\r\npath: woodenisms\r\n---"}]
+[
+  {
+    "content": "",
+    "data": {
+      "title": "My Software Dev Bucket List",
+      "date": "2018-8-31",
+      "preview": "This is my software dev bucket list",
+      "path": "bucketlist"
+    },
+    "isEmpty": false,
+    "excerpt": ""
+  },
+  {
+    "content": "",
+    "data": {
+      "title": "Joining Microsoft",
+      "date": "2018-6-1",
+      "path": "joiningmicrosoft"
+    },
+    "isEmpty": false,
+    "excerpt": ""
+  },
+  {
+    "content": "",
+    "data": {
+      "title": "Microsoft - Summer 2016",
+      "date": "2016-9-2",
+      "path": "microsoft2016"
+    },
+    "isEmpty": false,
+    "excerpt": ""
+  },
+  {
+    "content": "",
+    "data": {
+      "title": "NBA Position Clustering",
+      "date": "2017-4-8",
+      "path": "nbaclustering"
+    },
+    "isEmpty": false,
+    "excerpt": ""
+  },
+  {
+    "content": "",
+    "data": {
+      "title": "Personal Informatics Time Tracking Experiment",
+      "date": "2017-3-6",
+      "path": "timetracking"
+    },
+    "isEmpty": false,
+    "excerpt": ""
+  },
+  {
+    "content": "",
+    "data": {
+      "title": "Top 5 (unordered) Learnings from PyCon 2019",
+      "date": "2019-5-6",
+      "path": "pycon2019",
+      "thumbnail": "pycon2019.jpg"
+    },
+    "isEmpty": false,
+    "excerpt": ""
+  },
+  {
+    "content": "",
+    "data": {
+      "title": "The Difference - What Makes an Idea Work",
+      "date": "2018-6-15",
+      "path": "thedifference"
+    },
+    "isEmpty": false,
+    "excerpt": ""
+  },
+  {
+    "content": "",
+    "data": {
+      "title": "Favorite Woodenisms",
+      "date": "2017-10-12T00:00:00.000Z",
+      "path": "woodenisms"
+    },
+    "isEmpty": false,
+    "excerpt": ""
+  }
+]

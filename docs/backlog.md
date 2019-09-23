@@ -1,0 +1,23 @@
+- [ ] Contact command
+  - [ ] Email
+  - [ ] LinkedIn
+  - [ ] GitHub
+- [ ] Cat command
+  - [ ] Local files
+  - [ ] Markdown
+- [ ] Resume command
+  - [ ] Download
+  - [ ] Navigate
+  - [ ] Read
+- [ ] Content
+  - [ ] Interests
+  - [ ] Projects
+- [ ] Blog Previews
+  - [ ] Thumbnails
+  - [ ] Syle
+- [ ] Blog post
+  - [ ] Hero image
+  - [ ] parallax scrolling
+- [ ] Style
+  - [ ] Image size in markdown
+  - [ ] Image in header
