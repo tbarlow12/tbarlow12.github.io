@@ -50,12 +50,16 @@ export function Sidebar(props: SidebarProps) {
       path: "/resume",
       icon: icons.resume,
     },
-    
     {
       name: "Interests",
       path: "/interests",
       icon: icons.basketball,
     },
+    {
+      name: "Favorite Books",
+      path: "/books",
+      icon: icons.book,
+    }
   ]
 
   const externalLinks: SidebarExternalLink[] = [

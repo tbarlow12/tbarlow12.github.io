@@ -13,4 +13,5 @@ export const icons = {
   sun: "fas fa-sun",
   moon: "fas fa-moon",
   trash: "far fa-trash-alt",
+  book: "fas fa-book",
 }
