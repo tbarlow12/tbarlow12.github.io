@@ -1,14 +1,17 @@
-- [ ] Contact command
-  - [ ] Email
-  - [ ] LinkedIn
-  - [ ] GitHub
-- [ ] Cat command
-  - [ ] Local files
-  - [ ] Markdown
-- [ ] Resume command
-  - [ ] Download
-  - [ ] Navigate
-  - [ ] Read
+- [ ] Terminal Updates
+  - [ ] Contact command
+    - [ ] Email
+    - [ ] LinkedIn
+    - [ ] GitHub
+  - [ ] Cat command
+    - [ ] Local files
+    - [ ] Markdown
+  - [ ] Resume command
+    - [ ] Download
+    - [ ] Navigate
+    - [ ] Read
+  - [ ] Auto-complete in terminal
+  - [ ] Terminal scrolling in place
 - [ ] Content
   - [ ] Interests
   - [ ] Projects
