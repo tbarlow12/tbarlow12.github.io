@@ -1,11 +1,13 @@
 import React from "react";
 import interestsPage from "../../content/pages/about.json";
-import ReactMarkdown from "react-markdown";
+import { Markdown } from "../components/markdown";
 
 export function AboutPage() {
   return (
     <div className="app-page-about">
-      <ReactMarkdown source={interestsPage.content} />
+      <Markdown 
+        content={interestsPage.content} 
+      />
     </div>
   )
 }

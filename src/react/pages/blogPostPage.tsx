@@ -1,7 +1,7 @@
 import React from "react";
-import ReactMarkdown from "react-markdown";
-import { BlogService } from "../../services/blogService";
 import { PageProps } from "../../models/generic";
+import { BlogService } from "../../services/blogService";
+import { Markdown } from "../components/markdown";
 
 export function BlogPostPage(pageProps: PageProps) {
   const match = pageProps.location.pathname.match(/blog\/(.*)/);
@@ -18,7 +18,9 @@ export function BlogPostPage(pageProps: PageProps) {
       <div>{new Date(blogPost.data.date).toDateString()}</div>
       <div>{blogPost.data.preview}</div>
       <div className="blog-post-preview-content">
-        <ReactMarkdown source={blogPost.content}/>
+        <Markdown 
+          content={blogPost.content}
+        />
       </div>
     </div>
   )

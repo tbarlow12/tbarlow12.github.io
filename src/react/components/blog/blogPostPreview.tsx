@@ -1,7 +1,7 @@
 import React from "react";
-import ReactMarkdown from "react-markdown";
-import { BlogPostMetadata } from "../../../models/blog";
 import { NavLink } from "react-router-dom";
+import { BlogPostMetadata } from "../../../models/blog";
+import { Markdown } from "../markdown";
 
 export function BlogPostPreview(blogPost: BlogPostMetadata) {
 
@@ -17,7 +17,9 @@ export function BlogPostPreview(blogPost: BlogPostMetadata) {
       <div>{new Date(blogPost.data.date).toDateString()}</div>
       <div>{blogPost.data.preview}</div>
       <div className="blog-post-preview-content">
-        <ReactMarkdown source={blogPost.content}/>
+        <Markdown 
+          content={blogPost.content}
+        />
       </div>
     </div>
   )

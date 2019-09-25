@@ -29,7 +29,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "blog": "node ./scripts/generateMarkdownJson.js",
+    "markdown": "node ./scripts/generateMarkdownJson.js",
     "deploy": "node ./scripts/publish.js"
   },
   "eslintConfig": {

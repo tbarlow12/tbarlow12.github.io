@@ -1,26 +1,37 @@
-- [ ] Terminal Updates
-  - [ ] Contact command
-    - [ ] Email
-    - [ ] LinkedIn
-    - [ ] GitHub
-  - [ ] Cat command
-    - [ ] Local files
-    - [ ] Markdown
-  - [ ] Resume command
-    - [ ] Download
-    - [ ] Navigate
-    - [ ] Read
-  - [ ] Auto-complete in terminal
-  - [ ] Terminal scrolling in place
+- [ ] Terminal scrolling in place
 - [ ] Content
   - [ ] Interests
   - [ ] Projects
+    - [x] Open source projects
+    - [ ] Personal projects
+  - [x] Resume
+- [ ] Style
+  - [ ] Image size in markdown
+  - [ ] Image in header
+  - [ ] Font style and size
+  - [x] Name of app not "React App"
+  - [x] Use icon instead of react icon
+- [ ] Quality
+  - [ ] Look through every page and make sure there's no weirdness
+
+--------------RELEASE--------------
+
 - [ ] Blog Previews
   - [ ] Thumbnails
   - [ ] Syle
 - [ ] Blog post
   - [ ] Hero image
   - [ ] parallax scrolling
-- [ ] Style
-  - [ ] Image size in markdown
-  - [ ] Image in header
+- [ ] Terminal Updates
+  - [ ] Cat command
+    - [ ] Local files
+    - [ ] Markdown  
+  - [ ] Auto-complete in terminal
+  - [ ] Resume command
+    - [ ] Download
+    - [ ] Navigate
+    - [ ] Read
+  - [ ] Contact command
+    - [ ] Email
+    - [ ] LinkedIn
+    - [ ] GitHub

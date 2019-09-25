@@ -22,8 +22,8 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: npm install
       run: npm install
-    - name: generate blog content
-      run: npm run blog
+    - name: generate markdown content
+      run: npm run markdown
     - name: deploy site
       run: npm run deploy
       env:
