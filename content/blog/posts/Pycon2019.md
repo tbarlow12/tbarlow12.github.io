@@ -2,7 +2,6 @@
 title: Top 5 (unordered) Learnings from PyCon 2019
 date: 2019-5-6
 path: pycon2019
-thumbnail: pycon2019.jpg
 ---
 
 This is a summary of 5 of my favorite talks from PyCon 2019. I learned a ton throughout the conference and felt that the learnings needed to be shared. I've tried to summarize as best as I could from the notes that I took. I believe the talks will be available online soon if they are not already. Big thanks to the speakers for all the effort they put in to make their talks so practical and engaging.
@@ -15,7 +14,7 @@ This is a summary of 5 of my favorite talks from PyCon 2019. I learned a ton thr
 
 ## Break the cycle: three excellent python tools to automate repetitive tasks - Thea Flowers
 
-#### 1. `tox`
+### 1. `tox`
     
 One of the most common tools used in Python applications. Used to run tests in multiple environments and even multiple versions of frameworks. For example if you want your app to support multiple versions of Python and multiple versions of Flask, your `.ini` file could look something like (example taken from the `flask-restful` repo):
     
@@ -40,7 +39,7 @@ deps =
 
 When the command `tox` is executed, this would run the test suite **15 times** (cross product of Python environments and Flask versions - `5 x 3 = 15`). As part of that process, it would install the necessary dependencies in virtual environments (according to each version) and run the tests. Pretty cool.
 
-#### 2. `nox`
+### 2. `nox`
     
 Pretty cool to listen to a talk from the original `nox` author. `nox` is very similar to `tox`, but rather than using the `.ini` file, its configuration is done in Python itself. The `nox` equivalent to the `tox.ini` file above would be something like:
 
@@ -62,7 +61,7 @@ def tests(session, flask):
 
 Also a really cool option, which is helpful if you need something slightly more flexible than `nox` or if you'd rather write config-as-code.
 
-#### 3. `invoke`
+### 3. `invoke`
 
 Invoke is seen as a more flexible automation tool. For example (straight from `invoke`'s docs):
 
@@ -174,19 +173,19 @@ to see what I mean.)
 
 These sayings are usually applied directly to the code that we write, but Adrienne Lowe discussed how we can take some of these principles and apply them directly to how we work within our teams. Here are a few that she discussed:
 
-#### "Beautiful is better than ugly"
+### "Beautiful is better than ugly"
 
 We can avoid "acting ugly" with our teammates. "Acting ugly" can come in the form of bitter, cutting code reviews, hoarding information and refusing to collaborate with others.
 
 She referenced Westrum's ["A typology of organisational cultures"](https://qualitysafety.bmj.com/content/13/suppl_2/ii22), which discusses three different types of cultures in a team:
 
-###### 1. Pathological
+#### 1. Pathological
 - Information is a **personal** resource (not to be shared)
 - Cooperation is discouraged
 - Failure leads to scapegoating
 - Accidents lead to blaming
 
-###### 2. Bureaucratic
+#### 2. Bureaucratic
 - Responsibilities are narrow
 - Alignment of team takes precedent over mission
 - Failure leads to seeking justice
@@ -201,14 +200,14 @@ This one reminded me immediately of the old cartoon depicting Microsoft's organi
 
 Thankfully, I can say that in my ~2 years working for Microsoft, I have yet to experience that kind of culture. Things have changed :)
 
-###### 3. Generative (the goal)
+#### 3. Generative (the goal)
 - High cooperation
 - Risks are shared
 - Failure leads to inquiry
 - Information flows freely
 - How can we accomplish our goal ("we" is expansive and inclusive of all)
 
-#### "Explicit is better than implicit"
+### "Explicit is better than implicit"
 - We should *always* have playbooks, documents, resources, onboarding guides and steps to take when confused
 - Having these in place and other process documentation makes it easier to include others and speeds up the work
 - It is better to keep conversations about code in **main channels** of Slack or whatever messaging service you use as opposed to DMs or other private places. Helps everyone benefit from the knowledge being shared
@@ -222,14 +221,14 @@ Thankfully, I can say that in my ~2 years working for Microsoft, I have yet to e
     - Ask me for help with...
 - Helps with process of working within teams an can be extremely valuable
 
-#### "Simple is better than complex"
+### "Simple is better than complex"
 - We build meaningful relationships with small interactions that increase understanding and trust
 - Take time to have coffee with colleagues, catch up on weekend, etc.
 - **Remote teams** -> Remote Happy Hours - just jump on a video call to chat about lives
 - Build trust and familiarity with colleagues
 - Like software, we build relationships with small but meaningful actions
 
-#### "Errors should never pass silently"
+### "Errors should never pass silently"
 - If something is wrong with my code, I want to know
 - If I do something to hurt someone, I want to know
 - We rely on other humans to know that we hurt them
@@ -237,7 +236,7 @@ Thankfully, I can say that in my ~2 years working for Microsoft, I have yet to e
 - On healthy teams, people should understand what things they need to do to improve
 - Be careful about how you respond about mistakes. We all need to be open about mistakes and willing to "share our trash" to the point that we're not self-conscious about getting feedback from others.
 
-#### "In the face of ambiguity, refuse the temptation to guess"
+### "In the face of ambiguity, refuse the temptation to guess"
 - Don't `git blame` and stew about it
 - Assume the best and don't guess at motives.
 - Ask where they're coming from and try to understand why they did what they did
@@ -247,7 +246,7 @@ Thankfully, I can say that in my ~2 years working for Microsoft, I have yet to e
 - Don't explain away code... or people
 - Especially for managers. Don't guess about how your direct reports are doing. You should know.
 
-#### "Now is better than never"
+### "Now is better than never"
 - Take **some** action to move closer to our goal
 - "Doing and being wrong is a lot better than not doing at all"
 - Everyone benefits from being reminded that they can start where they are

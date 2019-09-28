@@ -4,8 +4,9 @@ import { BlogPage } from "../../pages/blogPage"
 import { HomePage } from "../../pages/homePage";
 import { BlogPostPage } from "../../pages/blogPostPage";
 import { ProjectsPage } from "../../pages/projectsPage";
-import { AboutPage } from "../../pages/aboutPage";
+import { InterestsPage } from "../../pages/interestsPage";
 import { ResumePage } from "../../pages/resumePage";
+import { BooksPage } from "../../pages/booksPage";
 
 export default function MainContentRouter() {
   return (
@@ -15,7 +16,8 @@ export default function MainContentRouter() {
         <Route path="/blog" exact component={BlogPage} />
         <Route path="/blog/:blogPost" component={BlogPostPage} />
         <Route path="/projects" exact component={ProjectsPage} />
-        <Route path="/about" exact component={AboutPage} />
+        <Route path="/about" exact component={InterestsPage} />
+        <Route path="/books" exact component={BooksPage} />
         <Route path="/resume" exact component={ResumePage} />
         <Route component={HomePage} />
       </Switch>

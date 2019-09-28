@@ -1,7 +1,29 @@
+$main-font: 'Inconsolata';
+$code-font: 'Inconsolata';
+
+$google-font: '//fonts.googleapis.com/css?family=';
+
+@import url($google-font + $main-font);
+@import url($google-font + $code-font);
+
 $color-yellow: #ffbb00;
 $color-green: #7cbb00;
 $color-blue: #00a1f1;
 $color-red: #f65314;
+
+$color-class: #4EC9B0;
+$color-import: #b669a3;
+$color-function: #edeb85;
+$color-type: #569CD6;
+$color-string: #ce9178;
+$color-comment: #6A9955;
+
+$color-lib: #B5CEA8;
+$color-js: #687687;
+$color-invalid: #ff3333;
+$color-embed-src: #282828;
+$color-markup-xmo: #68685B;
+$color-doc: #808080;
 
 $lighter-1: rgba(255,255,255,0.05);
 $lighter-2: rgba(255,255,255,0.10);

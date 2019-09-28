@@ -1,12 +1,12 @@
 import React from "react";
-import interestsPage from "../../content/pages/about.json";
+import booksPage from "../../content/pages/books.json";
 import { Markdown } from "../components/markdown";
 
-export function AboutPage() {
+export function BooksPage() {
   return (
     <div className="app-page-about">
       <Markdown 
-        content={interestsPage.content} 
+        content={booksPage.content} 
       />
     </div>
   )

@@ -1,7 +1,6 @@
 ---
 title: My Software Dev Bucket List
 date: 2018-8-31
-preview: This is my software dev bucket list
 path: bucketlist
 ---
 

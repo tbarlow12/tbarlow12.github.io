@@ -9,7 +9,7 @@ export function Header() {
         </a>
       </div> */}
       <div className="app-main-header-title">
-        <h1>tanner barlow</h1>
+        <h1>Tanner Barlow</h1>
       </div>
       <div className="app-main-header-subtitle"></div>
     </div>

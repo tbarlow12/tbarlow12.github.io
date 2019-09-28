@@ -51,8 +51,8 @@ export function Sidebar(props: SidebarProps) {
       icon: icons.resume,
     },
     {
-      name: "Interests",
-      path: "/interests",
+      name: "About",
+      path: "/about",
       icon: icons.basketball,
     },
     {
@@ -83,19 +83,19 @@ export function Sidebar(props: SidebarProps) {
     }
   ]
 
-  if (props.darkTheme) {
-    tools.push({
-      name: "Light Theme",
-      icon: icons.sun,
-      action: props.toggleTheme
-    })
-  } else {
-    tools.push({
-      name: "Dark Theme",
-      icon: icons.moon,
-      action: props.toggleTheme
-    })
-  }
+  // if (props.darkTheme) {
+  //   tools.push({
+  //     name: "Light Theme",
+  //     icon: icons.sun,
+  //     action: props.toggleTheme
+  //   })
+  // } else {
+  //   tools.push({
+  //     name: "Dark Theme",
+  //     icon: icons.moon,
+  //     action: props.toggleTheme
+  //   })
+  // }
 
   return (
     <ul className="app-sidebar">

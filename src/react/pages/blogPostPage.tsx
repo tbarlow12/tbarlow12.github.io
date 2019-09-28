@@ -13,11 +13,21 @@ export function BlogPostPage(pageProps: PageProps) {
   }
   const blogPost = BlogService.getFullPost(blogPostId);
   return (
-    <div className="blog-post-preview">
-      <div className="blog-post-preview-title">{blogPost.data.title}</div>
-      <div>{new Date(blogPost.data.date).toDateString()}</div>
+    <div className="blog-post-page">
+      <div className="blog-post-page-title">
+        <h1>{blogPost.data.title}</h1>
+      </div>
+      <div className="blog-post-page-date">
+        <h4>{new Date(blogPost.data.date).toDateString()}</h4>
+      </div>
+      {
+        blogPost.data.preview &&
+        <div className="blog-post-page-preview">
+          {blogPost.data.preview}
+        </div>
+      }
       <div>{blogPost.data.preview}</div>
-      <div className="blog-post-preview-content">
+      <div className="blog-post-page-content">
         <Markdown 
           content={blogPost.content}
         />
