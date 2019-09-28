@@ -1,0 +1,162 @@
+@import './theme.scss';
+
+html, body, #root, .app {
+  height: 100%;
+  width: 100%;
+}
+
+a {
+  color: $color-string;
+}
+
+h1 {
+  color: $color-class;
+}
+
+h2 {
+  color: $color-type;
+}
+
+h3 {
+  color: $color-import;
+}
+
+h4 {
+  color: $color-function;
+}
+
+h5 {
+  color: $color-class;
+}
+
+h6 {
+  color: $color-type;
+}
+
+.light.app {
+  &-sidebar {
+    background-color: white;
+  }
+}
+
+.app {
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+
+  &-sidebar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  
+    background-color: $darker-16;
+  
+    &-item {
+      font-size: 30px;
+      min-width: 5%;
+      padding: 10px;
+      display: block;
+      text-align: center;
+
+      &-icon {
+        color: $lighter-14;
+        &:hover {
+          color: $lighter-18;
+        }
+      }
+    }
+
+    &-tools {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column-reverse;     
+    }
+  }
+
+  &-main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 95%;
+    
+    &-header {
+      flex: 0 0 auto;
+      background-color: $darker-16;
+      color: $lighter-16;
+      &-title {
+        h1 {
+          padding: 0 0 0 10px;
+          font-family: $main-font;
+          color: $lighter-16;
+        }
+      }
+    }
+  
+    &-content {
+      flex: 1 1 auto;
+      position: relative;
+      overflow-y: auto;
+      overflow-x: hidden;
+      padding: 0 15px 40px 15px;
+      background-color: $darker-17-5;
+      font-family: $main-font;
+      font-size: 20px;
+      font-weight: bolder;
+      line-height: 1.6;
+      color: white;
+      flex-wrap: wrap;
+
+      pre {
+        font-family: $code-font;
+        color: $color-function;
+        background-color: $darker-10;
+      }
+    }
+    
+    &-footer {
+      flex: 0 0 auto;
+      min-width: 100%;
+      background-color: $darker-17;
+      border-top: 1px solid $lighter-3;
+
+      &-header {
+        color: $lighter-12;
+        background-color: $darker-2;
+        display: flex;
+        flex-direction: row;
+        // top right bottom left
+        padding: 8px 8px 0 1em;
+
+        &-tabs {
+          font-size: 15px;
+          border-bottom: 1px solid $lighter-3;
+          color: $lighter-19;
+        }
+
+        &-tools {
+          flex-grow: 1;
+          display: flex;
+          flex-direction: row-reverse;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+.blog {
+  &-page {
+    &-preview {
+      padding: 5px 0;
+    }
+  }
+  &-post {
+    &-preview {
+      border: 2px solid white;
+      border-radius: 5px;
+      padding: 10px;
+    }
+  }
+}
