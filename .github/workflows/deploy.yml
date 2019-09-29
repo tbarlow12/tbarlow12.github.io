@@ -22,9 +22,12 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - name: npm install
       run: npm install
-    - name: generate markdown content
-      run: npm run markdown
-    - name: deploy site
-      run: npm run deploy
-      env:
-        GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_ACCESS_TOKEN }} 
+    - name: npm run build
+      run: npm run build
+    - name: push
+      uses: github-actions-x/commit@v2.1
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        push-branch: master
+        commit-message: Auto-generated commit after build
+        rebase: 'true'
