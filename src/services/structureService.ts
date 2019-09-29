@@ -77,8 +77,8 @@ export class StructureService {
       parent: structure
     }
 
-    const aboutStructure: Structure =  {
-      route: "/about",
+    const interestsStructure: Structure =  {
+      route: "/interests",
       children: {},
       parent: structure
     }
@@ -89,9 +89,16 @@ export class StructureService {
       parent: structure
     }
 
-    structure.children["projects"] = projectsStructure;
-    structure.children.about = aboutStructure;
-    structure.children["resume"] = resumeStructure;
+    const booksStructure: Structure = {
+      route: "/books",
+      children: {},
+      parent: structure
+    }
+
+    structure.children.projects = projectsStructure;
+    structure.children.interests = interestsStructure;
+    structure.children.resume = resumeStructure;
+    structure.children.books = booksStructure;
 
     const blogStructure: Structure = {
       route: "/blog",

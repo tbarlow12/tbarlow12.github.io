@@ -22,7 +22,7 @@ title: Resume
 
 ## Additional Projects
 
-### [VSCode-Themed Personal Site](https://github.com/tbarlow12/personal-website-beta)
+### [VSCode-Themed Personal Site](https://github.com/tbarlow12/tbarlow12.github.io)
 - Re-wrote personal website to look very similar to VSCode, including a working integrated terminal with implementations of many common bash commands (TypeScript, React)
 
 ### [TaskBoardAssistant](https://github.com/tbarlow12/task-board-assistant)

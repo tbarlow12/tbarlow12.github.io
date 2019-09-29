@@ -1,8 +1,38 @@
 {
   "name": "tbarlow12-personal-website",
   "version": "0.1.0",
-  "homepage": "http://tbarlow12.github.io/personal-website-beta",
+  "homepage": "https://tbarlow12.github.io/",
   "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "prebuild": "npm run markdown",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "markdown": "node ./scripts/generateMarkdownJson.js"
+  },
+  "eslintConfig": {
+    "parser": "@typescript-eslint/parser",
+    "plugins": [
+      "react",
+      "@typescript-eslint"
+    ],
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.11.1",
     "@types/jest": "24.0.18",
@@ -20,35 +50,14 @@
     "react-dom": "^16.9.0",
     "react-markdown": "^4.2.2",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.1.1",
+    "react-scripts": "3.1.2",
     "typescript": "3.6.2"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "prebuild": "npm run markdown",
-    "build": "react-scripts build",
-    "postbuild": "sh ./scripts/postbuild.sh",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "markdown": "node ./scripts/generateMarkdownJson.js"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
   },
   "devDependencies": {
     "@types/react-router-dom": "^4.3.5",
+    "@typescript-eslint/eslint-plugin": "^2.3.1",
+    "@typescript-eslint/parser": "^2.3.1",
+    "@typescript-eslint/typescript-estree": "^2.3.1",
     "eslint-plugin-react-hooks": "^2.0.1",
     "gh-pages": "^2.1.1"
   }
