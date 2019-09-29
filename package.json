@@ -25,13 +25,13 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "prebuild": "npm run markdown",
     "build": "react-scripts build",
-    "postbuild": "sh ./scripts/postbuild.sh",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "markdown": "node ./scripts/generateMarkdownJson.js",
-    "deploy": "node ./scripts/publish.js"
+    "deploy": "sh ./scripts/deploy.sh"
   },
   "eslintConfig": {
     "extends": "react-app"
