@@ -1,33 +1,30 @@
-# name: Deploy Website
+name: Deploy Website
 
-# on:
-#   push:
-#     branches:
-#     - master
+on:
+  push:
+    branches:
+    - dev
 
-# jobs:
-#   build:
+jobs:
+  build:
 
-#     runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
-#     strategy:
-#       matrix:
-#         node-version: [10.x]
+    strategy:
+      matrix:
+        node-version: [10.x]
 
-#     steps:
-#     - uses: actions/checkout@v1
-#     - name: Use Node.js ${{ matrix.node-version }}
-#       uses: actions/setup-node@v1
-#       with:
-#         node-version: ${{ matrix.node-version }}
-#     - name: npm install
-#       run: npm install
-#     - name: npm run build
-#       run: npm run build
-#     - name: push
-#       uses: github-actions-x/commit@v2.1
-#       with:
-#         github-token: ${{ secrets.GITHUB_TOKEN }}
-#         push-branch: master
-#         commit-message: Auto-generated commit after build
-#         rebase: 'true'
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: install
+      run: npm install
+    - name: build
+      run: npm run build
+    - name: publish
+      run: npm run publish
+      env:
+        GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_ACCESS_TOKEN }} 
