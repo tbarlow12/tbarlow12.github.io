@@ -32,7 +32,7 @@ export class Manifest {
   }
 
   public getExact(): boolean {
-    return this.options.nonExact;
+    return !this.options.nonExact;
   }
 
   public getComponent() {
