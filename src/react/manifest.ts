@@ -4,10 +4,10 @@ export interface ManifestOptions {
   title: string;
   name: string;
   path: string;
+  icon: string;
   nonExact?: boolean;
-  component?: () => any;
+  component?: (...args: any[]) => any;
   children?: ManifestOptions[];
-  icon?: string;
 }
 
 export class Manifest {
@@ -17,6 +17,14 @@ export class Manifest {
     if (!options.component) {
       this.options.component = DefaultPage(options.name);
     }
+    this.children = [];
+    if (options.children) {
+      this.addChildren(options.children);
+    }
+  }
+
+  public getOptions(): ManifestOptions {
+    return this.options;
   }
 
   public getPath(): string {
@@ -35,7 +43,11 @@ export class Manifest {
     return this.parent;
   }
 
-  public addChildren(childOptions: ManifestOptions[]) {
+  public getChildren(): Manifest[] {
+    return this.children;
+  }
+
+  private addChildren(childOptions: ManifestOptions[]) {
     for (const child of childOptions) {
       this.children.push(new Manifest(child, this))
     }
