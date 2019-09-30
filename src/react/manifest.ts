@@ -6,7 +6,7 @@ export interface ManifestOptions {
   path: string;
   nonExact?: boolean;
   component?: () => any;
-  childPaths?: string[];
+  children?: ManifestOptions[];
   icon?: string;
 }
 
@@ -29,6 +29,10 @@ export class Manifest {
 
   public getComponent() {
     return this.options.component;
+  }
+
+  public getParent(): Manifest {
+    return this.parent;
   }
 
   public addChildren(childOptions: ManifestOptions[]) {
