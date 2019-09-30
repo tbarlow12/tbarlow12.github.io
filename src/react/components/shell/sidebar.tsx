@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { icons } from "../../../scss/icons";
-import { manifest } from "../../appRegistry";
+import { appManifest } from "../../createManifest";
 
 
 export interface SidebarProps {
@@ -31,8 +31,8 @@ export interface SidebarTool extends SidebarItem {
 export function Sidebar(props: SidebarProps) {
 
   const navLinks: SidebarNavLink[] = [
-    manifest.getOptions(),
-    ...manifest.getChildren().map((child) => child.getOptions())
+    appManifest.getOptions(),
+    ...appManifest.getChildren().map((child) => child.getOptions())
   ]
 
   const externalLinks: SidebarExternalLink[] = [

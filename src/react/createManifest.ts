@@ -3,9 +3,9 @@ import { icons } from "../scss/icons"
 import { BlogPage } from "./pages/blogPage"
 import { BlogPostPage } from "./pages/blogPostPage";
 
-export const manifest = registerPages();
+export const appManifest = createManifest();
 
-function registerPages(): Manifest {
+function createManifest(): Manifest {
   const manifest = new Manifest({
     title: "About Me",
     name: "home",
@@ -19,14 +19,14 @@ function registerPages(): Manifest {
         icon: icons.blog,
         component: BlogPage,
         children: [
-          {
-            title: "Blog Post",
-            name: "blogPost",
-            path: "/blog/:blogPost",
-            nonExact: true,
-            component: BlogPostPage,
-            icon: icons.none
-          }
+
+          // {
+          //   title: "Blog Post",
+          //   name: "blogPost",
+          //   path: "/blog/:blogPost",
+          //   component: BlogPostPage,
+          //   icon: icons.none
+          // }
         ]
       },
       {

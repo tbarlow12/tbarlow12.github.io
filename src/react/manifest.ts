@@ -1,10 +1,13 @@
-import { DefaultPage } from "./pages/defaultPage";
+import { DefaultPage, PageType } from "./pages/defaultPage";
 
 export interface ManifestOptions {
   title: string;
   name: string;
   path: string;
   icon: string;
+  pageType?: PageType;
+  beforeContent?: any;
+  afterContent?: any;
   nonExact?: boolean;
   component?: (...args: any[]) => any;
   children?: ManifestOptions[];
@@ -15,7 +18,12 @@ export class Manifest {
 
   public constructor (private options: ManifestOptions, private parent?: Manifest) {
     if (!options.component) {
-      this.options.component = DefaultPage(options.name);
+      this.options.component = DefaultPage(
+        options.pageType || PageType.PAGE,
+        options.name,
+        options.beforeContent,
+        options.afterContent  
+      );
     }
     this.children = [];
     if (options.children) {
