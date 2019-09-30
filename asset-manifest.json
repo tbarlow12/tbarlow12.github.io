@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.36a93e7e.chunk.css",
+    "main.css": "/static/css/main.faafce2a.chunk.css",
     "main.js": "/static/js/main.7768cf6b.chunk.js",
     "main.js.map": "/static/js/main.7768cf6b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.39365758.js",
@@ -9,10 +9,10 @@
     "static/js/2.1a46bfbf.chunk.js": "/static/js/2.1a46bfbf.chunk.js",
     "static/js/2.1a46bfbf.chunk.js.map": "/static/js/2.1a46bfbf.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.255fa33192afd2d9302315297516430d.js": "/precache-manifest.255fa33192afd2d9302315297516430d.js",
+    "precache-manifest.7d4d9a851bdc55874ffa62e9b13ee238.js": "/precache-manifest.7d4d9a851bdc55874ffa62e9b13ee238.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.e515a07b.chunk.css.map": "/static/css/2.e515a07b.chunk.css.map",
-    "static/css/main.36a93e7e.chunk.css.map": "/static/css/main.36a93e7e.chunk.css.map",
+    "static/css/main.faafce2a.chunk.css.map": "/static/css/main.faafce2a.chunk.css.map",
     "static/media/all.css": "/static/media/fa-solid-900.c2801fb4.svg"
   }
 }
