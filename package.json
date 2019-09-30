@@ -5,9 +5,9 @@
   "private": true,
   "scripts": {
     "start": "react-scripts start",
-    "prebuild": "npm run markdown",
+    "prebuild": "sh ./scripts/preBuild.sh",
     "build": "react-scripts build",
-    "postbuild": "sh ./scripts/moveBuild.sh",
+    "postbuild": "sh ./scripts/postBuild.sh",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "markdown": "node ./scripts/generateMarkdownJson.js"
