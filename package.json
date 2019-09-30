@@ -7,7 +7,7 @@
     "start": "react-scripts start",
     "prebuild": "npm run markdown",
     "build": "react-scripts build",
-    "postbuild": "sh ./scripts/moveBuild.sh",
+    "move": "sh ./scripts/moveBuild.sh",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "markdown": "node ./scripts/generateMarkdownJson.js"

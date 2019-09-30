@@ -1,18 +1,18 @@
 - [ ] Terminal scrolling in place
 - [ ] Content
-  - [ ] Interests
-  - [ ] Projects
+  - [x] Interests
+  - [x] Projects
     - [x] Open source projects
     - [ ] Personal projects
   - [x] Resume
 - [ ] Style
   - [ ] Image size in markdown
   - [ ] Image in header
-  - [ ] Font style and size
+  - [x] Font style and size
   - [x] Name of app not "React App"
   - [x] Use icon instead of react icon
-- [ ] Quality
-  - [ ] Look through every page and make sure there's no weirdness
+- [x] Quality
+  - [x] Look through every page and make sure there's no weirdness
 
 --------------RELEASE--------------
 
