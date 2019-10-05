@@ -4,7 +4,9 @@
   "homepage": "https://tbarlow12.github.io/",
   "private": true,
   "scripts": {
+    "prestart": "npm run markdown",
     "start": "react-scripts start",
+    "prebuild": "npm run markdown",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",

@@ -103,14 +103,18 @@ h6 {
       background-color: $darker-17-5;
       font-family: $main-font;
       font-size: 20px;
-      font-weight: bolder;
+      font-weight: inherit;
       line-height: 1.6;
       color: white;
       flex-wrap: wrap;
 
-      pre {
+      pre, code {
         font-family: $code-font;
         color: $color-function;
+        font-weight: bolder;
+      }
+
+      pre {
         background-color: $darker-10;
       }
     }
