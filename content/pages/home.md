@@ -1,6 +1,5 @@
 ---
-title: Home
-path: ""
+title: About Me
 ---
 
 # About Me

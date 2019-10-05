@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { icons } from "../../../scss/icons";
+import { appManifest } from "../../createManifest";
 
 
 export interface SidebarProps {
@@ -10,7 +11,7 @@ export interface SidebarProps {
 }
 
 export interface SidebarItem {
-  name: string;
+  title: string;
   icon: string;
 }
 
@@ -30,46 +31,18 @@ export interface SidebarTool extends SidebarItem {
 export function Sidebar(props: SidebarProps) {
 
   const navLinks: SidebarNavLink[] = [
-    {
-      name: "Home",
-      path: "/",
-      icon: icons.home
-    },
-    {
-      name: "Home",
-      path: "/blog",
-      icon: icons.blog
-    },
-    {
-      name: "Projects",
-      path: "/projects",
-      icon: icons.code
-    },
-    {
-      name: "Resume",
-      path: "/resume",
-      icon: icons.resume,
-    },
-    {
-      name: "About",
-      path: "/about",
-      icon: icons.basketball,
-    },
-    {
-      name: "Favorite Books",
-      path: "/books",
-      icon: icons.book,
-    }
+    appManifest.getOptions(),
+    ...appManifest.getChildren().map((child) => child.getOptions())
   ]
 
   const externalLinks: SidebarExternalLink[] = [
     {
-      name: "GitHub",
+      title: "GitHub",
       link: "https://github.com/tbarlow12",
       icon: icons.github
     },
     {
-      name: "LinkedIn",
+      title: "LinkedIn",
       link: "https://www.linkedin.com/in/tannerbarlow/",
       icon: icons.linkedin
     },
@@ -77,7 +50,7 @@ export function Sidebar(props: SidebarProps) {
 
   const tools: SidebarTool[] = [
     {
-      name: "Terminal",
+      title: "Terminal",
       icon: icons.terminal,
       action: props.toggleTerminal
     }
