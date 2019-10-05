@@ -35,7 +35,16 @@ export class Manifest {
     return this.options;
   }
 
-  public getPath(): string {
+  public getName(): string {
+    return this.options.name;
+  }
+
+  public getPath(exact: boolean = false): string {
+    if (exact && this.options.nonExact) {
+      debugger;
+      const { path, name } = this.options;
+      return path.substr(0, path.indexOf(":")) + name
+    }
     return this.options.path;
   }
 

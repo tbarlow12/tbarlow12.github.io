@@ -2,31 +2,32 @@ import React from "react";
 import { Route, Switch } from "react-router-dom";
 import { appManifest } from "../../createManifest";
 import { Manifest } from "../../manifest";
-import { HomePage } from "../../pages/homePage";
+import { DefaultPage, PageType } from "../../pages/defaultPage";
 
 export default function MainContentRouter() {
   return (
     <div className="app-main-content">
       <Switch>
-        {getRoutes(appManifest, [])}
-        <Route component={HomePage} />
+        {getRoutes(appManifest, [], new Set())}
+        <Route component={DefaultPage(PageType.PAGE, "home")} />
       </Switch>
     </div>
   )
 }
 
-function getRoutes(manifest: Manifest, routes: any[]) {
-  if (manifest.getExact()) {
-    routes.push(
-      <Route path={manifest.getPath()} exact component={manifest.getComponent()} />
-    )
-  } else {
-    routes.push(
-      <Route path={manifest.getPath()} component={manifest.getComponent()} />
-    )
+function getRoutes(manifest: Manifest, routes: any[], paths: Set<string>) {
+  if (paths.has(manifest.getPath())) {
+    return;
   }
+  paths.add(manifest.getPath());
+  const route = (manifest.getExact())
+    ?
+    <Route path={manifest.getPath()} exact component={manifest.getComponent()} />
+    :
+    <Route path={manifest.getPath()} component={manifest.getComponent()} />
+  routes.push(route);
   for (const child of manifest.getChildren()) {
-    getRoutes(child, routes)
+    getRoutes(child, routes, paths)
   }
   return routes;
 }

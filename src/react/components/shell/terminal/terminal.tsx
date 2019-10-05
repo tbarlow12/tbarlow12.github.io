@@ -1,7 +1,7 @@
 import React from "react";
 import Terminal from "react-console-emulator";
 import { RouteComponentProps, withRouter } from "react-router";
-import { StructureService } from "../../../../services/structureService";
+import { PathService } from "../../../../services/pathService";
 import { icons } from "../../../../scss/icons";
 
 export interface MyTerminalProps extends RouteComponentProps {
@@ -15,11 +15,11 @@ export interface MyTerminalState {
 
 export default class MyTerminal extends React.Component<MyTerminalProps, MyTerminalState> {
 
-  private structureService: StructureService;
+  private structureService: PathService;
 
   public constructor(props: MyTerminalProps) {
     super(props);
-    this.structureService = new StructureService();
+    this.structureService = new PathService();
     this.state = {
       open: props.open
     }

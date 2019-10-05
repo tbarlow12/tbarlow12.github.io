@@ -1,7 +1,8 @@
-import { Manifest } from "./manifest";
+import { Manifest, ManifestOptions } from "./manifest";
 import { icons } from "../scss/icons"
 import { BlogPage } from "./pages/blogPage"
 import { BlogPostPage } from "./pages/blogPostPage";
+import postsFull from "../content/blog/posts-full.json";
 
 export const appManifest = createManifest();
 
@@ -18,16 +19,17 @@ function createManifest(): Manifest {
         path: "/blog",
         icon: icons.blog,
         component: BlogPage,
-        children: [
-
-          // {
-          //   title: "Blog Post",
-          //   name: "blogPost",
-          //   path: "/blog/:blogPost",
-          //   component: BlogPostPage,
-          //   icon: icons.none
-          // }
-        ]
+        children: Object.keys(postsFull).map((postName) => {
+          const options: ManifestOptions = {
+            title: "Blog Post",
+            name: postName,
+            path: "/blog/:blogPost",
+            component: BlogPostPage,
+            icon: icons.none,
+            nonExact: true
+          }
+          return options;
+        })
       },
       {
         title: "Projects",
