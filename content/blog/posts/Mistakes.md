@@ -14,7 +14,7 @@ Now that I've click-baited you into opening this post, let me just reassure you 
 
 ## The Discovery
 
-It was a crisp, autumn work-from-home kind of Friday. After having breakfast with my family, I went downstairs to my office and cracked open my laptop to begin another wonderful day of writing code...
+It was a crisp, autumn work-from-home kind of Friday. After having breakfast with my family, I went downstairs to my office and cracked open the laptop to begin another wonderful day of writing code...
 
 The afternoon prior, I had deployed an Azure Function that would be running a [Cloud Custodian](https://cloudcustodian.io/) policy to clean up our Azure Subscription. We had a lot of test resources that needed to be removed, so I asked our team to tag any resource groups with `CreatedBy` and their email address for notifications. They all looked through the subscription and tagged their resource groups accordingly. I told them that early Friday morning, I would run a scrub of all resource groups and delete any that did not have owners, and that was the policy that was deployed... or so I thought.
 
@@ -52,13 +52,17 @@ And that was pretty much it. After some of the initial rawness of the incident h
 
 ### Technical Empathy and a Blameless Culture
 
-One of the surprising parts of this experience was the empathy shown by my colleagues. They were quick to point out times where similar things had happened to them or others and to remind me that it was an honest mistake.
+One of the surprising parts of this experience was the empathy shown by my colleagues. They were quick to point out times where similar things had happened to them or others and to remind me that it was an honest mistake. 
 
-A popular article titled ["The software engineer’s guide to asserting dominance in the workplace"](https://medium.com/feature-creep/the-software-engineer-s-guide-to-asserting-office-dominance-ddea7b598df7) (satirically) recommends the following strategy for ramping up on a codebase when joining a new team:
+This kind of "technical empathy" is not only helpful, but essential in building successful, collaborative software teams that trust each other and work together. This is one example where the empathy of my teammates gave me the boost that I needed to get back up and start fixing things rather than wallow in my own self pity.
+
+Technical empathy is also useful in giving (and receiving) code reviews. Rather than belittle team members for making what we perceive to be a mistake in the code, we can try to understand why they felt they had to do what they did. There very well may be an obstacle that we, as reviewers, are unaware of.
+
+In our team at Microsoft, we work with dev teams of other companies to help them solve interesting challenges, usually related to Azure. As a byproduct of that, we get to see _a lot of new codebases_. Every time we crack one open, there's a little bit of apprehension (and even fear) about what we might find. Technical empathy can be applied here too. A popular article titled ["The software engineer’s guide to asserting dominance in the workplace"](https://medium.com/feature-creep/the-software-engineer-s-guide-to-asserting-office-dominance-ddea7b598df7) (satirically) recommends the following strategy for ramping up on a codebase when joining a new team:
 
 _"Spend the rest of the day familiarizing yourself with the team’s codebase. Every five to ten minutes, let out a deep sigh and write something down on a notepad. Maintain a demeanor of mild disgust on your face that gets increasingly more annoyed as you browse through more and more of the code. Mumble words like “refactor” and “rewrite” under your breath. Start drawing random complex architectural diagrams on your whiteboard. By 3 PM you should be visibly angry. Eat some chili peppers to force yourself to sweat. At 4 PM, allow your rage to boil over and throw your last egg at the wall in a fit of rage. Slam your laptop closed and head home early._
 
-It is easy to be critical when you're unaware of the constraints and difficulties encountered by your teammates. Often times, on high-performing teams, if you have an idea within the first few seconds of looking at a problem, it's possible that other engineers might have tried the same approach. That's not to say you shouldn't share your ideas on how things could be better, but be hesitant about jumping to the conclusion that you're surrounded by morons and that you are the only one who is truly "one with the code." For more info on the subject, visit [this article on how empathy is a technical skill](https://www.infoq.com/articles/empathy-technical-skill/).
+It is easy to be critical when you're unaware of the constraints and difficulties encountered by other developers. Often times, on high-performing teams, if you have an idea within the first few seconds of looking at a problem, it's possible that other engineers might have tried the same approach. That's not to say you shouldn't share your ideas on how things could be better, but be hesitant about jumping to the conclusion that you're surrounded by morons and that you are the only one who is truly "one with the code." For more info on the subject, visit [this article on how empathy is a technical skill](https://www.infoq.com/articles/empathy-technical-skill/).
 
 Rather than becoming upset and demanding my immediate dismissal, they responded with _"Sorry that happened, it happens to all of **us**, what do we do to fix it?"_ The phrase "blameless culture" became more than just a line in our team's working agreement.
 
@@ -70,7 +74,7 @@ As software engineers, asking others for help or to look over our work isn't alw
 
 ![alt text](https://media.giphy.com/media/TBOvwBGkQShnq/giphy.gif)
 
-To counteract that behavioral tendency, we put up quality gates. On our team, in every other repository we work with, we establish branch protection policies that prohibit anyone from pushing directly to `master` or even `dev`. We require pull requests that trigger CI pipelines and establish baseline coverage requirements for both the project as a whole and the current diff being submitted. (Side note on code coverage: We recognize that developers can "game the system" when it comes to code coverage, so the tests are reviewed with just as much scrutiny as the application code.) 
+To counteract that behavioral tendency, we put up quality gates. On our team, in every repository we work with, we establish branch protection policies that prohibit anyone from pushing directly to `master` or even `dev`. We require pull requests that trigger CI pipelines and establish baseline coverage requirements for both the project as a whole and the current diff being submitted. (Side note on code coverage: We recognize that developers can "game the system" when it comes to code coverage, so the tests are reviewed with just as much scrutiny as the application code.) 
 
 These standards are required on every single project that we work on. All of this could have been so easily prevented if I had just asked for even one other pair of eyes to look over these basic policies before I had deployed them. Instead, I ignored the rules, wandered off into the wilderness by myself and got mauled by the proverbial bear of disaster.
 
