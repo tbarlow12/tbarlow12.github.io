@@ -5,8 +5,6 @@ path: nbaclustering
 ---
 Player positions in the NBA have become a rather fluid concept. Teams like the Warriors with their "Lineup of Death" have shaken the traditional mindset of the basketball world. We wanted to be able to build out a clustering model that used a player's statistics to identify the player's "true position." When we say "true position," we mean the position the player plays most alike. While LeBron James could be listed at just about any position on the floor, we wanted to know what his stats told us. By creating an unsupervised clustering model, players would be grouped together with other players of a similar statistical model.
 
-<iframe width="800" height="600" src="https://app.powerbi.com/view?r=eyJrIjoiODgzZjhiMmQtYmU5My00NzM4LTk1MjUtNWVhYWUzM2RiYzhlIiwidCI6Ijg0YzMxY2EwLWFjM2ItNGVhZS1hZDExLTUxOWQ4MDIzM2U2ZiIsImMiOjZ9" frameborder="0" allowFullScreen="true"></iframe>
-
 ## Introduction
 
 Our Data Mining project was based on looking for statistical groupings in the National Basketball Association that define the different positions in the modern game of basketball. In basketball, often a given position becomes an argument for what will and won’t work on a roster, when it’s really much more complicated than that. We want to define the numbers behind what a guard, forward, wing or center is, as well as look for outliers, such as forwards performing statistically equivalent to guards. 
@@ -18,22 +16,22 @@ For our project, we used individual statistics of players from the 2010 - 2016 s
 
 In cleaning our data, we eliminated all non-basketball players, required that a player has played at least 20 games and averaged at least 10 minutes played per game. To normalize the position labels and make up for a lack of distinction between some positions, we organized the athletes into four basic positions. “Guard” consists of players labeled Guard, Point Guard or capable of playing Point Guard or Shooting Guard. “Wing” consists of Shooting Guards (only 3 players in the whole dataset labeled as such), hybrid Guard/Forwards and Small Forwards. “Forward” consists of hybrid Small and Power Forwards and pure Power Forwards. And “Center” is our big man group, consisting of hybrid Power Forward/Centers and Centers. While originally, we only had three positions defined, looking at the numbers in the many categories provided by our data source, we felt these four categories most naturally used the distribution to create a good foundation for our analysis and represented the current state of NBA tactics. One of the difficulties in identifying effective clustering measures was the skew in number of players for each position. This is shown in the already-large and increasing number of guards, as depicted below.
 
-![alt text](/resources/images/nba-1.png)
+![alt text](https://github.com/tbarlow12/tbarlow12.github.io/blob/dev/resources/images/nba-1.png?raw=true)
 
 This increase of smaller players seems to agree with the rest of our analysis, as the league is trending towards players who can score from long range as opposed to the traditional, “inside-out” philosophy, but it adds to the challenge of finding effective clustering measures.
 
 ## Initial Analysis
 
-We began our analysis by doing simple comparisons among the four positions we had identified. We compared the averages of the box score statistics, the advanced statistics and some of the shot chart statistics to look for simple ways in which the positions differentiated themselves. Some graphs are shown here, but for full size and interactivity for all graphs, please see our [dashboard](https://app.powerbi.com/view?r=eyJrIjoiODgzZjhiMmQtYmU5My00NzM4LTk1MjUtNWVhYWUzM2RiYzhlIiwidCI6Ijg0YzMxY2EwLWFjM2ItNGVhZS1hZDExLTUxOWQ4MDIzM2U2ZiIsImMiOjZ9).
+We began our analysis by doing simple comparisons among the four positions we had identified. We compared the averages of the box score statistics, the advanced statistics and some of the shot chart statistics to look for simple ways in which the positions differentiated themselves.
 
 
-![alt text](/resources/images/nba-2.png)
+![alt text](https://github.com/tbarlow12/tbarlow12.github.io/blob/dev/resources/images/nba-2.png?raw=true)
 
 
-![alt text](/resources/images/nba-3.png)
+![alt text](https://github.com/tbarlow12/tbarlow12.github.io/blob/dev/resources/images/nba-3.png?raw=true)
 
 
-![alt text](/resources/images/nba-4.png)
+![alt text](https://github.com/tbarlow12/tbarlow12.github.io/blob/dev/resources/images/nba-4.png?raw=true)
 
 ## Clustering
 
@@ -43,11 +41,11 @@ We began with clustering our dataset using both hierarchical clustering with sin
 
 The first thing we found is that hierarchical clustering with single-link did not perform as well as we thought. We had anticipated that single-link would do well in linking the most statistically similar players one at a time and that this would lead to a more linear clustering of players. What it actually did, in most cases, was produce (K - 1) singleton clusters and 1 large cluster of the rest of the players. This lead to it getting great scores on our polarity tests, because a cluster consists of only 1 or 2 players, it’s pretty easy to get a cluster of 100% the same position. The variation in cluster size is shown in the graph “Cluster Size Standard Deviation.” While not especially valuable for clustering, it was interesting to see the algorithm identify the game’s “superstars” (Russell Westbrook, Lebron James, Kevin Durant, etc.). We then decided to programmatically prioritize cluster sets that had larger chunks of one position in each collection and focus solely on k-means++ assignment-based clustering for our results.
 
-![alt text](/resources/images/nba-5.png)
+![alt text](https://github.com/tbarlow12/tbarlow12.github.io/blob/dev/resources/images/nba-5.png?raw=true)
 
 In the end, our polarity methods determined that the best clustering result was using Lloyd’s algorithm with k-means++, clustering on box score, advanced statistics, shot range (Less than 8 ft., 8-16 ft., 16-24 ft., 24 ft.+), action type (pull-up jumper, alley-oop dunk, etc.) and shot type (2 pt. vs. 3 pt.) for the 2013 season data set where k = 7.
 
-![alt text](/resources/images/nba-6.png)
+![alt text](https://github.com/tbarlow12/tbarlow12.github.io/blob/dev/resources/images/nba-6.png?raw=true)
 
 In figure 5, you can see the basic results of our determined best clustering, organized by position and each cluster’s size. We call cluster 1 the “Attack the Rim” cluster. It consists of high volume inside shooters like Derrick Rose, Kobe Bryant, Brook Lopez and JaVale McGee. It’s interesting to see how this clustering put players in very different positions into the same grouping. Cluster 2 is our “True Point Guards” (traditional, pass-first) collection, with Rajon Rondo, Jrue Holiday, Steve Nash and Eric Bledsoe leading the way. Cluster 4 is referred to as our “Spot-up Shooters” cluster, consisting of high volume outside shooters like Jimmer Fredette, Brandon Rush, CJ McCollum and Jason Terry. Players who are known more for their ability to shoot from the floor, and are most likely subpar defenders. Cluster 7, which we call the “6th Man Cluster”, is another intriguing look. It is full of guards known for high scoring and utility in limited minutes. Matthew Dellavedova, J.J. Barea, Jeremy Lin, Patrick Beverley, Lou Williams, Jerryd Bayless, Shelvin Mack, Iman Shumpert and even Andre Miller are all sorted here.
 
