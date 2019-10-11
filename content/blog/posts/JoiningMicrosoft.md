@@ -9,8 +9,8 @@ I've had a few friends ask me what my journey to Microsoft was like and why I ch
 ## The Interview
 
 I first interviewed with Microsoft in 2015 for a summer internship. When they called me and asked me to fly out for a round of final interviews in Redmond, my wife and I saw it as a free trip to Seattle. In my head, I was nowhere near qualified to work at a place like that and had all but written myself off from the start. The [Imposter Syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome) was as real as ever. But I had promised my wife earlier that year that I would take us some place out of Utah that summer for an internship of some kind, so I really did want it to work out.
-
-![alt text](/resources/images/Microsoft/sign.jpg)
+<!-- 
+![alt text](https://github.com/tbarlow12/tbarlow12.github.io/blob/dev/resources/images/Microsoft/sign.jpg?raw=true) -->
 
 I didn't feel great about my interviews - a couple of them felt downright terrible. But I did try hard to explain my thought process and walk my interviewers through my solutions to the problems they presented. 
 
@@ -20,7 +20,7 @@ We went into a nearby conference room with one of the other recruiters, where th
 
 On principle, I wouldn't officially accept anything until I had talked to Kate first, so I told them I would send them an email later that day. I called Kate as soon as I left the building and could barely contain my excitement as I tried to explain what just happened, not really knowing the answer myself. We spent the night in downtown Seattle, fully able to relax and imagine what our summer would be like in this new place.
 
-![alt text](/resources/images/Microsoft/seattle.jpg)
+<!-- ![alt text](https://github.com/tbarlow12/tbarlow12.github.io/blob/dev/resources/images/Microsoft/seattle.jpg?raw=true) -->
 
 ## A New Intern
 
@@ -28,11 +28,11 @@ The day after I took my last final in May of 2016, we packed up our Highlander w
 
 I spent that first summer in building 109 of Microsoft's campus, working with the WDG Global Services Localization Data Insights team (kind of a mouthful). My project was to automate the process by which our team identified meaningful feedback, particularly when it came to localization issues in Windows. I was able to work with a few teams across Microsoft to create a system that utilized an internal big data platform and natural language processing/machine learning tools to process and identify feedback most likely to be actionable in order to pass it along to developers. 
 
-![alt text](/resources/images/Microsoft/project.jpg)
+<!-- ![alt text](https://github.com/tbarlow12/tbarlow12.github.io/blob/dev/resources/images/Microsoft/project.jpg?raw=true) -->
 
 It solved a critical business need for the team, as they had previously been hiring sub-contractors to _read each piece of feedback, one by one_ and decide which ones were actionable. That may work for a smaller system, but for something like Windows, that's just not scalable. The project was a success, I learned a ton and had a blast doing it. For more detail on this project, check out my [blog post](/Microsoft-Summer2016/) written right after finishing for the summer. Of course, I enjoyed the many intern events and parties held for us... A private Ellie Goulding concert at the Space Needle where they hand out new Surface Books at the end wasn't anything to sneeze at... But the highlight for me was the learning and growing I was able to do, being surrounded by an amazing group of talented individuals that didn't mind taking the time to teach and mentor an intern.
 
-![alt text](/resources/images/Microsoft/team.jpg)
+<!-- ![alt text](https://github.com/tbarlow12/tbarlow12.github.io/blob/dev/resources/images/Microsoft/team.jpg?raw=true) -->
 
 I accepted an offer to return to the same team the following summer. As these things go, there was a massive re-organization within the team, my manager left Microsoft to pursue a personal dream of civic engagement as the City of Seattle's new Open Data Program Manager, and I would be reporting directly to my previous skip-manager. Although I was very sad to hear my manager would be leaving, I was happy to still be working under someone I knew and respected a great deal. 
 
@@ -40,7 +40,7 @@ I accepted an offer to return to the same team the following summer. As these th
 
 Our journey back to Redmond after a long school year was pretty much the same, aside from one major detail - my wife was 6 months pregnant. She was due on August 10th, just 13 days after I was scheduled to finish my internship. Microsoft was _extremely_ accomodating with us. They put us in an apartment that was literally a 6-minute bike ride from building 109. They told me that if anything came up, I should feel free to take time to be with her and not to worry about work. My recruiters even got us a bag of gifts for the baby from the Microsoft store. We really felt that they had our interests at heart and cared about our little family.
 
-![alt text](/resources/images/Microsoft/baby.jpg)
+<!-- ![alt text](https://github.com/tbarlow12/tbarlow12.github.io/blob/dev/resources/images/Microsoft/baby.jpg?raw=true) -->
 
 My project during that second summer was very broad, more of a question to answer with no real guidance given on the implementation. I was free to take the project in whatever direction I saw fit. The question was "How do we identify influential communities of Windows users/devices so that we can weight their feedback more heavily?" These communities went much deeper than just "gamers, business users, mobile users, etc." We already knew that for most devices. I wanted to find a way to use Windows telemetry to cluster devices together that actually *behaved* in a similar way, so that we could amplify the voice of Windows Insiders (users that receive Windows versions before they are released to the public) that more accurately represented that population.
 
@@ -61,5 +61,3 @@ I went to school and finished my last semester, graduating in December of 2017 a
 I've been officially back for just about 3 months now, and I have had a blast with some really cool projects and fun adventures. I'll do my best to keep the blog updated on the happenings here.
 
 So, there you have it. I joined Microsoft because I felt like it would be a place where I could grow as a Software Engineer and, even more importantly, as a husband and father. I stay because those things are still true. 
-
-If you have any other questions about what it's like to work here, feel free to reach out via any of the communication channels below!

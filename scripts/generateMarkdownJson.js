@@ -1,7 +1,6 @@
 const fs = require("fs");
 const { join } = require("path")
 const grayMatter = require("gray-matter");
-const md5 = require("md5.js");
 
 const root = join(__dirname, "..");
 const sourcePath = join(root, "content");
@@ -80,7 +79,30 @@ function generateBlogPostFull(posts) {
   ));
 }
 
+function deleteExistingTargets() {
+  const files = [
+    join(
+      destBlogPath,
+      "posts-preview.json"
+    ),
+    join(
+      destBlogPath,
+      "posts-full.json"
+    ),
+    ...fs.readdirSync(destPagesPath).map((p) => join(destPagesPath, p))
+  ]
+  
+  for (const f of files) {
+    if (fs.existsSync(f)) {
+      fs.unlinkSync(f);
+    }
+  }
+}
+
+deleteExistingTargets();
+
 const posts = getBlogPosts();
+
 generateBlogPostPreviews(posts);
 generateBlogPostFull(posts);
 
