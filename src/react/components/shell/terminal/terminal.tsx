@@ -75,7 +75,7 @@ export default class MyTerminal extends React.Component<MyTerminalProps, MyTermi
           </div>
           <Terminal
             commands={this.commands}
-            welcomeMessage={"Welcome to my website! Run help for available commands"}
+            welcomeMessage={"Run 'help' for available commands, 'kill' to close"}
             promptLabel={`user@TBarlow:${this.getPath(location.pathname)}`}
             promptLabelStyle={{color: "#66CCCC"}}
             noHistory={true}

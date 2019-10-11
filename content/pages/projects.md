@@ -30,10 +30,20 @@ The Serverless framework is a CLI tool for deploying Serverless applications. Th
 
 - [My contributions](https://github.com/cloud-custodian/cloud-custodian/pulls?utf8=%E2%9C%93&q=is%3Amerged+is%3Apr+author%3Atbarlow12+) to Cloud Custodian
 
-## Personal Projects
+## Recent Personal Projects
+
+### VSCode-Inspired Splash Page
+
+Personal website with integrated terminal and VS Code styles
+
+- [Repo](https://github.com/tbarlow12/tbarlow12.github.io)
+- App content driven by single [manifest file](https://github.com/tbarlow12/tbarlow12.github.io/blob/dev/src/react/createManifest.ts)
+- Content auto-generated from Markdown and published to master branch via [GitHub workflow](https://github.com/tbarlow12/tbarlow12.github.io/blob/dev/.github/workflows/deploy.yml)
 
 ### TaskBoardAssistant
 
-### Learn It Your Way
+Rule engine that allows people to set up policies for their tasks boards like Trello.
 
-### AskD
+- [Repo](https://github.com/tbarlow12/task-board-assistant)
+- [NuGet Package](https://www.nuget.org/packages/TaskBoardAssistant)
+- [Example Policies](https://github.com/tbarlow12/task-board-assistant-policies)
