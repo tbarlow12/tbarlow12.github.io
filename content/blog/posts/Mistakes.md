@@ -4,7 +4,7 @@ date: 2019-10-4
 path: mistakes
 ---
 
-Now that I've click-baited you into opening this post, let me just reassure you of a couple things:
+Now that I've click-baited you into opening this post, let me just reassure you of a few things:
 
 1. I still have my job
 2. The Azure subscription was just a development subscription, so no $ was lost
@@ -64,7 +64,7 @@ _"Spend the rest of the day familiarizing yourself with the team’s codebase. E
 
 It is easy to be critical when you're unaware of the constraints and difficulties encountered by other developers. Often times, on high-performing teams, if you have an idea within the first few seconds of looking at a problem, it's possible that other engineers might have tried the same approach. That's not to say you shouldn't share your ideas on how things could be better, but be hesitant about jumping to the conclusion that you're surrounded by morons and that you are the only one who is truly "one with the code." For more info on the subject, visit [this article on how empathy is a technical skill](https://www.infoq.com/articles/empathy-technical-skill/).
 
-Rather than becoming upset and demanding my immediate dismissal, they responded with _"Sorry that happened, it happens to all of **us**, what do we do to fix it?"_ The phrase "blameless culture" became more than just a line in our team's working agreement.
+Rather than becoming upset and demanding my immediate dismissal, my team responded with _"Sorry that happened, it happens to all of **us**, what do we do to fix it?"_ The phrase "blameless culture" became more than just a line in our team's working agreement.
 
 ### Use the Buddy System
 
