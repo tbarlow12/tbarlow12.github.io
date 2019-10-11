@@ -32,7 +32,7 @@ Clearly, this was not going to be a mistake that would fly under the radar, so I
 
 He was in another call, so we chatted online. I told him what had happened. I'm not sure he believed me until he opened the portal and witnessed the devastation for himself. _"You're right... it nuked everything,"_ he responded.
 
-After what seemed an appropriate moment of silence for the fallen resource groups, he was quick to point out that **a)** this is only a dev subscription and **b)** anything in the sub should be easily reproducible. He reminded me that everyone goes through something like this at some point, and this was a pretty low-stakes environment for it to happen. Then, like a mayor of a city ravaged by a natural disaster, he stated, _"We can rebuild."_
+After what seemed an appropriate moment of silence for the fallen resource groups, he was quick to point out that `a)` this is only a dev subscription and `b)` anything in the sub should be easily reproducible. He reminded me that everyone goes through something like this at some point, and this was a pretty low-stakes environment for it to happen. Then, like a mayor of a city ravaged by a natural disaster, he stated, _"We can rebuild."_
 
 After the call with my manager, I called a couple team members to assess the extent of the damages. I called my tech lead and told him what had happened. He laughed. He told me about a time where he had deleted a production database early on in his career and reminded me of some of the same things my manager told me. We then made a plan for restoring some of the lost resource groups that were actually public facing.
 
