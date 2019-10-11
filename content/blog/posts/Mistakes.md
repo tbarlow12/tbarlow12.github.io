@@ -22,7 +22,7 @@ That morning, to my utter shock and horror, I opened the Azure portal to discove
 
 So many questions started racing through my mind. How did this happen? Where did I go wrong? What had caused this lone surviving resource group to cannibalize all of his innocent, appropriately-tagged brothers? Panic had already begun to take over.
 
-I opened up the repository containing the policies I had written, and that's when I saw it. I had neglected to update the test tag I had been using... `CreatorEmail`. I had also been testing a policy that would send a weekly email to the members of my team with a summary of their resource groups, which would enable them to do a quick scan and go remove any they didn't need anymore. In not wanting to spam my team with my testing of the policy, I created a new tag, applied it to the `cloud-custodian` resource group, and got to work. Before the end of the day, I ran a script that deployed all of the policies I was working on. That test tag had been copied and pasted to the other policies had deployed. I did read things through, but clearly not closely enough. I had deployed a rogue agent... I opened the doors wide open and let a monster into our house.
+I opened up the repository containing the policies I had written, and that's when I saw it. I had neglected to update the test tag I had been using... `CreatorEmail`. I had also been testing a policy that would send a weekly email to the members of my team with a summary of their resource groups, which would enable them to do a quick scan and go remove any they didn't need anymore. I created the `CreatorEmail` tag to test the notification system on the `cloud-custodian` resource group so that I wasn't spamming my whole team while I was testing the policy. At the end of the day, I ran a script that deployed all the policies I was working on. That test tag had been copied and pasted to the other policies had deployed. I did read things through, but clearly not closely enough. I had deployed a rogue agent... I opened the doors wide open and let a monster into our house.
 
 ## The Fallout
 
@@ -78,7 +78,7 @@ To counteract that behavioral tendency, we put up quality gates. On our team, in
 
 These standards are required on every single project that we work on. All of this could have been so easily prevented if I had just asked for even one other pair of eyes to look over these basic policies before I had deployed them. Instead, I ignored the rules, wandered off into the wilderness by myself and got mauled by the proverbial bear of disaster.
 
-UPDATE: Now, these policies are deployed from a central build server via an Azure Pipeline, which is triggered on merges to the master branch of a repository which requires two approvals from members of the team in order to merge.
+UPDATE: Now, these policies are deployed from a central build server via an Azure Pipeline, which is triggered on merges to the master branch of a repository that requires two approvals from members of the team in order to merge.
 
 ### Be especially careful with irreversible actions
 
