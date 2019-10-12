@@ -29,7 +29,10 @@ function generatePreviewFiles(files, destPath) {
     destPath,
     JSON.stringify(files.map((file) => {
       return {
-        ...new grayMatter(file.content.match(/---.*---/gs)[0])
+        ...new grayMatter(file.content
+          .split("\n")
+          .slice(0, 4)
+          .join("\n"))
       }
     }))
   );
