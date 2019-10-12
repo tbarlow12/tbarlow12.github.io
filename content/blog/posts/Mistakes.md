@@ -16,7 +16,7 @@ Now that I've click-baited you into opening this post, let me just reassure you 
 
 It was a crisp, autumn work-from-home kind of Friday. After having breakfast with my family, I went downstairs to my office and cracked open the laptop to begin another wonderful day of writing code...
 
-The afternoon prior, I had deployed an Azure Function that would be running a [Cloud Custodian](https://cloudcustodian.io/) policy to clean up our Azure Subscription. We had a lot of test resources that needed to be removed, so I asked our team to tag any resource groups with `CreatedBy` and their email address for notifications. They all looked through the subscription and tagged their resource groups accordingly. I told them that early Friday morning, I would run a scrub of all resource groups and delete any that did not have owners, and that was the policy that was deployed... or so I thought.
+The afternoon prior, I had deployed an Azure Function that would be running a [Cloud Custodian](https://cloudcustodian.io/) policy to clean up our Azure Subscription. We had a lot of test resources that needed to be removed, so I asked our team to tag any resource groups they needed with `CreatedBy` and their email address for notifications. They all looked through the subscription and tagged their resource groups accordingly. I told them that early Friday morning, I would run a scrub of all resource groups and delete any that did not have owners, and that was the policy that was deployed... or so I thought.
 
 That morning, to my utter shock and horror, I opened the Azure portal to discover _**one**_ resource group... `cloud-custodian`.
 
