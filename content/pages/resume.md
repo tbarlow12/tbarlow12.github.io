@@ -55,4 +55,4 @@ title: Resume
 - Haglund Scholarship
 - 8-time Dean’s list
 
-[Download PDF](https://github.com/tbarlow12/tbarlow12.github.io/raw/master/resources/documents/resume.pdf)
+[Download PDF](https://github.com/tbarlow12/tbarlow12.github.io/raw/dev/resources/documents/resume.pdf)
