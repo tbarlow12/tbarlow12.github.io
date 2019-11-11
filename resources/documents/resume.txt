@@ -1,51 +1,34 @@
 Tanner Barlow
-
-801-867-5383, tanner.barlow@outlook.com
-http://tannerbarlow.com/
-
-
-KEY SKILLS
-
-Python, C#, Java, C++, Node.js, TypeScript, SQL, Azure, Machine Learning, NLP, Apache Spark, Flask
-
+tanner.barlow12@gmail.com | GitHub: tbarlow12 | https://tannerbarlow.com/ 
+SKILLS
+Python, C#, Node.js, TypeScript, JavaScript, Java, React, Serverless, NLP, ML/AI
 WORK EXPERIENCE
-
-Microsoft, Software Engineer, Jan 2018 - Present
-Redmond, WA
-
-* Added Azure operations, unit tests and documentation to “Cloud Custodian” open-source Python project, including real-time metric filters, scheduled operations, and multi-subscription support
-* Added support for message encryption to open-source Java SDK for Azure KeyVault
-* Collaborated with Microsoft partners to deliver custom software that unblocked technical obstacles
-
-Microsoft, Software Engineer Intern, May 2016 – Aug 2017
-Redmond, WA
-
-* Designed and implemented big data pipeline and k-means clustering analysis of Windows telemetry with scoring function to approximate the representation factor of each device
-* Delivered C# CLI tool to automate process of identifying actionable feedback from Windows users
-
-FamilySearch, Software Developer Intern, May 2015 – Aug 2015
-Salt Lake City, UT
-
-* Enhanced and maintained Java CLI tool for running bulk operations on database of historical places
-* Designed and created GUI to run on top of existing Java tool for users that struggled using the CLI
-* Designed and began implementation for Java REST API to replace desktop application
-
+Software Engineer 2 – Microsoft (Commercial Software Engineering), Redmond, WA, Mar 2019 - Present
+* Top contributor to the Serverless Framework Azure Functions plugin. Added support for running locally, rolling back code/infrastructure deployment, skipping of identical deployment, Linux support, Python support and more
+* Designed, architected and implemented many features of VoTT, an open-source tool for image and video annotation, including the tag input component, dynamic help menu, cloud connections, and dynamic string localization
+Software Engineer – Microsoft (Commercial Software Engineering), Redmond, WA, Jan 2018 – Mar 2019
+* Contributed multiple features to Cloud Custodian, an open-source CLI tool for cloud subscription governance, including real-time metric filters, scheduled operations, and multi-subscription support
+* Designed and implemented features for a cloud-agnostic serverless orchestrator for monitoring cloud resources
+* Developed POC voice-driven Android application for hands-free control of stationary bicycle
+Software Engineer Intern – Microsoft (Windows Localization), Redmond, WA, May 2016 – Aug 2017
+* Designed and implemented big data pipeline and k-means clustering analysis of Windows telemetry. Assigned score for the “representation factor” of each device in order to amplify feedback of highly representative users
+* Created CLI tool to automate process of identifying actionable feedback from Windows users
+Software Developer Intern – FamilySearch, Salt Lake City, UT, May 2015 – Aug 2015
+* Enhanced and maintained CLI tool for running bulk operations on database of historical places
+* Designed and created GUI to run on top of existing tool for users that struggled using the CLI
+ADDITIONAL PROJECTS
+* TaskBoardAssistant – Policy engine for automated management of task boards. Published as NuGet package.
+* FoolTheAI – “Human-in-the-loop” verification of crowd-sourced data collection for computer vision models. Users take pictures of objects and try to “fool” the model. Goal was to collect noisy training data for SeeingAI application
+* Guide – Mobile application for creating and consuming location-specific content (crowd-sourced audio tour guide). Sole developer for backend of application, including the API, cloud infrastructure and content delivery
 OTHER EXPERIENCE
-
-* Designed and developed backend for virtual tour-guide application using ASP.NET web API, SQL database, Azure blob storage, and Azure Media Services
-* Many ML/NLP projects (real-estate value, e-mail response time, question-answering, etc.)
+* PyCon Attendee 2018 & 2019 (participated in PyCon Dev Sprints in 2018)
 * Co-Founder and Director of Technology for HackTheU (University of Utah official hackathon)
 * Founder and President of Computer Programmers at the U of U (CPU of U)
-* Microsoft Intern Ambassador (Aug 2016 – July 2017)
-* Microsoft Student Partner (Jan 2016 – July 2017)
-* Trainer, district leader, zone leader and assistant to president as LDS missionary
-
+* Microsoft Intern Ambassador (Aug 2016 – July 2017) & Student Partner (Jan 2016 – July 2017) 
 EDUCATION 
-
 Bachelor of Science: Computer Science
 University of Utah, College of Engineering, Salt Lake City, UT
 Cumulative GPA: 3.75/4.00
-
 Awards: Honors at Entrance Scholarship, Everton Scholarship, Haglund Scholarship, 8-time Dean’s list
 
 
