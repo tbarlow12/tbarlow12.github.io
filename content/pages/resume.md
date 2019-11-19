@@ -9,11 +9,11 @@ title: Resume
 
 ## Work Experience
 
-### **Software Engineer 2** – *Microsoft (Commercial Software Engineering), Redmond, WA, Mar 2019 - Present*
+### **Software Engineer 2** – *Microsoft (Commercial Software Engineering), Redmond, WA, Feb 2019 - Present*
 - [Top contributor](https://github.com/serverless/serverless-azure-functions/graphs/contributors) to the Serverless Framework Azure Functions plugin. Added support for running locally, rolling back code/infrastructure deployment, skipping of identical deployment, Linux support, Python support and [more](https://github.com/serverless/serverless-azure-functions/pulls?utf8=%E2%9C%93&q=is%3Amerged+is%3Apr+author%3Atbarlow12+)
 - [#2 contributor](https://github.com/microsoft/VoTT/graphs/contributors) to VoTT, an open-source tool for image and video annotation. Designed, architected and implemented [many features](https://github.com/Microsoft/VoTT/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Amerged+author%3Atbarlow12), including the tag input component, dynamic help menu & cloud connections
 
-### **Software Engineer** – *Microsoft (Commercial Software Engineering), Redmond, WA, Jan 2018 – Mar 2019*
+### **Software Engineer** – *Microsoft (Commercial Software Engineering), Redmond, WA, Jan 2018 – Feb 2019*
 - Contributed [multiple features to Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Amerged+author%3Atbarlow12+), an open-source CLI tool for cloud subscription governance, including real-time metric filters, scheduled operations, and multi-subscription support
 - Designed and implemented features for a [cloud-agnostic serverless orchestrator](https://github.com/Microsoft/cloud-scanner), used for monitoring cloud resources
 - Developed POC voice-driven Android application for hands-free control of stationary bicycle
