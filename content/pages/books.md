@@ -10,6 +10,7 @@ These are some of my favorite books I've read recently. When I get some more tim
 ## Recent Favorites
 - How Will You Measure Your Life - Clayton M. Christensen
 - Atomic Habits - James Clear
+- The Productivity Project - Chris Bailey
 - Grit: The Power of Passion and Perserverance - Angela Duckworth
 - Algorithms to Live By - Tom Griffiths
 - Essentialism - Greg McKeown
