@@ -5,6 +5,11 @@ html, body, #root, .app {
   width: 100%;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 a {
   color: $color-string;
 }
@@ -113,10 +118,13 @@ h6 {
         font-family: $code-font;
         color: $color-function;
         font-weight: bolder;
+        max-width: 90%;
+        overflow-x: hidden;
       }
 
       pre {
         background-color: $darker-10;
+        padding: 0;
       }
     }
     
@@ -162,6 +170,12 @@ h6 {
     }
   }
   &-post {
+    &-page {
+      pre {
+        max-width: 90%;
+        padding: 0;
+      }
+    }
     &-preview {
       border: 2px solid white;
       border-radius: 5px;
