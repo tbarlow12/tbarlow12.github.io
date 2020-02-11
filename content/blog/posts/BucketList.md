@@ -6,7 +6,7 @@ path: bucketlist
 
 This is an ever-growing, ever-changing list of things I would like to accomplish as a software engineer, both in my professional and personal life.
 
-- [ ] Find an interesting open-source project and submit a PR within 24 hours 
+- [ ] Find an interesting open-source project and submit a PR within 24 hours of discovering it
 - [ ] File a patent for software you wrote (at work or otherwise)
 - [x] Write a REST API
 - [x] Write a serverless function
@@ -14,14 +14,25 @@ This is an ever-growing, ever-changing list of things I would like to accomplish
 - [x] Make your own website
 - [ ] Work pager duty
 - [x] Participate in a hackathon
+- [x] Travel for work
+  - International
+    - Barcelona
+    - London
+    - Paris
+    - Buenos Aires
+  - Domestic
+    - Cleveland (2x)
+    - Dallas
+    - Portland
+    - San Francisco
 - [x] Travel to attend a major software conference
 - [ ] Travel to speak or present at a major software conference
 - [x] Find a senior developer mentor
-- [ ] Mentor a junior developer
-- [ ] Submit code to these online package managers
+- [x] Mentor a junior developer
+- [x] Submit code to these online package managers
     - [x] PyPI
     - [x] NuGet
-    - [ ] NPM
+    - [x] NPM
 - [ ] Have a stranger submit a meaningful PR to an open-source project you created
 - [ ] Pull an all-nighter coding on a personal project
 - [x] Write a piece of software just for you that you actually use
@@ -38,7 +49,7 @@ This is an ever-growing, ever-changing list of things I would like to accomplish
 - [x] Work with a dataset larger than one petabyte
 - [x] Write your own ML model using nothing but a math library (numpy or equivalent)
 - [x] Throw away code for a project and start from scratch
-- [ ] Work in an open-space environment
+- [x] Work in an open-space environment
 - [x] Work in an office/cubicle environment
 - [x] Work for a tech giant
 - [ ] Work for a startup with < 10 engineers
@@ -47,7 +58,7 @@ This is an ever-growing, ever-changing list of things I would like to accomplish
 - [x] Write a mobile app specifically for one platform
 - [ ] Write a cross-platform mobile app
 - [ ] Work as a freelancer
-- [ ] Teach a kid to code
+- [x] Teach a kid to code
 - [x] Teach a class on programming
 - [ ] Write and publish a technical book
 - [ ] Receive a job offer without an interview
