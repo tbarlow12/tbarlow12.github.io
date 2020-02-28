@@ -1,5 +1,5 @@
 ---
-title: "Somehow I Manage... My Tasks"
+title: Somehow I Manage... My Tasks
 date: 2020-2-21
 path: tasks
 ---
@@ -19,24 +19,23 @@ These tools, tips and practices have simply been a structure I've put in place o
 
 I'll go through each of the four points and discuss some of the tools and tricks that work for me. If you like an idea, great. Use it. If you don't like an idea, great. Don't use it.
 
-Before I jump into talking about each phase in my task management process, let me introduce my good friend [Trello](https://www.trello.com). Trello is the sun in the solar system of my productivity tools, and I will discuss how I use it during the different phases in each section below.
+Before I jump into talking about each phase in my task management process, let me introduce my good friend [Trello](https://www.trello.com). Trello is the sun in the solar system of my productivity tools, and I will discuss how I use it during the different phases in each section below. I love Trello because it's genuinely fun to use, it's easy to see and update the status of each task and it's the closest digital tool to a "sticky note task board" as I've used.
 
-I discovered Trello in college and fell in love with it. I've always loved physical "sticky-note task boards," I think it is a very clear and concise way to see and update the stages of each task's lifecycle. However, this can be a challenge if you `a)` don't have a dedicated space to put your task board, or `b)` you or your teammates work in different places. Both of those conditions have described my experience in school and in work. A digital, online task board solves those two problems, and I think Trello's digital task board is as good as it gets.
+## 1. Gotta Catch 'em All - Make it as easy as possible to capture thoughts, ideas and tasks
 
-I use a task board because it is easiest for me to see the tasks move through the different phases of their lifecycle and helps me feel more organized. I do have tasks that come from other places (GitHub issues)
+One of the largest challenges for getting things done is processing tasks from all their different sources, both `internal` and `external`. I think one of the most important things for me to feel organized is to consolidate all my tasks into **one place**. This allows me to appropriately prioritize and gives me the peace of mind that there is not something, somewhere that I'm forgetting.
 
-## 1. Gotta Catch 'em All
-### *Make it as easy as possible to capture thoughts, ideas and tasks*
 
-Many of m
+
+Many of my most valuable thoughts and ideas come at unexpected times and might not last very long. If I don't capture the idea quickly, I might not ever get it at all. But I've noticed that I don't need to capture the *entire* thought every time. For any of you familiar with how memory in a computer works, I'm not afraid of losing the *data* I've allocated in the memory of my brain, I'm afraid of losing the *pointer* to that chunk of memory. So, I have tools in place that allow me to quickly and easily capture pointers to those thoughts so I can go access that idea and act on it later on.
 
 #### Trello
 
-As I mentioned above, 
+As I mentioned above, Trello is my main hub for my tasks. If a task or thought can make it to my Trello board, I can be 100% certain that I'll be forced to deal with it later. On my Trello board I have a `Triage` list, where all my tasks are born. This is the entry point for all my tasks so that I don't have to think about the final landing spot for a task when I'm just trying to capture the idea. I have a widget on my phone (thank you, Android) that allows me to tap once to open a dialog for creating a new task directly on my `Triage` list. If I'm driving, cooking or otherwise unable to use my hands, I've set up an [IFTTT hook]() that integrates Trello and my Google Assistant so that I can just say, "Hey Google, Add a task to finish my blog post," and voiala (TODO - sp?) - a task is added to my `Triage` list.
 
 #### Google Keep
 
-You can think of Google Keep as my RAM of ideas. Any time a thought pops into my head that I want to make sure I capture, it's a simple tap away from the widget on my phone.
+Sometimes, I'll have thoughts and ideas that I haven't quite formulated into tasks yet. It could be an epiphany about something I'd like to do better, a cool quote I heard or just a scratch pad to dump my current train of thought. For these and any other non-task thoughts, I use Google Keep. You can think of Google Keep as my RAM of ideas. Any time a thought pops into my head that I want to make sure I capture, it's a simple tap away from the widget on my phone. I also use Google Assistant for this, but I don't need IFTTT since Google Keep integrates directly with Google Assistant.
 
 (screenshot)
 
@@ -51,7 +50,7 @@ OneNote acts as my long-term storage. I love the ability it gives me to compartm
 
 #### Trello
 
-I think Trello has created a product that makes you feel as close to a "sticky-note task board" as it gets. It's genuinely fun to use and man, is it satisfying to move those cards around. I've played around with many other ideas for managing my tasks - hierarchical lists, flat lists, GitHub issues/notes on GitHub projects, Azure DevOps stories w/ sub tasks, and many, many more. I do think that all of these tools have their place for certain use cases. 
+I think Trello has created a product that makes you feel as close to a "sticky-note task board" as it gets. It's genuinely fun to use and man, is it satisfying to move those cards around. I've played around with many other ideas for managing my tasks - hierarchical lists, flat lists, GitHub issues/notes on GitHub projects, Azure DevOps stories w/ sub tasks, and many, many more. I do think that all of these tools have their place for certain use cases.
 
 However, for me, I really enjoy being able to have all my tasks in one place while still being able to organize those tasks into discrete buckets. My Trello board basically has the following layout:
 
