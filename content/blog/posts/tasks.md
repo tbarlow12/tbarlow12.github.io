@@ -1,6 +1,6 @@
 ---
 title: Somehow I Manage... My Tasks
-date: 2020-2-21
+date: 2020-3-28
 path: tasks
 ---
 
@@ -10,7 +10,7 @@ I don't pretend to be a productivity expert. I can't tell you the ins and outs o
 
 I'm hesitant to write this post, just because I don't want it to come off as prescriptive in any way. I'm a strong believer that, when it comes to productivity, people should find whatever works best for them, and then do it. It may very well be that what works best for me is different than what works best for you. This post is just a way for me to write down some of the things that I've learned in my years of experimentation and research with my own productivity.
 
-Instead of describing my whole process for capturing, processing, planning and executing my tasks in a step-by-step fashion, I just want to share some of the tools I use and what they do for me. I hope some of this is helpful for you, too.
+Instead of describing my whole process for capturing, processing, planning and executing my tasks in a step-by-step fashion, I just want to share some of the tools I use, habits I try to keep and what they do for me. With the current outbreak of COVID-19 and all that comes with it, I've found these tools and habits to be more important than ever. I hope some of this is helpful for you, too.
 
 ## My Task Board
 
@@ -70,9 +70,13 @@ If I have a quick thought while I'm on the go, I actually have a widget on my ph
 
 ### IFTTT (If This Then That)
 
-If I'm driving, cooking or otherwise unable to use my hands, I've set up an [IFTTT hook]() that integrates Trello and my Google Assistant so that I can just say, "Hey Google, Add a task to finish my productivity blog post," and voila - the task "Finsih my productivity blog post" is added to my `Triage` list.
+If I'm driving, cooking or otherwise unable to use my hands, I've set up an [IFTTT hook](https://ifttt.com/applets/L3Whbwie-tell-google-assistant-to-create-new-task-card-on-trello) that integrates Trello and my Google Assistant so that I can just say, "Hey Google, Add a task to finish my productivity blog post," and voila - the task "Finsih my productivity blog post" is added to my `Triage` list.
 
 ## Automation Tools
+
+I. love. automation. That's actually one of the main reasons I got into computer science. I'm not like some developers, who remember programming on the Altair 8800 their dad brought home from work. As a 10-year old with an extensive basketball, baseball and football card collection, I wanted a quick and easy way to manage and track my precious assets, which would make me more effective in trading cards with my friends. I built a simple spreadsheet containing all of my cards, with columns for attributes describing the card such as `Player`, `Team`, `Year`, `Is Rookie Card`, etc. From the moment I wrote a simple `=SUM(` formulas that counted the number of Rookie Cards I owned without having to count them myself, I was forever changed. I discovered that I could have a computer do something menial _for me_, and that it would free me up to focus on higher level thinking or tasks, such as being the GM of my own multi-sport franchise.
+
+For my productivity, I try to automate as many simple tasks as I can so that I don't have to think about them, freeing me up to focus on the bigger picture or my current task at hand.
 
 ### Butler
 
@@ -98,11 +102,9 @@ Not all of these policies are currently running on my board. I've played around 
 
 #### Side Note - My Own Version of Butler
 
-Not to be salty, but I actually built a less extensible, harder-to-use and less popular version of Butler a little while ago without even knowing that Butler existed... so we'll just say they stole my idea. Mine was called [TaskBoardAssistant]() (catchy name, right?). Basically it was a concise way to define policies that would ideally be run on a timer trigger, usually from a serverless environment (Azure Functions in my case). Users would create a `.yml` file that contained the filters and actions for different Trello entities (move these cards to this list, create these tasks every morning, etc.). I built a NuGet package that used the [Manatee.Trello SDK]() to
+Not to be salty, but I actually built a less extensible, harder-to-use and less popular version of Butler a little while ago without even knowing that Butler existed... so we'll just say they stole my idea. Mine was called [TaskBoardAssistant](https://github.com/tbarlow12/task-board-assistant) (catchy name, right?). Basically it was a concise way to define policies that would ideally be run on a timer trigger, usually from a serverless environment (Azure Functions in my case). Users would create a `.yml` file that contained the filters and actions for different Trello entities. I built a NuGet package that was able to read the `.yml` file and use the [Manatee.Trello SDK](https://github.com/gregsdennis/Manatee.Trello) to perform basic actions like moving, creating, archiving and copying cards, sorting lists, generating reports, etc.
 
-Originally, [TaskBoardAssistant]() was meant to be bigger than just Trello. In my work at Microsoft, we use a lot of different incarnations of "task boards" such as GitHub projects and Azure DevOps (the artist formerly known as Visual Studio Online). I wanted one policy to rule them all... Something that would copy stories/tasks/issues assigned to me in either GitHub or AzDO and then bring them to my Trello board where I was most comfortable interacting with them. The project is still there, and maybe someday I'll contribute more to it. But since I discovered Butler and IFTTT (foreshadowing), it seems like the most likely path of adoption is within those ecosystems.
-
-It ended up being mostly just automation for Trello entities has __ stars on GitHub and had at least one user... me.
+Originally, [TaskBoardAssistant](https://github.com/tbarlow12/task-board-assistant) was meant to be bigger than just Trello. In my work at Microsoft, we use a lot of different incarnations of "task boards" such as GitHub projects and Azure DevOps (the artist formerly known as Visual Studio Online). I wanted one policy to rule them all... Something that would copy stories/tasks/issues assigned to me in either GitHub or AzDO and then bring them to my Trello board where I was most comfortable interacting with them. The project is still there, and maybe someday I'll contribute more to it. But since I discovered Butler and IFTTT (foreshadowing), it seems like the most likely path of adoption is within those ecosystems, and I'll probably refocus my efforts there.
 
 ### Pomello
 
@@ -110,7 +112,19 @@ It ended up being mostly just automation for Trello entities has __ stars on Git
 
 You may be familiar with the [Pomodoro](https://en.wikipedia.org/wiki/Pomodoro_Technique) system. If not, it's basically 25 minutes of focused work, 5 minute break. Do four of those cycles, and take a longer break. 
 
-Pomello takes the Pomodoro system and applies it to my Trello tasks. When you start it up for the first time, you log into your Trello account. Then, you pick a list to work off of. Mine is the `Today` list if you didn't guess that already. Pomello then asks you to pick a task and has an extremely satisfying "clock winding up" sound that plays when you start a new task. The timer runs for 25 minutes, and Pomello will actually log on your Trello card how many (even fractional) Pomodoros you've spent working on that task. I love it because it keeps me focused on what I'm working on and forces me to time-box the work that I do. If a task requires more than 3 or 4 Pomodoros, I probably should've broken it down a little bit more. It also gives me the opportunity to reflect on how long a task actually took. I haven't done a whole lot of estimating, but it's something that I would like to include more in my process.
+Pomello is a simple app that takes the Pomodoro system and applies it to my Trello tasks. When you start it up for the first time, you log into your Trello account. Then, you pick a list to work off of. Mine is the `Today` list if you didn't guess that already. Pomello then asks you to pick a task.
+
+![alt text](./../../../resources/images/productivity/pomello-1.png)
+
+Once you pick a task, the app has an extremely satisfying "clock winding up" sound that plays when you start a new task.
+
+![alt text](./../../../resources/images/productivity/pomello-2.png)
+
+The timer runs for 25 minutes, and Pomello will actually log on your Trello card how many (even fractional) Pomodoros you've spent working on that task.
+
+![alt text](./../../../resources/images/productivity/pomello-3.png)
+
+I love it because it keeps me focused on what I'm working on and forces me to time-box the work that I do. If a task requires more than 3 or 4 Pomodoros, I probably should've broken it down a little bit more. It also gives me the opportunity to reflect on how long a task actually took. I haven't done a whole lot of estimating, but it's something that I would like to include more in my process.
 
 ## Ceremonies
 
@@ -123,6 +137,20 @@ Each morning during my daily planning, I scan my `Triage` list to make sure ever
 Each week, in my weekly planning, I take time to scan each of my list categories to see if there is anything urgent I need to get done... this week. By taking the time to go through each list during my weekly planning, I'm giving myself the peace and assurance that I won't miss anything critical while not forcing myself to scan *all* lists every single morning.
 
 ## Resources
+
+Here are some of my absolute favorite books that have shaped how I see things like habits, productivity, goals, accountability and fulfillment:
+
+- How Will You Measure Your Life - Clayton M. Christensen
+- Atomic Habits - James Clear
+- The Productivity Project - Chris Bailey
+- Grit: The Power of Passion and Perserverance - Angela Duckworth
+- Algorithms to Live By - Tom Griffiths
+- Essentialism - Greg McKeown
+- Hyperfocus - Chris Bailey
+- The 5 AM Club - Robin Sharma
+- Designing Your Life - Dave Evans
+- Getting Things Done - David Allen
+- The Power to Get Things Done (Whether You Like It or Not) - Chris Cooper
 
 ## Conclusion
 
