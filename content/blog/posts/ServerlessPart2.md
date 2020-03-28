@@ -1,7 +1,7 @@
 ---
 title: "How to Create a REST API with Azure Functions and the Serverless Framework - Part 2"
 date: 2019-10-1
-path: serverless-part2
+path: serverlesspart2
 ---
 
 #### Overview

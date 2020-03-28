@@ -5,7 +5,9 @@ path: "/books"
 
 # Books
 
-These are some of my favorite books I've read recently. When I get some more time, I'd like to write out some of the insights I got from them, because there have been some great ones. Thanks to my friends for all the recommendations and Scribd for making it so easy to find great books!
+These are some of my favorite books I've read recently. When I get some more time, I'd like to write out some of the insights I got from them, because there have been some great ones.
+
+The first 5-10 are books that I think everyone should read. Not saying that I agree with every opinion shared in these books, but they are important ideas to consider. Each of them, in one way or another, revolve around making **deliberate** choices in how you live your everyday life.
 
 ## Recent Favorites
 - How Will You Measure Your Life - Clayton M. Christensen
@@ -14,6 +16,7 @@ These are some of my favorite books I've read recently. When I get some more tim
 - Grit: The Power of Passion and Perserverance - Angela Duckworth
 - Algorithms to Live By - Tom Griffiths
 - Essentialism - Greg McKeown
+- Hyperfocus - Chris Bailey
 - The 5 AM Club - Robin Sharma
 - Designing Your Life - Dave Evans
 - You Need a Budget - Jesse Mecham

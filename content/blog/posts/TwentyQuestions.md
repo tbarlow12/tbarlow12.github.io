@@ -1,7 +1,7 @@
 ---
 title: 20 Questions - Working at Microsoft
 date: 2019-10-15
-path: twenty-questions
+path: twentyquestions
 ---
 
 Hi, I'm Tanner Barlow. I'm a software engineer on the Commercial Software Engineering team at Microsoft. I grew up in Salt Lake City, Utah, where I also attended school at the University of Utah (Go Utes!). I majored in Computer Science and helped start the school's first ever hackathon, HackTheU, with a few of my friends. I was asked to answer 20 questions regarding my experience working at Microsoft and what it's like to live in the great Pacific Northwest. If either of these topics interest you (primarily the first), read on.
