@@ -130,8 +130,8 @@ I love it because it keeps me focused on what I'm working on and forces me to ti
 
 I try to start every day of my life by doing things to prepare my mind, body and spirit for a new day. Those things are:
 
-- Personal prayer on my knees
-- At least 20 minutes studying the scriptures
+- Personal prayer on my knees, record any thoughts or impressions
+- At least 20 minutes studying scriptures
 - At least 20 minutes working out
 - At least 10 minutes meditating
 - Recite my personal creed
@@ -147,7 +147,7 @@ My Daily Planning follows these exact steps:
 - Clear all notes from Google Keep by either creating actionable work items in Trello or moving the notes to OneNote
 - Triage all items in my `Triage` list by placing them in their categorical list (or one of the time-sensitive lists if the task needs to be completed soon), adding a due date if necessary and then prioritize their order in the list
 - Move the tasks from my `This Week` list that I commit to finishing that day to your `Today` list, which should be in support of the Big 3 that I defined in the first step. If there is a task that I cannot finish in a day, I break it down into smaller tasks. If I am blocked by something, move that task to your `Waiting For` list and write down what you are waiting for in the card description
-- Scan my `Waiting For` list to see if any conditions have changed that will allow me to move forward
+- Scan my `Waiting For` list to see if any conditions have changed that will allow me to move forward and move cards accordingly
 
 
 ### Weekly Planning
