@@ -4,17 +4,15 @@ date: 2020-3-28
 path: tasks
 ---
 
-I don't pretend to be a productivity expert. I can't tell you the ins and outs of why the brain does what it does, nor the optimal strategy for scheduling interdependent tasks. I can't put together a flawless Gantt chart or even run a "perfectly Agile" Scrum meeting. But I have spent a lot of time getting things done. I've turned in thousands of homework assignments, written even more thousands of lines of code, paid my bills on-time and even manage to find time to be with my family. Like you, I juggle many different balls and do my best not to drop any of them.
+I'm hesitant to write this post for a number of reasons. First, I don't want this to come off as prescriptive in any way. I'm a strong believer that, when it comes to productivity, people should find whatever works best for them, and then do it. Second, I don't want to give the impression that I believe myself to be an expert in the psychology of productivity or a master of planning and executing tasks in my own life. I've learned a lot of things from a lot of smart people, and I've seen the benefits of putting their ideas into practice, but I am far from perfect. This post is just a medium for me to share some of the things that I've learned in my years of experimentation and research with my own productivity. Like you, I am constantly juggling the different pieces of my life, and this system has made it easier to keep them all afloat.
 
 ![alt text](https://i.makeagif.com/media/5-01-2015/ZUZocx.gif)
-
-I'm hesitant to write this post, just because I don't want it to come off as prescriptive in any way. I'm a strong believer that, when it comes to productivity, people should find whatever works best for them, and then do it. It may very well be that what works best for me is different than what works best for you. This post is just a way for me to write down some of the things that I've learned in my years of experimentation and research with my own productivity.
 
 Instead of describing my whole process for capturing, processing, planning and executing my tasks in a step-by-step fashion, I just want to share some of the tools I use, habits I try to keep and what they do for me. With the current outbreak of COVID-19 and all that comes with it, I've found these tools and habits to be more important than ever. I hope some of this is helpful for you, too.
 
 ## My Task Board
 
-Trello is the main hub for all of my productivity tools. All of my tasks are found here. I love Trello because it's genuinely fun to use, it's easy to see and update the status of each task and it's the closest digital tool to a "sticky note task board" as I've used. There's also a pretty rich ecosystem of tools that add additional features to Trello. I'll discuss a few of them below.
+[Trello](https://trello.com/) is the main hub for all of my productivity tools. All of my tasks are found here. I love Trello because it's genuinely fun to use, it's easy to see and update the status of each task and it's the closest digital tool to a "sticky note task board" as I've used. There's also a pretty rich ecosystem of tools that add additional features to Trello. I'll discuss a few of them below.
 
 I've played around with many other ideas for managing my tasks - hierarchical lists, flat lists, GitHub projects, Jira, Azure DevOps, and many, many more. I do think that all of these tools have their place for certain use cases. I still use some of these tools for certain scenarios, but Trello is by far my favorite. I really enjoy being able to have all my tasks in one place while still being able to organize those tasks into discrete buckets. My Trello board basically has the following layout:
 
@@ -46,7 +44,7 @@ Here's an explanation of what these lists do for me:
 1. More **compartmentalization**. I really like to be able to focus on the thing I want to focus on when I want to focus on that thing. If I can look at one list that contains all my pending tasks for that context (outside of the tasks that need to be done today or this week), it just makes me feel warm inside.
 2. Just in case I'm in the **"right place, right time"** to do a task that I didn't necessarily plan on. For example, I have an `Errands` list. If I'm out and about with my two little boys and want to give my wife a little extra time to just sit in peace without a baby in her arms or a toddler climbing all over her, I'll pull up the list and see if there is anything we can go do together.
 
-`Things I'd like to do` - There are a lot of tasks that come to mind that are neither urgent nor super important. Just things that would be nice to have done at some point. For example, right now in this list, I have several blog posts I'd like to write, I have a task to reorganize my workout playlist and a task to start
+`Things I'd like to do` - Often times, a task will come to mind that is neither urgent nor super important, but things that would be nice to have done at some point. For example, right now in this list, I have several blog posts I'd like to write, I have a task to reorganize my workout playlist and a task to start
 
 To make sure these categories are not lost as the tasks move through the different lists, I have [Butler](https://help.trello.com/article/1198-an-intro-to-butler) policies (once again, you'll read more about this later... stop trying to jump ahead) that automatically apply the appropriate label to cards as they are moved into the list. This gives me the capability of filtering my entire board to see only tasks with that label, even if they are no longer in their categorical list. For example, when I'm at work, it's nice to see tasks that I'm doing `This Week` or `Today` without having to scan through the other tasks in those lists.
 
@@ -56,7 +54,7 @@ I've found that quickly and frequently capturing tasks, thoughts and ideas can b
 
 ### Google Keep
 
-Sometimes, I'll have thoughts and ideas that I haven't quite formulated into tasks yet. It could be an epiphany about something I'd like to do better, a cool quote I heard or just a scratch pad to dump my current train of thought. For these and any other non-task thoughts, I use Google Keep. You can think of Google Keep as my RAM of ideas. Any time a thought pops into my head that I want to make sure I capture, it's a simple tap away from the widget on my phone. I also use Google Assistant for this, but I don't need IFTTT since Google Keep integrates directly with Google Assistant.
+Sometimes I'll have thoughts and ideas that I haven't quite formulated into tasks yet. It could be an epiphany about something I'd like to do better, a cool quote I heard or just a scratch pad to dump my current train of thought. For these and any other non-task thoughts, I use Google Keep. You can think of Google Keep as my RAM of ideas. Any time a thought pops into my head that I want to make sure I capture, it's a simple tap away from the widget on my phone. I also use Google Assistant for this if I want to take a note without the use of my hands, simply by saying "Hey Google, make a note..."
 
 Google Keep only really has 3 "stages" a note can be in: a normal note, a pinned note, and an archived note. For that reason, I don't like to keep notes in there for a long time. It tends to make me feel scattered and unorganized. Instead, I try to clear out all of my notes each week during my weekly planning. Often times these notes lead to action items for my Trello board, other times they are just thoughts, impressions or ideas that I want to make sure I hold onto. That's where OneNote comes into play 👇.
 
@@ -64,19 +62,19 @@ Google Keep only really has 3 "stages" a note can be in: a normal note, a pinned
 
 OneNote acts as my long-term storage. I love the ability it gives me to compartmentalize things into notebooks, sections, pages, and even sub-pages. Everything is searchable (even the handwriting pages from notes I've taken on my Surface), which makes it great if I can remember just a word or two from the note I'm looking for. I don't think the mobile app is as snappy as Google Keep. There's a pretty significant delay in start-up at times and that can be pretty crucial when I'm trying to capture a fleeting idea. Plus, it's pretty easy for things to be hidden deep inside the caverns of compartmentalization I mentioned above. For that reason, I don't like it to be my "bucket" for new ideas. It's more a final resting ground for the ideas once I've been able to find them a home that makes sense.
 
-### Widget
+### Widgets
 
-If I have a quick thought while I'm on the go, I actually have a widget on my phone (thank you Android) that lets me tap once and type in the task and sends it directly to my `Triage` list. 
+If I have a quick thought while I'm on the go, I actually have a widget on my phone (thank you Android) that lets me tap once and type in the task and sends it directly to my `Triage` list. I have another widget for creating notes in Google Keep as well as link widgets for OneNote pages that I refer to often.
 
-### IFTTT (If This Then That)
+### Google Assistant & IFTTT (If This Then That)
 
-If I'm driving, cooking or otherwise unable to use my hands, I've set up an [IFTTT hook](https://ifttt.com/applets/L3Whbwie-tell-google-assistant-to-create-new-task-card-on-trello) that integrates Trello and my Google Assistant so that I can just say, "Hey Google, Add a task to finish my productivity blog post," and voila - the task "Finsih my productivity blog post" is added to my `Triage` list.
+I already mentioned my usage of Google Assistant to take notes if I'm driving, cooking or otherwise unable to use my hands. However, I'd also like to make sure I can capture actionable tasks inside my Trello board in that same context. Luckily, there already existed an [IFTTT hook](https://ifttt.com/applets/L3Whbwie-tell-google-assistant-to-create-new-task-card-on-trello) that integrates Trello and my Google Assistant, enabling me to just say, "Hey Google, Add a task to finish my productivity blog post," and voila - the task "Finsih my productivity blog post" is added to my `Triage` list.
 
 ## Automation Tools
 
-I. love. automation. That's actually one of the main reasons I got into computer science. I'm not like some developers, who remember programming on the Altair 8800 their dad brought home from work. As a 10-year old with an extensive basketball, baseball and football card collection, I wanted a quick and easy way to manage and track my precious assets, which would make me more effective in trading cards with my friends. I built a simple spreadsheet containing all of my cards, with columns for attributes describing the card such as `Player`, `Team`, `Year`, `Is Rookie Card`, etc. From the moment I wrote a simple `=SUM(` formulas that counted the number of Rookie Cards I owned without having to count them myself, I was forever changed. I discovered that I could have a computer do something menial _for me_, and that it would free me up to focus on higher level thinking or tasks, such as being the GM of my own multi-sport franchise.
+I. love. automation. That's actually one of the main reasons I got into computer science. I'm not like some developers, who remember programming on the Altair 8800 their dad brought home from work. No, my first "programming experience" came out of a more practical necessity. As a 10-year old with an extensive basketball, baseball and football card collection, I wanted a quick and easy way to manage and track my precious assets, which would make me more effective in trading cards with my friends. I built a simple spreadsheet containing all of my cards, with columns for attributes describing the card such as `Player`, `Team`, `Year`, `Is Rookie Card`, etc. From the moment I wrote a simple `=SUM(` formula that counted the number of Rookie Cards I owned without having to count them myself, I was forever changed. I discovered that I could have a computer do something menial _for me_, and that it would free me up to focus on higher level thinking or tasks, such as being the GM of my own imaginary multi-sport franchise.
 
-For my productivity, I try to automate as many simple tasks as I can so that I don't have to think about them, freeing me up to focus on the bigger picture or my current task at hand.
+I try to automate as many simple tasks as I can so that I don't have to think about them, freeing me up to focus on the bigger picture or my current task at hand.
 
 ### Butler
 
@@ -84,7 +82,7 @@ At last, you've made it to the section you've been waiting for. It's been a long
 
 ![alt text](https://media1.giphy.com/media/fdyZ3qI0GVZC0/giphy.gif?cid=790b7611707d466850a101fdfb23e9064c7f757ed770c1c3&rid=giphy.gif)
 
-[Butler](https://help.trello.com/article/1198-an-intro-to-butler) was originally developed as a 3rd party Trello add-in, but was recently acquired by Trello itself. It's a tool for automating tasks in Trello.
+[Butler](https://help.trello.com/article/1198-an-intro-to-butler) was originally developed as a 3rd party Trello add-in, but was recently acquired by Trello to be a native part of the platform. It's a tool for automating tasks in Trello. Users can set up policies that are triggered by certain rules, due dates of cards, specific times in a day, week or month, etc. They can then apply actions that will occur when that policy is triggered.
 
 Here are some example Butler policies that I have run on my board:
 
@@ -114,7 +112,7 @@ You may be familiar with the [Pomodoro](https://en.wikipedia.org/wiki/Pomodoro_T
 
 Pomello is a simple app that takes the Pomodoro system and applies it to my Trello tasks. When you start it up for the first time, you log into your Trello account. Then, you pick a list to work off of. Mine is the `Today` list if you didn't guess that already. Pomello then asks you to pick a task.
 
-![alt text](./../../../resources/images/productivity/pomello-1.png)
+![alt text](/resources/images/productivity/pomello-1.png)
 
 Once you pick a task, the app has an extremely satisfying "clock winding up" sound that plays when you start a new task.
 
@@ -126,13 +124,35 @@ The timer runs for 25 minutes, and Pomello will actually log on your Trello card
 
 I love it because it keeps me focused on what I'm working on and forces me to time-box the work that I do. If a task requires more than 3 or 4 Pomodoros, I probably should've broken it down a little bit more. It also gives me the opportunity to reflect on how long a task actually took. I haven't done a whole lot of estimating, but it's something that I would like to include more in my process.
 
-## Ceremonies
+## Habits
+
+### Daily Preparation
+
+I try to start every day of my life by doing things to prepare my mind, body and spirit for a new day. Those things are:
+
+- Personal prayer on my knees
+- At least 20 minutes studying the scriptures
+- At least 20 minutes working out
+- At least 10 minutes meditating
+- Recite my personal creed
+- Create a meaningful plan for the day (see Daily Planning below)
+
+I've found that if I skip even one of these daily rituals, I can feel it during the day. I try to keep them flexible, since there will be days that I'll be able to spend more time on these things, but I wanted to make sure I had a minimum value set.
 
 ### Daily Planning
 
-Each morning during my daily planning, I scan my `Triage` list to make sure everything is put where it needs to be (especially if I captured any urgent tasks that belong in the `Today` list). I then go through my `This Week` list to determine which tasks I'm going to bite off that day. 
+My Daily Planning follows these exact steps:
+
+- Visualize the end of my day and the **three** most important things that I could accomplish in that day? Write them down in my "Daily Notes Page" that I keep in OneNote
+- Clear all notes from Google Keep by either creating actionable work items in Trello or moving the notes to OneNote
+- Triage all items in my `Triage` list by placing them in their categorical list (or one of the time-sensitive lists if the task needs to be completed soon), adding a due date if necessary and then prioritize their order in the list
+- Move the tasks from my `This Week` list that I commit to finishing that day to your `Today` list, which should be in support of the Big 3 that I defined in the first step. If there is a task that I cannot finish in a day, I break it down into smaller tasks. If I am blocked by something, move that task to your `Waiting For` list and write down what you are waiting for in the card description
+- Scan my `Waiting For` list to see if any conditions have changed that will allow me to move forward
+
 
 ### Weekly Planning
+
+The main purpose of my weekly planning is to keep the big picture in focus
 
 Each week, in my weekly planning, I take time to scan each of my list categories to see if there is anything urgent I need to get done... this week. By taking the time to go through each list during my weekly planning, I'm giving myself the peace and assurance that I won't miss anything critical while not forcing myself to scan *all* lists every single morning.
 
