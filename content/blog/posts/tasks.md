@@ -8,7 +8,7 @@ I'm hesitant to write this post for a number of reasons. First, I don't want thi
 
 ![alt text](https://i.makeagif.com/media/5-01-2015/ZUZocx.gif)
 
-Instead of describing my whole process for capturing, processing, planning and executing my tasks in a step-by-step fashion, I just want to share some of the tools I use, habits I try to keep and what they do for me. With the current outbreak of COVID-19 and all that comes with it, I've found these tools and habits to be more important than ever. I hope some of this is helpful for you, too.
+Instead of describing my whole process for capturing, processing, planning and executing my tasks in a step-by-step fashion, I just want to share some of the tools I use, habits I try to keep and what they do for me. With the current outbreak of COVID-19 and all that comes with it, especially working from home 100% of the time, I've found these tools and habits to be more important than ever. I hope some of this is helpful for you, too.
 
 ## My Task Board
 
@@ -17,7 +17,6 @@ Instead of describing my whole process for capturing, processing, planning and e
 I've played around with many other ideas for managing my tasks - hierarchical lists, flat lists, GitHub projects, Jira, Azure DevOps, and many, many more. I do think that all of these tools have their place for certain use cases. I still use some of these tools for certain scenarios, but Trello is by far my favorite. I really enjoy being able to have all my tasks in one place while still being able to organize those tasks into discrete buckets. My Trello board basically has the following layout:
 
 - Today
-- Tomorrow
 - This Week
 - Done
 - Triage
@@ -28,8 +27,6 @@ I've played around with many other ideas for managing my tasks - hierarchical li
 Here's an explanation of what these lists do for me:
 
 `Today` - I keep my `Today` list front and center because that's what I've committed to do today. The `Today` list is the first list I can see if I open the Trello app on my phone, and my eyes naturally go to the left side of the screen on my laptop. This, to me, is the most important list because if I'm not actually *doing* something *today*, what's the point in planning at all? Daily planning is a crucial component to keeping this list up to date and useful, and I'll discuss this more below.
-
-`Tomorrow` - I've gone back and forth on having this list or not, but I've found that it makes my daily planning go quicker and easier. Plus, as we all know, our days don't always go according to plan. There are times when more important or more urgent tasks come up during the day, and I enjoy the flexibility of being able to push off tasks that can be done tomorrow. Plus, I have a [Butler](https://help.trello.com/article/1198-an-intro-to-butler) policy (you'll read more about this later) that moves all cards from `Tomorrow` to `Today` at the start of every day.
 
 `This Week` - This list represents the body of work that I've committed to during the week. It enables a quicker daily planning session, as I don't need to scan the entire board to decide which things I want to get done today. I'll discuss in more detail in my Weekly Planning section below.
 
@@ -60,7 +57,19 @@ Google Keep only really has 3 "stages" a note can be in: a normal note, a pinned
 
 ### OneNote
 
-OneNote acts as my long-term storage. I love the ability it gives me to compartmentalize things into notebooks, sections, pages, and even sub-pages. Everything is searchable (even the handwriting pages from notes I've taken on my Surface), which makes it great if I can remember just a word or two from the note I'm looking for. I don't think the mobile app is as snappy as Google Keep. There's a pretty significant delay in start-up at times and that can be pretty crucial when I'm trying to capture a fleeting idea. Plus, it's pretty easy for things to be hidden deep inside the caverns of compartmentalization I mentioned above. For that reason, I don't like it to be my "bucket" for new ideas. It's more a final resting ground for the ideas once I've been able to find them a home that makes sense.
+OneNote does three things for me: keeps my "big 3" top of mind, is my daily code journal/digital scratch pad throughout the day, and it acts as my long-term storage for thoughts and ideas.
+
+#### Big 3
+
+I mentioned earlier that in my daily planning, I try to envision my "Big 3" that I want to accomplish by then end of the day. These often end up being closer to "themes" of tasks than actual broken-down tasks that I can accomplish in a Pomello or two. Trello doesn't seem like the best place for that. So I keep a OneNote page open, specific to each day, where I've defined by Big 3 right at the top. This helps me keep my Big 3 top of mind throughout the day. 
+
+#### Code Journal/Scratch Pad
+
+In that same "Daily Notes" page, I keep all of my notes for the day. This can be meeting notes, but more importantly, it's my **code journal**. In my job as a software engineer, I'm constantly trying to solve problems with the constraints that I'm given. There are times when I try _a lot_ of different approaches because I run into road blocks along the way. Sometimes the most obvious approach has a constraint that makes it impossible, but isn't clear from the start. When I take things back to my team, if someone asks, _"Why didn't you just do {insert my first approach here}?"_ I want to be able to remember why I made the decisions that I did. So I try to keep a "code journal" If it's a quick comment that I can leave in the code or as a comment on a pull request, I'll do that as
+
+#### Long-Term Storage
+
+I love the ability it gives me to compartmentalize things into notebooks, sections, pages, and even sub-pages. Everything is searchable (even the handwriting pages from notes I've taken on my Surface), which makes it great if I can remember just a word or two from the note I'm looking for. I don't think the mobile app is as snappy as Google Keep. There's a pretty significant delay in start-up at times and that can be pretty crucial when I'm trying to capture a fleeting idea. Plus, it's pretty easy for things to be hidden deep inside the caverns of compartmentalization I mentioned above. For those reason, I don't like it to be my "bucket" for new ideas that will need to be triaged. It's more a final resting ground for the ideas once I've been able to find them a home that makes sense.
 
 ### Widgets
 
@@ -94,7 +103,7 @@ Here are some example Butler policies that I have run on my board:
 - When a card with a name starting with "Pack for" is added to the board, add the "Packing List" checklist from card "Packing List" to the card
 - 2 days before a card is due, move the card to the top of list "Today"
 - When a card is added to list "Work", add the blue "Work" label to the card
-- Every day at 3:00 am, move all the cards in list "Tomorrow" to list "Today", sort the cards in list "This Week" by due date ascending, and copy each card in list "Templates" with a name starting with "Prepare Mind, Body and Spirit for Today" to the top of list "Today"
+- Every day at 3:00 am, move all the cards in list "Today" to list "Today", sort the cards in list "This Week" by due date ascending, and copy each card in list "Templates" with a name starting with "Prepare Mind, Body and Spirit for Today" to the top of list "Today"
 
 Not all of these policies are currently running on my board. I've played around with lots of different policies to see what works best, but I wanted to provide you with some concrete examples of things that I've used so that you can experiment for yourself.
 
