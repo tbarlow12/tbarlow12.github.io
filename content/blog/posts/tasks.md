@@ -6,7 +6,7 @@ path: tasks
 
 The story is told of a farmer who set out to plow the southern field one spring morning. Although it was important work, he did not assess in advance exactly what had to be done or form a plan for how he was going to do it. He had started early by oiling his tractor. He knew he needed more oil, so he went to the barn to get it. On the way to the barn, he noticed that the pigs had not been fed. This sent him to the cradle of corn, where he saw some sacks. That reminded him that the potatoes were sprouting, so he started toward the potato hole. While passing by the wood pile, he remembered that his wife wanted some firewood for the house. While he was collecting logs, he saw a chicken that was sick, so he left the wood and went to his aid. When night came, the tractor was still in the barn, and the field to the south was left unplowed. The poor farmer had worked hard all day, but had not accomplished the main thing he had to do that day.
 
-I'm hesitant to write this post for a number of reasons. First, I don't want this to come off as prescriptive in any way. I'm a strong believer that, when it comes to productivity, people should find whatever works best for them, and then do it. Second, I don't want to give the impression that I believe myself to be an expert in the psychology of productivity or a master of planning and executing tasks in my own life. I've learned a lot of things from a lot of smart people, and I've seen the benefits of putting their ideas into practice. This post is just a medium for me to share some of the things that I've learned in my years of research and experimentation with my own productivity. Finally, I don't want to give the impression that I am perfect at implementing this system all the time either. I've learned that life is messy and crazy for all of us. If my son wakes up in the middle of my Weekly Planning session, I can't just ask him to hold off until I sort through all my tasks for the week. Like you, I am constantly juggling the different pieces of my life, and this system has made it easier to keep them all afloat.
+I'm hesitant to write this post for a number of reasons. First, I don't want this to come off as prescriptive in any way. I'm a strong believer that, when it comes to productivity, people should find whatever works best for them, and then do it. Second, I don't want to give the impression that I believe myself to be an expert in the psychology of productivity or a master of planning and executing tasks in my own life. I've learned a lot of things from a lot of smart people, and I've seen the benefits of putting their ideas into practice. This post is just a medium for me to share some of the things that I've learned in my years of research and experimentation with my own productivity. Finally, I don't want to give the impression that I am perfect at implementing this system all the time either. I've learned that life is messy and crazy for all of us. If my son wakes up in the middle of my Weekly Planning session, I can't just ask him to hold off for another 46 minutes  I sort through all my tasks for the week. Like you, I am constantly juggling the different pieces of my life, and this system has made it easier to keep them all afloat.
 
 ![alt text](https://i.makeagif.com/media/5-01-2015/ZUZocx.gif)
 
@@ -113,6 +113,8 @@ Not to be salty, but I actually built a less extensible, harder-to-use and less 
 
 Originally, [TaskBoardAssistant](https://github.com/tbarlow12/task-board-assistant) was meant to be bigger than just Trello. In my work at Microsoft, we use a lot of different incarnations of "task boards" such as GitHub projects and Azure DevOps (the artist formerly known as Visual Studio Online). I wanted one policy to rule them all... Something that would copy stories/tasks/issues assigned to me in either GitHub or AzDO and then bring them to my Trello board where I was most comfortable interacting with them. The project is still there, and maybe someday I'll contribute more to it. But since I discovered Butler and IFTTT (foreshadowing), it seems like the most likely path of adoption is within those ecosystems, and I'll probably refocus my efforts there.
 
+## Focus Tools
+
 ### Pomello
 
 [Pomello](https://pomelloapp.com/) is my "runtime" task management tool. My trusted companion on the battlefield of daily productivity. She keeps me accountable, focused and in the zone.
@@ -121,17 +123,23 @@ You may be familiar with the [Pomodoro](https://en.wikipedia.org/wiki/Pomodoro_T
 
 Pomello is a simple app that takes the Pomodoro system and applies it to my Trello tasks. When you start it up for the first time, you log into your Trello account. Then, you pick a list to work off of. Mine is the `Today` list if you didn't guess that already. Pomello then asks you to pick a task.
 
-![alt text](/resources/images/productivity/pomello-1.png)
+![alt text](https://github.com/tbarlow12/tbarlow12.github.io/blob/task-blog/resources/images/productivity/pomello-1.png?raw=true)
 
 Once you pick a task, the app has an extremely satisfying "clock winding up" sound that plays when you start a new task.
 
-![alt text](./../../../resources/images/productivity/pomello-2.png)
+![alt text](https://github.com/tbarlow12/tbarlow12.github.io/blob/task-blog/resources/images/productivity/pomello-2.png?raw=true)
 
 The timer runs for 25 minutes, and Pomello will actually log on your Trello card how many (even fractional) Pomodoros you've spent working on that task.
 
-![alt text](./../../../resources/images/productivity/pomello-3.png)
+![alt text](https://github.com/tbarlow12/tbarlow12.github.io/blob/task-blog/resources/images/productivity/pomello-3.png?raw=true)
 
 I love it because it keeps me focused on what I'm working on and forces me to time-box the work that I do. If a task requires more than 3 or 4 Pomodoros, I probably should've broken it down a little bit more. It also gives me the opportunity to reflect on how long a task actually took. I haven't done a whole lot of estimating, but it's something that I would like to include more in my process.
+
+### WasteNoTime
+
+### AppBlock
+
+### Multi-Monitor Layout
 
 ## Habits
 
