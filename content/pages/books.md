@@ -19,6 +19,7 @@ The first 5-10 are books that I think everyone should read. Not saying that I ag
 - Hyperfocus - Chris Bailey
 - The 5 AM Club - Robin Sharma
 - Designing Your Life - Dave Evans
+- Getting Things Done - David Allen
 - You Need a Budget - Jesse Mecham
 - Creativity, Inc. - Amy Wallace
 - Drive - Daniel H. Pink
