@@ -6,17 +6,21 @@ path: tasks
 
 The story is told of a farmer who set out to plow the southern field one spring morning. Although it was important work, he did not assess in advance exactly what had to be done or form a plan for how he was going to do it. He had started early by oiling his tractor. He knew he needed more oil, so he went to the barn to get it. On the way to the barn, he noticed that the pigs had not been fed. This sent him to the cradle of corn, where he saw some sacks. That reminded him that the potatoes were sprouting, so he started toward the potato hole. While passing by the wood pile, he remembered that his wife wanted some firewood for the house. While he was collecting logs, he saw a chicken that was sick, so he left the wood and went to his aid. When night came, the tractor was still in the barn, and the field to the south was left unplowed. The poor farmer had worked hard all day, but had not accomplished the main thing he had to do that day.
 
-I'm hesitant to write this post for a number of reasons. First, I don't want this to come off as prescriptive in any way. I'm a strong believer that, when it comes to productivity, people should find whatever works best for them, and then do it. Second, I don't want to give the impression that I believe myself to be an expert in the psychology of productivity or a master of planning and executing tasks in my own life. I've learned a lot of things from a lot of smart people, and I've seen the benefits of putting their ideas into practice. This post is just a medium for me to share some of the things that I've learned in my years of research and experimentation with my own productivity. Finally, I don't want to give the impression that I am perfect at implementing this system all the time either. I've learned that life is messy and crazy for all of us. If my son wakes up in the middle of my Weekly Planning session, I can't just ask him to hold off for another 46 minutes  I sort through all my tasks for the week. Like you, I am constantly juggling the different pieces of my life, and this system has made it easier to keep them all afloat.
+I'm hesitant to write this post for a number of reasons. First, I don't want this to come off as prescriptive in any way. I'm a strong believer that, when it comes to productivity, people should find whatever works best for them, and then do it. Second, I don't want to give the impression that I believe myself to be an expert in the psychology of productivity or a master of planning and executing tasks in my own life. I've learned a lot of things from a lot of smart people, and I've seen the benefits of putting their ideas into practice. This post is just a medium for me to share some of the things that I've learned in my years of research and experimentation with my own productivity. Finally, I don't want to give the impression that I am perfect at implementing this system all the time. I've learned that life is messy and crazy for all of us. If my son wakes up in the middle of my Weekly Planning session, I can't just ask him to hold off for another 46 minutes while I finish estimating my tasks for the week. Like you, I am constantly juggling the different pieces of my life, and this system has made it easier to keep them all afloat.
 
 ![alt text](https://i.makeagif.com/media/5-01-2015/ZUZocx.gif)
 
-Instead of describing my whole process for capturing, processing, planning and executing my tasks in a step-by-step fashion, I just want to share some of the tools and habits that have been helpful to me. With the current outbreak of COVID-19 and all that comes with it, especially working from home 100% of the time, I've found these to be more important than ever. I hope some of this is helpful for you, too.
+Instead of describing my whole process for capturing, processing, planning and executing my tasks in a step-by-step fashion, I just want to share some of the tools and habits that have been helpful to me. With the current outbreak of COVID-19 and all that comes with it, especially working from home 100% of the time, I've found these to be more important than ever. I hope some of this is helpful for you, too. I'd also add the big disclaimer that any piece of this system is subject to, and will probably undergo, change at some point in the future. It's constantly evolving as I learn new ways to be more productive and as I adapt to life's ever-changing circumstances.
+
+Also, fair warning, I love talking about this subject. So if you're in, then settle in and get comfortable. You've been warned.
+
+![alt text](https://media.giphy.com/media/3P0oEX5oTmrkY/giphy.gif)
 
 ## My Task Board
 
 [Trello](https://trello.com/) is the main hub for all of my productivity tools. All of my tasks are found here. I love Trello because it's genuinely satisfying to use, it's easy to see and update the status of each task and it's the closest digital analog (no pun intended) to a "sticky note task board" as I've used. There's also a pretty rich ecosystem of tools that add additional features to Trello. I'll discuss a few of them below.
 
-I've played around with many other ideas for managing my own tasks - hierarchical lists, flat lists, paper notebooks, sticky notes, etc. I've also used many tools in my career for managing tasks on a team, such as GitHub projects, Jira, Azure DevOps, physical sticky note boards and more. I still use some of these tools for certain scenarios, but Trello is by far my favorite. I really enjoy being able to have all my tasks in one place while still being able to organize those tasks into discrete buckets. My Trello board basically has the following list structure:
+I've played around with many other ideas for managing my own tasks - hierarchical lists, flat lists, paper notebooks, sticky notes, etc. I've also used many tools in my career for managing tasks on a team, such as GitHub projects, Jira, Azure DevOps, physical sticky note boards and more. I still use some of these tools for certain scenarios, but Trello is by far my favorite. I really enjoy being able to have all my tasks in one place while still being able to organize those tasks into discrete buckets and easily move tasks through various phases of its lifecycle. My Trello board basically has the following list structure:
 
 - Triage
 - This Week
@@ -28,11 +32,11 @@ I've played around with many other ideas for managing my own tasks - hierarchica
 
 Here's an explanation of what these lists do for me:
 
-`Triage` - This is the birthplace of *most* my tasks. If there are tasks that come up that I *know* are urgent and *must* be completed either today or this week, I'll just put them directly in the appropriate list, but they usually start here. By having this one place where all the ideas are collected, I can be sure that I'm not missing a captured idea just because it's hidden in the bottom of one of my categorical lists. It also forces me to prioritize incoming tasks on at least a daily basis. I keep this as the first list on my board so that I can trust myself to deal with incoming tasks frequently. I've added other tools that make it easy to capture thoughts and tasks in this list wherever I am, and because my Trello board is my task hub, if a task or thought can make it to my Trello board, I can be 100% certain that I'll be forced to deal with it at some point.
+`Triage` - This is the birthplace of *most* my tasks. If there are tasks that come up that I *know* are urgent and *must* be completed either today or this week, I'll just put them directly in the appropriate list, but they almost always start here. By having this one place where all the ideas are collected, I can be sure that I'm not missing a captured idea just because it's hidden in the bottom of one of my categorical lists. It also forces me to prioritize incoming tasks on at least a daily basis. I keep this as the first list on my board so that I can trust myself to deal with incoming tasks frequently. I've added other tools that make it easy to capture thoughts and tasks in this list wherever I am (see "Capturing Tools" below). Because my Trello board is my task hub, if a task or thought can make it to my Trello board, I can be 100% certain that I'll be forced to deal with it at some point.
 
-`This Week` - This list represents the body of work that I've committed to during the week. Having this list enables a quicker daily planning session, as I don't need to scan the entire board to decide which things I want to get done today. I'll discuss in more detail in my Weekly Planning section below.
+`This Week` - This list represents the body of work that I've committed to during the week. Having this list enables a quicker daily planning session, as I don't need to scan the entire board to decide which things I want to get done today. Every task in this list will have a due date as well as a story point estimate. I'll discuss in more detail in my Weekly Planning section below.
 
-`Today` - I keep my `Today` list front and center because that's what I've committed to do today. This, to me, is the most important list because if I'm not actually *doing* something *today*, what's the point in planning at all? I try to make sure that tasks are paired down enough that I will be able to accomplish them within the day. Daily planning is a crucial component to keeping this list up to date and useful, and I'll discuss this more below.
+`Today` - My `Today` list is the list of tasks I've committed to do today. This, to me, is the most important list because if I'm not actually *doing* something *today*, what's the point in planning at all? I try to make sure that tasks are paired down enough that I will be able to accomplish them within the day, and I try to make sure the number of tasks I need to do every day does not exceed my ability to accomplish them. I have a [Butler](https://help.trello.com/article/1198-an-intro-to-butler) policy that runs every night removes any remaining task from `Today` and puts it in `This Week`, so I can start my day with a clean slate, and deliberately choose the tasks that I will do each day. Daily planning is a crucial component to keeping this list up to date and useful, and I'll discuss this more below.
 
 `Waiting For` - Nothing generates more conscious or sub-conscious frustration for me than to see a task in my list that I can do nothing about. By having a landing spot for tasks that require an action/event outside of my control, I can let my mind rest, knowing that I've done all that I can for now. This list is also scanned during my morning planning just in case that action/event has happened and I can move forward to finishing the task.
 
@@ -45,7 +49,7 @@ Here's an explanation of what these lists do for me:
 
 `Things I'd like to do` - Often times, a task will come to mind that is neither urgent nor super important, but things that would be nice to have done at some point. For example, right now in this list, I have tasks for several blog posts I'd like to write, one for reorganizing my workout playlist and another to start digitizing some of my journals.
 
-To make sure these categories are not lost as the tasks move through the different lists, I have [Butler](https://help.trello.com/article/1198-an-intro-to-butler) policies (once again, you'll read more about this later... stop trying to jump ahead) that automatically apply the appropriate label to cards as they are moved into the list. This gives me the capability of filtering my entire board to see only tasks with that label, even if they are no longer in their categorical list. For example, when I'm at work, it's nice to see tasks that I'm doing `This Week` or `Today` without having to scan through the other tasks in those lists.
+To make sure these categories are not lost as the tasks move through the different lists, I have [Butler](https://help.trello.com/article/1198-an-intro-to-butler) actions (once again, you'll read more about this later... stop trying to jump ahead) that automatically apply the appropriate label to cards as they are moved into the list. This gives me the capability of filtering my entire board to see only tasks with that label, even if they are no longer in their categorical list. For example, when I'm at work, it's nice to see tasks that I'm doing `This Week` or `Today` without having to scan through the other tasks in those lists.
 
 ## Capturing Tools
 
@@ -53,7 +57,7 @@ I've found that quickly and frequently capturing tasks, thoughts and ideas can b
 
 ### Widgets
 
-If I have a quick thought while I'm on the go, I actually have a widget on my phone (thank you Android) that lets me tap once, type in the task and it is added directly to my `Triage` list. I have another widget that displays the contents of my `Today` list, as well as link widgets for OneNote pages that I refer to often.
+If I have a quick thought while I'm on the go, I actually have a widget on my phone (thank you, Android) that lets me tap once, type in the task and it is added directly to my `Triage` list. I have another widget that displays the contents of my `Today` list, as well as link widgets for OneNote pages that I refer to often.
 
 ### Google Assistant & IFTTT (If This Then That)
 
@@ -67,17 +71,17 @@ OneNote does three things for me: keeps my "big 3" top of mind, is my daily code
 
 #### OneNot Job 1: Big 3
 
-I mentioned earlier that in my daily planning, I try to envision my "Big 3" that I want to accomplish by then end of the day. These often end up being closer to "themes" of tasks than actual broken-down tasks that I can accomplish in a Pomello or two. So I keep a OneNote page open, specific to each day, where I've defined my Big 3 right at the top. This helps me keep them top of mind throughout the day.
+In my daily planning, I try to envision my "Big 3" that I want to accomplish by then end of the day. These often end up being closer to "themes" of tasks than actual broken-down tasks that I can accomplish in a Pomello or two. So I keep a OneNote page open, specific to each day, where I've defined my Big 3 right at the top. This helps me keep them top of mind throughout the day.
 
 #### OneNote Job 2: Code Journal/Scratch Pad
 
 In that same "Daily Notes" page, I keep all of my notes for the day. This can be notes from meetings, but more importantly, it's my **code journal**. In my job as a software engineer, I'm constantly trying to solve problems with the constraints that I'm given. There are times when I try _a lot_ of different approaches because I run into road blocks along the way. Sometimes the most obvious approach has a constraint that makes it impossible (or at least more difficult than it's worth), but that usually isn't clear from the start. When I take things back to my team, if someone asks, _"Why didn't you just do {insert failed approach here}?"_ I want to be able to give them a clear answer for why I made the decisions that I did. 
 
-If a decision I make or a constraint that I discover seems like something that would be useful to future developers, I try to leave a quick comment in the code and/or add details somewhere in a documentation file. If it's something I know will be confusing to reviewers without any context, I may also add a comment on my own pull request after I open it.
+If a decision I make or a constraint that I discover seems like something that would be useful to future developers, I try to leave a quick comment in the code and/or add details somewhere in a documentation file. If it's something I know will be confusing to reviewers without any context, I may also add a comment on my own pull request after I open it. But having one place where I can capture all the thoughts while I'm "in the zone," I don't need to spend precious mental energy thinking about where would be the best place for this information.
 
 #### OneNote Job 3: Long-Term Storage
 
-I love the ability it gives me to compartmentalize things into notebooks, sections, pages, and even sub-pages. Everything is searchable (even the handwriting pages from notes I've taken on my Surface), which makes it great if I can remember just a word or two from the note I'm looking for. I don't think the mobile app is as snappy as Google Keep. There's a pretty significant delay in start-up at times and that can be pretty crucial when I'm trying to capture a fleeting idea. Plus, it's pretty easy for things to be hidden deep inside the caverns of compartmentalization I mentioned above. For those reason, I don't like it to be my "bucket" for new ideas that will need to be triaged. It's more a final resting ground for the ideas once I've been able to find them a home that makes sense.
+I love the ability OneNote gives me to compartmentalize things into notebooks, sections, pages, and even sub-pages. Everything is searchable (even the handwriting pages from notes I've taken on my Surface), which makes it great if I can remember just a word or two from the note I'm looking for. I don't use it as my "bucket" for new thoughts/ideas, mostly because I don't want to have to think about which "bucket" to use when a thought pops up. OneNote is more of a final resting ground for the ideas once I've been able to find them a home that makes sense.
 
 ## Automation Tools
 
@@ -91,9 +95,9 @@ At last, you've made it to the section you've been waiting for. It's been a long
 
 ![alt text](https://media1.giphy.com/media/fdyZ3qI0GVZC0/giphy.gif?cid=790b7611707d466850a101fdfb23e9064c7f757ed770c1c3&rid=giphy.gif)
 
-[Butler](https://help.trello.com/article/1198-an-intro-to-butler) was originally developed as a 3rd party Trello add-in, but was recently acquired by Trello to be a native part of the platform. It's a tool for automating tasks in Trello. Users can set up policies that are triggered by certain rules, due dates of cards, specific times in a day, week or month, etc. They can then apply actions that will occur when that policy is triggered.
+[Butler](https://help.trello.com/article/1198-an-intro-to-butler) was originally developed as a 3rd party Trello add-in, but was recently acquired by Trello to be a native part of the platform. It's a tool for automating tasks in Trello. Users can set up actions that are triggered by certain rules, due dates of cards, specific times in a day, week or month, etc.
 
-Here are some example Butler policies that I have run on my board (currently or in the past):
+Here are some example Butler actions that I have run on my board (currently or in the past):
 
 - When a card is added to list "Done", mark the due date as complete, and check all the items in all the checklists on the card
 - When a card is added to the board by me, add an empty checklist named "Acceptance Criteria" to the card
@@ -105,13 +109,13 @@ Here are some example Butler policies that I have run on my board (currently or 
 - When a card is added to list "Work", add the blue "Work" label to the card
 - Every day at 3:00 am, move all the cards in list "Today" to list "Today", sort the cards in list "This Week" by due date ascending, and copy each card in list "Templates" with a name starting with "Prepare Mind, Body and Spirit for Today" to the top of list "Today"
 
-Not all of these policies are currently running on my board. I've played around with lots of different policies to see what works best, but I wanted to provide you with some concrete examples of things that I've used so that you can experiment for yourself.
+Not all of these actions are currently running on my board. I've played around with lots of different actions to see what works best, but I wanted to provide you with some concrete examples of things that I've used so that you can experiment for yourself.
 
 #### Side Note - My Own Version of Butler
 
 Not to be salty, but I actually built a less extensible, harder-to-use and less popular version of Butler a little while ago without even knowing that Butler existed... so we'll just say they stole my idea. Mine was called [TaskBoardAssistant](https://github.com/tbarlow12/task-board-assistant) (catchy name, right?). Basically it was a concise way to define policies that would ideally be run on a timer trigger, usually from a serverless environment (Azure Functions in my case). Users would create a `.yml` file that contained the filters and actions for different Trello entities. I built a NuGet package that was able to read the `.yml` file and use the [Manatee.Trello SDK](https://github.com/gregsdennis/Manatee.Trello) to perform basic actions like moving, creating, archiving and copying cards, sorting lists, generating reports, etc.
 
-Originally, [TaskBoardAssistant](https://github.com/tbarlow12/task-board-assistant) was meant to be bigger than just Trello. In my work at Microsoft, we use a lot of different incarnations of "task boards" such as GitHub projects and Azure DevOps (the artist formerly known as Visual Studio Online). I wanted one policy to rule them all... Something that would copy stories/tasks/issues assigned to me in either GitHub or AzDO and then bring them to my Trello board where I was most comfortable interacting with them. The project is still there, and maybe someday I'll contribute more to it. But since I discovered Butler and IFTTT (foreshadowing), it seems like the most likely path of adoption is within those ecosystems, and I'll probably refocus my efforts there.
+Originally, [TaskBoardAssistant](https://github.com/tbarlow12/task-board-assistant) was meant to be bigger than just Trello. In my work at Microsoft, we use a lot of different incarnations of "task boards" such as GitHub projects and Azure DevOps (the artist formerly known as Visual Studio Online). I wanted one policy to rule them all... Something that would copy stories/tasks/issues assigned to me in either GitHub or AzDO and then bring them to my Trello board where I was most comfortable interacting with them. The project is still there, and maybe someday I'll contribute more to it. But since I discovered Butler and IFTTT, it seems like those are the most likely path of adoption is within the ecosystem, and I'll probably refocus my efforts there.
 
 ## Focus Tools
 
@@ -123,23 +127,31 @@ You may be familiar with the [Pomodoro](https://en.wikipedia.org/wiki/Pomodoro_T
 
 Pomello is a simple app that takes the Pomodoro system and applies it to my Trello tasks. When you start it up for the first time, you log into your Trello account. Then, you pick a list to work off of. Mine is the `Today` list if you didn't guess that already. Pomello then asks you to pick a task.
 
-![alt text](https://github.com/tbarlow12/tbarlow12.github.io/blob/task-blog/resources/images/productivity/pomello-1.png?raw=true)
+![alt text](https://github.com/tbarlow12/tbarlow12.github.io/blob/dev/resources/images/productivity/pomello-1.png?raw=true)
 
 Once you pick a task, the app has an extremely satisfying "clock winding up" sound that plays when you start a new task.
 
-![alt text](https://github.com/tbarlow12/tbarlow12.github.io/blob/task-blog/resources/images/productivity/pomello-2.png?raw=true)
+![alt text](https://github.com/tbarlow12/tbarlow12.github.io/blob/dev/resources/images/productivity/pomello-2.png?raw=true)
 
 The timer runs for 25 minutes, and Pomello will actually log on your Trello card how many (even fractional) Pomodoros you've spent working on that task.
 
-![alt text](https://github.com/tbarlow12/tbarlow12.github.io/blob/task-blog/resources/images/productivity/pomello-3.png?raw=true)
+![alt text](https://github.com/tbarlow12/tbarlow12.github.io/blob/dev/resources/images/productivity/pomello-3.png?raw=true)
 
-I love it because it keeps me focused on what I'm working on and forces me to time-box the work that I do. If a task requires more than 3 or 4 Pomodoros, I probably should've broken it down a little bit more. It also gives me the opportunity to reflect on how long a task actually took. I haven't done a whole lot of estimating, but it's something that I would like to include more in my process.
+I love it because it keeps me focused on what I'm working on and forces me to time-box the work that I do. If a task requires more than 3 or 4 Pomodoros, I probably should've broken it down a little bit more. It also gives me the opportunity to reflect on how long a task actually took, and how good my estimate 👇 actually was.
+
+### Agile Tools
+
+Another 3rd-party "Power Up" that I use on my Trello board is [Agile Tools](https://getcorrello.com/AgileTools). This allows me a quick way to add an estimate for each of the cards. The estimate is in "story points," which can mean different things to different people. To make it simple for all my tasks, I equate 1 story point with 1 Pomodoro. And since Pomello logs how many Pomodoros I spend on each task, it gives me a good way to evaluate my estimates for each task. As part of my weekly planning, I give an estimate for each task. Also, in my daily planning, if any tasks from my `Triage` list land in my `This Week` or `Today` lists, I add estimates for those too.
+
+Another nice feature added by Agile Tools is WIP Limits. I can set the maximum number of cards that should exist in a list. If I go over that number, there is a red badge on each of the cards that tells me how many cards are in that list, and how many cards there *should* be. I set my WIP Limit for `This Week` to 20, and my limit for `Today` is 5 (4 cards per weekday, counting on leaving one spot for tasks that come up during the week).
 
 ### WasteNoTime
 
+[WasteNoTime](https://chrome.google.com/webstore/detail/wastenotime/enebomhlllfaccbelnjhfgblnalofhch?hl=en) is a Chrome extension that keeps me accountable for the websites I visit. I can set schedules for when I can/can't visit a certain URL, and if I try to violate the rules, it pops up with a quote about productivity/time management and asks "Shouldn't you be working?" This makes it much easier to avoid wasting time on sites that don't add any real value to my day
+
 ### AppBlock
 
-### Multi-Monitor Layout
+[AppBlock](https://play.google.com/store/apps/details?id=cz.mobilesoft.appblock) does the same job for me as WasteNoTime, but on my phone. I can set time limits and schedules for when applications or websites can or can't be accessed. That way, I have more than just my willpower to stop me from using my phone as an escape hatch when I'm tired or bored.
 
 ## Habits
 
@@ -147,34 +159,42 @@ I love it because it keeps me focused on what I'm working on and forces me to ti
 
 I try to start every day of my life by doing things to prepare my mind, body and spirit for a new day. Those things are:
 
-- Personal prayer on my knees, record any thoughts or impressions
-- At least 20 minutes studying scriptures
-- At least 20 minutes working out
-- At least 10 minutes meditating
+- Personal prayer on my knees
+- 10 minutes drawing a mind map
+- 30 minutes studying scriptures
 - Recite my personal creed
+- ~40 minutes working out (except on Sunday)
+- 10 minutes meditating
 - Create a meaningful plan for the day (see Daily Planning below)
 
-I've found that if I skip even one of these daily rituals, I can feel it during the day. I try to keep them flexible, since there will be days that I'll be able to spend more time on these things, but I wanted to make sure I had a minimum value set.
+I've found that if I skip even one of these daily rituals, I can feel it during the day. There are times when I can spend more time on some of these tasks, other times I spend less. I've learned from being a dad of two little boys that I need to just take whatever time they'll give me. Usually, this just means getting up early to finish most of these tasks before they get up.
 
 ### Daily Planning
 
 My Daily Planning follows these exact steps:
 
-- Visualize the end of my day and the **three** most important things that I could accomplish in that day? Write them down in my "Daily Notes Page" that I keep in OneNote
-- Triage all items in my `Triage` list by placing them in their categorical list (or one of the time-sensitive lists if the task needs to be completed soon), adding a due date if necessary and then prioritize their order in the list
-- Move the tasks from my `This Week` list that I commit to finishing that day to your `Today` list, which should be in support of the Big 3 that I defined in the first step. If there is a task that I cannot finish in a day, I break it down into smaller tasks. If I am blocked by something, move that task to your `Waiting For` list and write down what you are waiting for in the card description
-- Scan my `Waiting For` list to see if any conditions have changed that will allow me to move forward and move cards accordingly
+- Begin your planning with a prayer for help and guidance as you decide what you will do today
+- Check your work sprint board at work to make sure you've captured all tasks assigned to you as cards and add them to your Triage list
+- Triage all items in my triage list by categorizing them, estimating them, adding a due date if necessary and placing them in the correct place by priority
+- Move the tasks from your 'This Week' list that you commit to finishing today to your 'Today' list. If there is a task that you cannot finish in a day, break it down into smaller tasks. If you are blocked by something, move that task to your 'Waiting For' list and write down what you are waiting for
+- Scan your 'Waiting For' list to see if any conditions have changed that will allow you to move forward
+- Visualize the end of your day. What are the most important three things that you could accomplish today? Write them down in your "Daily Notes Page
+- Conclude your planning with a prayer for help to finish the tasks you have committed to doing today
 
 ### Weekly Planning
 
 The main purpose of my weekly planning is to keep the big picture in focus while enabling quick and easy daily planning sessions. Here are the main steps to my weekly planning session:
 
+- Begin your planning with a prayer for help and guidance as you decide what you will do this week
 - Spend 5:00 writing down what went well this last week
 - Spend 5:00 writing down things you could have done better this week
 - Plan any action items based on this week's retrospective
 - Go through each categorical list and determine if any of the tasks on that list **need** to be done this week
+- Filter, remove or combine cards if necessary to make sure you have no more than 20 cards for the week
+- Add estimates for each item on the list
+- Add due dates for each item on the list, making sure each day has a balanced number of tasks
 - (...run through my [hotspots](https://alifeofproductivity.com/your-life-at-10000-feet-hotspots-time-energy/) and the pre-defined tasks I've associated with each of them. Examples: Plan date night for the week, Plan for upcoming traditions, Plan to reach out to an old friend, Plan your workouts for the week, Label expenses in money tracking tool, etc.)
-- 
+- Conclude your planning with a prayer for help to finish the tasks you have committed to doing this week
 
 ## Resources
 
