@@ -97,7 +97,7 @@ At last, you've made it to the section you've been waiting for. It's been a long
 
 [Butler](https://help.trello.com/article/1198-an-intro-to-butler) was originally developed as a 3rd party Trello add-in, but was recently acquired by Trello to be a native part of the platform. It's a tool for automating tasks in Trello. Users can set up actions that are triggered by certain rules, due dates of cards, specific times in a day, week or month, etc.
 
-Here are some example Butler actions that I have run on my board (currently or in the past):
+Here are some example Butler actions that I have run on my board:
 
 - When a card is added to list "Done", mark the due date as complete, and check all the items in all the checklists on the card
 - When a card is added to the board by me, add an empty checklist named "Acceptance Criteria" to the card
@@ -113,7 +113,11 @@ Not all of these actions are currently running on my board. I've played around w
 
 #### Side Note - My Own Version of Butler
 
-Not to be salty, but I actually built a less extensible, harder-to-use and less popular version of Butler a little while ago without even knowing that Butler existed... so we'll just say they stole my idea. Mine was called [TaskBoardAssistant](https://github.com/tbarlow12/task-board-assistant) (catchy name, right?). Basically it was a concise way to define policies that would ideally be run on a timer trigger, usually from a serverless environment (Azure Functions in my case). Users would create a `.yml` file that contained the filters and actions for different Trello entities. I built a NuGet package that was able to read the `.yml` file and use the [Manatee.Trello SDK](https://github.com/gregsdennis/Manatee.Trello) to perform basic actions like moving, creating, archiving and copying cards, sorting lists, generating reports, etc.
+Not to be salty, but I actually built a less extensible, harder-to-use and less popular version of Butler a little while ago without even knowing that Butler existed... so we'll just say they stole my idea.
+
+![alt text](https://media.giphy.com/media/SAOfJWFSQU91vBlYWJ/giphy.gif)
+
+Mine was called [TaskBoardAssistant](https://github.com/tbarlow12/task-board-assistant) (catchy name, right?). Basically it was a concise way to define policies that would ideally be run on a timer trigger, usually from a serverless environment (Azure Functions in my case). Users would create a `.yml` file that contained the filters and actions for different Trello entities. I built a NuGet package that was able to read the `.yml` file and use the [Manatee.Trello SDK](https://github.com/gregsdennis/Manatee.Trello) to perform basic actions like moving, creating, archiving and copying cards, sorting lists, generating reports, etc.
 
 Originally, [TaskBoardAssistant](https://github.com/tbarlow12/task-board-assistant) was meant to be bigger than just Trello. In my work at Microsoft, we use a lot of different incarnations of "task boards" such as GitHub projects and Azure DevOps (the artist formerly known as Visual Studio Online). I wanted one policy to rule them all... Something that would copy stories/tasks/issues assigned to me in either GitHub or AzDO and then bring them to my Trello board where I was most comfortable interacting with them. The project is still there, and maybe someday I'll contribute more to it. But since I discovered Butler and IFTTT, it seems like those are the most likely path of adoption is within the ecosystem, and I'll probably refocus my efforts there.
 
@@ -160,14 +164,18 @@ Another nice feature added by Agile Tools is WIP Limits. I can set the maximum n
 I try to start every day of my life by doing things to prepare my mind, body and spirit for a new day. Those things are:
 
 - Personal prayer on my knees
-- 10 minutes drawing a mind map
 - 30 minutes studying scriptures
 - Recite my personal creed
+- 10 minutes drawing a mind map
 - ~40 minutes working out (except on Sunday)
 - 10 minutes meditating
 - Create a meaningful plan for the day (see Daily Planning below)
 
-I've found that if I skip even one of these daily rituals, I can feel it during the day. There are times when I can spend more time on some of these tasks, other times I spend less. I've learned from being a dad of two little boys that I need to just take whatever time they'll give me. Usually, this just means getting up early to finish most of these tasks before they get up.
+I've found that if I skip even one of these daily rituals, I can feel a difference during the day. On days that I get all 7, I feel pretty unstoppable.
+
+![alt text](https://giphy.com/gifs/theofficenbc-nbc-the-office-tv-LSX5dYGZJ2Z7fy5rA4)
+
+There are times when I can spend more time on some of these tasks, other times I spend less. I've learned from being a dad of two little boys that I need to just take whatever time they'll give me. Usually, this just means getting up early to finish most of these tasks before they get up.
 
 ### Daily Planning
 
@@ -186,7 +194,7 @@ My Daily Planning follows these exact steps:
 The main purpose of my weekly planning is to keep the big picture in focus while enabling quick and easy daily planning sessions. Here are the main steps to my weekly planning session:
 
 - Begin your planning with a prayer for help and guidance as you decide what you will do this week
-- Spend 5:00 writing down what went well this last week
+- Spend 5:00 writing down everything that went well this last week
 - Spend 5:00 writing down things you could have done better this week
 - Plan any action items based on this week's retrospective
 - Go through each categorical list and determine if any of the tasks on that list **need** to be done this week
@@ -195,6 +203,8 @@ The main purpose of my weekly planning is to keep the big picture in focus while
 - Add due dates for each item on the list, making sure each day has a balanced number of tasks
 - (...run through my [hotspots](https://alifeofproductivity.com/your-life-at-10000-feet-hotspots-time-energy/) and the pre-defined tasks I've associated with each of them. Examples: Plan date night for the week, Plan for upcoming traditions, Plan to reach out to an old friend, Plan your workouts for the week, Label expenses in money tracking tool, etc.)
 - Conclude your planning with a prayer for help to finish the tasks you have committed to doing this week
+
+I try to hold my planning session on Saturday morning, but it is often fragmented into any time I can find (could be Saturday morning, nap time, night, Sunday morning, nap time, etc.). It's an investment of my time, but one that pays dividends upon dividends throughout the week.
 
 ## Resources
 
@@ -214,5 +224,4 @@ Here are some of my absolute favorite books that have shaped how I see things li
 
 ## Conclusion
 
-I've been experimenting and researching for years on how to best manage my own tasks, and I thought I'd share some of what works for me.
-
+Well, you made it. Certainly farther than I would have made it reading some rando's blog about how he does stuff... I hope that at least *something* in this was useful to you. If this just got you thinking about how you want to get stuff done, even if it's exactly opposite of everything that I'm doing, I'll feel like I've done my job here. 
