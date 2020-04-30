@@ -67,7 +67,7 @@ Some of the things that I record are not necessarily "tasks." They might just be
 
 ### OneNote
 
-OneNote does three things for me: keeps my "big 3" top of mind, is my daily code journal/digital scratch pad throughout the day, and it acts as my long-term storage for thoughts and ideas.
+OneNote does three things for me: keeps my "big 3" top of mind during the day, is my daily code journal/digital scratch pad throughout the day, and it acts as my long-term storage for thoughts and ideas.
 
 #### OneNot Job 1: Big 3
 
@@ -151,7 +151,7 @@ Another nice feature added by Agile Tools is WIP Limits. I can set the maximum n
 
 ### WasteNoTime
 
-[WasteNoTime](https://chrome.google.com/webstore/detail/wastenotime/enebomhlllfaccbelnjhfgblnalofhch?hl=en) is a Chrome extension that keeps me accountable for the websites I visit. I can set schedules for when I can/can't visit a certain URL, and if I try to violate the rules, it pops up with a quote about productivity/time management and asks "Shouldn't you be working?" This makes it much easier to avoid wasting time on sites that don't add any real value to my day
+[WasteNoTime](https://chrome.google.com/webstore/detail/wastenotime/enebomhlllfaccbelnjhfgblnalofhch?hl=en) is a Chrome extension that keeps me accountable for the websites I visit. I can set schedules for when I can/can't visit a certain URL, and if I try to violate the rules, it pops up with a quote about productivity/time management and asks "Shouldn't you be working?" This makes it much easier to avoid wasting time on sites that don't add any real value to my day.
 
 ### AppBlock
 
@@ -188,6 +188,8 @@ My Daily Planning follows these exact steps:
 - Scan your 'Waiting For' list to see if any conditions have changed that will allow you to move forward
 - Visualize the end of your day. What are the most important three things that you could accomplish today? Write them down in your "Daily Notes Page
 - Conclude your planning with a prayer for help to finish the tasks you have committed to doing today
+
+By having a deliberate plan for what I will do that day, I don't waste any time deciding what to do next. I can just focus on annihilating any task that is foolish enough to face me.
 
 ### Weekly Planning
 
