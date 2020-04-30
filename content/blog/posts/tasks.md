@@ -173,7 +173,7 @@ I try to start every day of my life by doing things to prepare my mind, body and
 
 I've found that if I skip even one of these daily rituals, I can feel a difference during the day. On days that I get all 7, I feel pretty unstoppable.
 
-![alt text](https://giphy.com/gifs/theofficenbc-nbc-the-office-tv-LSX5dYGZJ2Z7fy5rA4)
+![alt text](https://media.giphy.com/media/LSX5dYGZJ2Z7fy5rA4/giphy.gif)
 
 There are times when I can spend more time on some of these tasks, other times I spend less. I've learned from being a dad of two little boys that I need to just take whatever time they'll give me. Usually, this just means getting up early to finish most of these tasks before they get up.
 
@@ -224,4 +224,4 @@ Here are some of my absolute favorite books that have shaped how I see things li
 
 ## Conclusion
 
-Well, you made it. Certainly farther than I would have made it reading some rando's blog about how he does stuff... I hope that at least *something* in this was useful to you. If this just got you thinking about how you want to get stuff done, even if it's exactly opposite of everything that I'm doing, I'll feel like I've done my job here. 
+Well, you made it. Certainly farther than I would have made it reading some rando's blog about how he does stuff... I hope that at least *something* in this was useful to you. If this just got you thinking about how you want to get stuff done, even if it's exactly opposite of everything that I'm doing, I'll feel like I've done my job here. If there's something that has worked for you, I'd love to hear about it. Thanks for sticking with me to the end. Until next time 👍
