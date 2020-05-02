@@ -27,22 +27,52 @@ I've played around with many other ideas for managing my own tasks - hierarchica
 - Today
 - Waiting For
 - Done
-- *...Categorical Backlog*
+- *...Categorical Backlog* (I'll give some category examples later)
 - Things I'd like to do
 
 Here's an explanation of what these lists do for me:
 
-`Triage` - This is the birthplace of *most* my tasks. If there are tasks that come up that I *know* are urgent and *must* be completed either today or this week, I'll just put them directly in the appropriate list, but they almost always start here. By having this one place where all the ideas are collected, I can be sure that I'm not missing a captured idea just because it's hidden in the bottom of one of my categorical lists. It also forces me to prioritize incoming tasks on at least a daily basis. I keep this as the first list on my board so that I can trust myself to deal with incoming tasks frequently. I've added other tools that make it easy to capture thoughts and tasks in this list wherever I am (see "Capturing Tools" below). Because my Trello board is my task hub, if a task or thought can make it to my Trello board, I can be 100% certain that I'll be forced to deal with it at some point.
+`Triage` - This is the birthplace of *most* my tasks. If there are tasks that come up that I *know* are urgent and *must* be completed either today or this week, I'll just put them directly in the appropriate list, but they almost always start here. By having this one place where all the ideas are collected, I can be sure that I'm not missing a captured idea just because it's hidden in the bottom of one of my categorical lists. It also forces me to prioritize incoming tasks on at least a daily basis. I keep this as the first list on my board so that I can trust myself to deal with incoming tasks frequently. I've added other tools that make it easy to capture thoughts and tasks in this list wherever I am (see "Capturing Tools" below). Because my Trello board is my task hub, if a task or thought can make it to my Trello board, I can be 100% certain that I'll be forced to deal with it at some point. Here are a few examples of things that are in my list this morning:
+- Print out my son's insurance card for his next checkup
+- Set up a meeting with a co-worker to discuss 3D model decimation
+- Integration tests for .NET Azure functions
+- Order a Mother's day gift for Mom
+
+As you can see, the tasks can be from any part of my life. That's the point. I have one funnel through which all my tasks must pass. It allows me to capture everything without burdening my brain all the time about where each category of task should live. During the triage process, I'll add a label, a due date an estimate of how long this task will take and then put it in it's appropriate spot. Often times, as part of the triage process, a task name will be changed, since I may have just tried to quickly capture the idea. Just as often, tasks will be split out into multiple, more concrete tasks. As long as `Triage` captures the essence of the task, I can spend more time in my planning sessions defining how I want it to happen.
 
 `This Week` - This list represents the body of work that I've committed to during the week. Having this list enables a quicker daily planning session, as I don't need to scan the entire board to decide which things I want to get done today. Every task in this list will have a due date as well as a story point estimate. I'll discuss in more detail in my Weekly Planning section below.
 
-`Today` - My `Today` list is the list of tasks I've committed to do today. This, to me, is the most important list because if I'm not actually *doing* something *today*, what's the point in planning at all? I try to make sure that tasks are paired down enough that I will be able to accomplish them within the day, and I try to make sure the number of tasks I need to do every day does not exceed my ability to accomplish them. I have a [Butler](https://help.trello.com/article/1198-an-intro-to-butler) policy that runs every night removes any remaining task from `Today` and puts it in `This Week`, so I can start my day with a clean slate, and deliberately choose the tasks that I will do each day. Daily planning is a crucial component to keeping this list up to date and useful, and I'll discuss this more below.
+`Today` - My `Today` list is the list of tasks I've committed to do today. This, to me, is the most important list because if I'm not actually *doing* something *today*, what's the point in planning at all? I try to make sure that tasks are pared down enough that I will be able to accomplish them within the day, and I try to make sure the number of tasks I need to do every day does not exceed my ability to accomplish them. I have a [Butler](https://help.trello.com/article/1198-an-intro-to-butler) policy that runs every night removes any remaining task from `Today` and puts it in `This Week`, so I can start my day with a clean slate, and deliberately choose the tasks that I will do each day. Daily planning is a crucial component to keeping this list up to date and useful, and I'll discuss this more below.
 
 `Waiting For` - Nothing generates more conscious or sub-conscious frustration for me than to see a task in my list that I can do nothing about. By having a landing spot for tasks that require an action/event outside of my control, I can let my mind rest, knowing that I've done all that I can for now. This list is also scanned during my morning planning just in case that action/event has happened and I can move forward to finishing the task.
 
 `Done` - This, perhaps to your great surprise, holds the tasks that are done. In the past, I've just archived the card when it's done, but I found that I get a lot more joy out of moving the card over to the done column than letting it disappear in to the digital void. Plus, at the end of the week, I have a [Butler](https://help.trello.com/article/1198-an-intro-to-butler) policy (again, later) in place to generate a report of everything that I did during the week, send me an email with the results and then ceremoniously archive each card to clear space for the coming week. It's magical.
 
-`Categorical Backlog` - I used to just have one long backlog of tasks that got prioritized each week. I switched to keeping categorical lists for two reasons:
+`Categorical Backlog` - Here are a few examples of the lists that comprise my "categorical backlog" and a few examples of what's currently in each:
+
+- `Work`
+  - Automated integration test pipeline for [serverless-azure-functions](https://github.com/serverless/serverless-azure-functions/)
+  - Pro and con comparison between Kafka, RabbitMQ, MSMQ and any other on-prem AMQP system
+- `Church`
+  - Organize speakers for congregational broadcast next week
+- `Digital` (things I can do anywhere from my laptop)
+  - Finish menu for my wife's birthday
+  - Add my IRA contributions to my taxes
+- `Errands` (things I can only do out and about)
+  - Refills for Pilot G2 07 Pens
+  - Recycle old laptop
+- `Home Projects` (things I can only do at home)
+- `Side Projects` (mostly coding projects that are not *directly* part of my job)
+  - Azure DevOps webhook for automatically adding tasks to Trello when assigned to me
+  - [Clover](https://www.npmjs.com/package/clvr) enhancement - allow for RegEx validation
+- `Learning` (articles to read, topics to study, tutorials to do)
+  - Read "How Will You Measure Your Life" again - on paper
+  - Read blog post on Cloud Design Patterns
+- `Planning` (big picture planning, improvements to my process, etc.)
+  - Create a more deliberate nightly routine
+  - Refine our family emergency preparedness plan
+
+I used to just have one long backlog of tasks that got prioritized each week. I switched to keeping categorical lists for two reasons:
 
 1. More **compartmentalization**. I really like to be able to focus on the thing I want to focus on when I want to focus on that thing. If I can look at one list that contains all my pending tasks for that context (outside of the tasks that need to be done today or this week), it just makes me feel warm inside.
 2. Just in case I'm in the **"right place, right time"** to do a task that I didn't necessarily plan on. For example, I have an `Errands` list. If I'm out and about with my two little boys and want to give my wife a little extra time to just sit in peace without a baby in her arms or a toddler climbing all over her, I'll pull up the list and see if there is anything we can go do together. Or, if I'm at work and get some unexpected extra time between meetings for a quick task, I can check my `Work` list to see if there's anything that can fit in that amount of time.
@@ -61,7 +91,7 @@ If I have a quick thought while I'm on the go, I actually have a widget on my ph
 
 ### Google Assistant & IFTTT (If This Then That)
 
-For some reason, I seem to have a lot of my ideas while I'm commuting. I want to be able to capture the thought, but I'm not going to look for my widget when I'm going 80 mph (I mean 65) on the freeway. Luckily, there was already an [IFTTT hook](https://ifttt.com/applets/L3Whbwie-tell-google-assistant-to-create-new-task-card-on-trello) that integrates Trello and my Google Assistant, enabling me to just say, "Hey Google, Add a task to finish my productivity blog post," and voila - the task "Finsih my productivity blog post" is added to my `Triage` list.
+For some reason, I seem to have a lot of my ideas while I'm commuting. I want to be able to capture the thought, but I'm not going to look for my widget when I'm going 80 mph (I mean 65) on the freeway. Luckily, there was already an [IFTTT hook](https://ifttt.com/applets/L3Whbwie-tell-google-assistant-to-create-new-task-card-on-trello) that integrates Trello and my Google Assistant, enabling me to just say, "Hey Google, Add a task to finish my productivity blog post," and voila - the task "Finish my productivity blog post" is added to my `Triage` list.
 
 Some of the things that I record are not necessarily "tasks." They might just be ideas. But by including it on my board, I know I'll need to act on it somehow - and that could mean really fleshing out the idea, setting aside time to ponder about it and store it in OneNote 👇
 
@@ -69,9 +99,9 @@ Some of the things that I record are not necessarily "tasks." They might just be
 
 OneNote does three things for me: keeps my "big 3" top of mind during the day, is my daily code journal/digital scratch pad throughout the day, and it acts as my long-term storage for thoughts and ideas.
 
-#### OneNot Job 1: Big 3
+#### OneNote Job 1: Big 3
 
-In my daily planning, I try to envision my "Big 3" that I want to accomplish by then end of the day. These often end up being closer to "themes" of tasks than actual broken-down tasks that I can accomplish in a Pomello or two. So I keep a OneNote page open, specific to each day, where I've defined my Big 3 right at the top. This helps me keep them top of mind throughout the day.
+In my daily planning, I try to envision my "Big 3" that I want to accomplish by then end of the day. These often end up being closer to "themes" of tasks than actual broken-down tasks that I can accomplish in a Pomello (more on this later) or two. So I keep a OneNote page open, specific to each day, where I've defined my Big 3 right at the top. This helps me keep them top of mind throughout the day.
 
 #### OneNote Job 2: Code Journal/Scratch Pad
 
@@ -107,7 +137,7 @@ Here are some example Butler actions that I have run on my board:
 - When a card with a name starting with "Pack for" is added to the board, add the "Packing List" checklist from card "Packing List" to the card
 - 2 days before a card is due, move the card to the top of list "Today"
 - When a card is added to list "Work", add the blue "Work" label to the card
-- Every day at 3:00 am, move all the cards in list "Today" to list "Today", sort the cards in list "This Week" by due date ascending, and copy each card in list "Templates" with a name starting with "Prepare Mind, Body and Spirit for Today" to the top of list "Today"
+- Every day at 3:00 am, move all the cards in list "Today" to list "This Week", sort the cards in list "This Week" by due date ascending, and copy each card in list "Templates" with a name starting with "Prepare Mind, Body and Spirit for Today" to the top of list "Today"
 
 Not all of these actions are currently running on my board. I've played around with lots of different actions to see what works best, but I wanted to provide you with some concrete examples of things that I've used so that you can experiment for yourself.
 
@@ -127,7 +157,7 @@ Originally, [TaskBoardAssistant](https://github.com/tbarlow12/task-board-assista
 
 [Pomello](https://pomelloapp.com/) is my "runtime" task management tool. My trusted companion on the battlefield of daily productivity. She keeps me accountable, focused and in the zone.
 
-You may be familiar with the [Pomodoro](https://en.wikipedia.org/wiki/Pomodoro_Technique) system. If not, it's basically 25 minutes of focused work, 5 minute break. Do four of those cycles, and take a longer break. 
+You may be familiar with the [Pomodoro](https://en.wikipedia.org/wiki/Pomodoro_Technique) system. If not, it's basically 25 minutes of focused work, 5 minute break. Do four of those cycles, and take a longer break. While I think 25 minutes works great, and obviously a lot of people have had success with it (myself included). But after a [study done by Dr. Travis Bradberry](https://qz.com/work/1561830/why-the-eight-hour-workday-doesnt-work/), I adjusted to doing hour-long intervals with 15 minute breaks. I could go more into detail on that, but I'll save that for another time. 
 
 Pomello is a simple app that takes the Pomodoro system and applies it to my Trello tasks. When you start it up for the first time, you log into your Trello account. Then, you pick a list to work off of. Mine is the `Today` list if you didn't guess that already. Pomello then asks you to pick a task.
 
@@ -137,7 +167,7 @@ Once you pick a task, the app has an extremely satisfying "clock winding up" sou
 
 ![alt text](https://github.com/tbarlow12/tbarlow12.github.io/blob/dev/resources/images/productivity/pomello-2.png?raw=true)
 
-The timer runs for 25 minutes, and Pomello will actually log on your Trello card how many (even fractional) Pomodoros you've spent working on that task.
+The timer runs for `x` minutes (25 by default, but you can adjust that), and Pomello will actually log on your Trello card how many (even fractional) Pomodoros you've spent working on that task.
 
 ![alt text](https://github.com/tbarlow12/tbarlow12.github.io/blob/dev/resources/images/productivity/pomello-3.png?raw=true)
 
@@ -183,7 +213,7 @@ My Daily Planning follows these exact steps:
 
 - Begin your planning with a prayer for help and guidance as you decide what you will do today
 - Check your work sprint board at work to make sure you've captured all tasks assigned to you as cards and add them to your Triage list
-- Triage all items in my triage list by categorizing them, estimating them, adding a due date if necessary and placing them in the correct place by priority
+- Triage all items in your triage list by categorizing them, estimating them, adding a due date if necessary and placing them in the correct place by priority
 - Move the tasks from your 'This Week' list that you commit to finishing today to your 'Today' list. If there is a task that you cannot finish in a day, break it down into smaller tasks. If you are blocked by something, move that task to your 'Waiting For' list and write down what you are waiting for
 - Scan your 'Waiting For' list to see if any conditions have changed that will allow you to move forward
 - Visualize the end of your day. What are the most important three things that you could accomplish today? Write them down in your "Daily Notes Page
@@ -215,7 +245,7 @@ Here are some of my absolute favorite books that have shaped how I see things li
 - How Will You Measure Your Life - Clayton M. Christensen
 - Atomic Habits - James Clear
 - The Productivity Project - Chris Bailey
-- Grit: The Power of Passion and Perserverance - Angela Duckworth
+- Grit: The Power of Passion and Perseverance - Angela Duckworth
 - Algorithms to Live By - Tom Griffiths
 - Essentialism - Greg McKeown
 - Hyperfocus - Chris Bailey
