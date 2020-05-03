@@ -10,6 +10,8 @@ I'm hesitant to write this post for a number of reasons. First, I don't want thi
 
 ![alt text](https://i.makeagif.com/media/5-01-2015/ZUZocx.gif)
 
+It may seem like a lot of overhead, but the main purpose of all of this is to free up my mind to allow me to *really* focus on one thing at a time. Having these things in place give my self-conscious the assurance that I'm doing exactly what I should be doing at that time, and that all important tasks will get done when the time is right.
+
 Instead of describing my whole process for capturing, processing, planning and executing my tasks in a step-by-step fashion, I just want to share some of the tools and habits that have been helpful to me. With the current outbreak of COVID-19 and all that comes with it, especially working from home 100% of the time, I've found these to be more important than ever. I hope some of this is helpful for you, too. I'd also add the big disclaimer that any piece of this system is subject to, and will probably undergo, change at some point in the future. It's constantly evolving as I learn new ways to be more productive and as I adapt to life's ever-changing circumstances.
 
 Also, fair warning, I love talking about this subject. So if you're in, then settle in and get comfortable. You've been warned.
