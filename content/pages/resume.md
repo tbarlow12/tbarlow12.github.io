@@ -5,12 +5,12 @@ title: Resume
 # Resume
 
 ## Skills
-- Python, C#, Node.js, TypeScript, JavaScript, Java, React, Serverless, NLP, ML/AI
+- C#, Python, Node.js, TypeScript, JavaScript, Java, React, Serverless, NLP, ML/AI
 
 ## Work Experience
 
 ### **Software Engineer 2** – *Microsoft (Commercial Software Engineering), Redmond, WA, Feb 2019 - Present*
-- [Top contributor](https://github.com/serverless/serverless-azure-functions/graphs/contributors) to the Serverless Framework Azure Functions plugin. Added support for running locally, rolling back code/infrastructure deployment, skipping of identical deployment, Linux support, Python support and [more](https://github.com/serverless/serverless-azure-functions/pulls?utf8=%E2%9C%93&q=is%3Amerged+is%3Apr+author%3Atbarlow12+)
+- [Top contributor](https://github.com/serverless/serverless-azure-functions/graphs/contributors) to the Serverless Framework Azure Functions plugin. Added support for running locally, rolling back code/infrastructure deployment, skipping of identical deployment, Linux support, Python support, .NET Core support and [more](https://github.com/serverless/serverless-azure-functions/pulls?utf8=%E2%9C%93&q=is%3Amerged+is%3Apr+author%3Atbarlow12+)
 - [#2 contributor](https://github.com/microsoft/VoTT/graphs/contributors) to VoTT, an open-source tool for image and video annotation. Designed, architected and implemented [many features](https://github.com/Microsoft/VoTT/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Amerged+author%3Atbarlow12), including the tag input component, dynamic help menu & cloud connections
 
 ### **Software Engineer** – *Microsoft (Commercial Software Engineering), Redmond, WA, Jan 2018 – Feb 2019*
@@ -25,7 +25,6 @@ title: Resume
 ### **Software Developer Intern** – *FamilySearch, Salt Lake City, UT, May 2015 – Aug 2015*
 - Enhanced and maintained CLI tool for running bulk operations on database of historical places
 - Designed and implemented GUI to run on top of existing tool for users that struggled using the CLI
-
 
 ## Additional Projects
 

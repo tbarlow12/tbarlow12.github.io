@@ -13,6 +13,6 @@ At some point in my career, I would love to use my talents and experience in sof
 
 # Personal Interests
 
-When I'm not writing code, I love hanging out with my best friend. She happens to also be my wife, so that works out pretty well. I also love playing cars, tag, hide-and-seek, wrestling, etc. with our two little boys, ages 2 and 3 months.
+When I'm not writing code, I love hanging out with my best friend. She happens to also be my wife, so that works out pretty well. I also love playing cars, tag, hide-and-seek, wrestling, etc. with our two little boys. I'm the greatest breakfast chef in the world (according to my 2-year old) and consider myself to be a connoisseur of breakfast burritos
 
-I also love playing basketball and golf, eating cheeseburgers and binge-watching The Office for the 27th time through (with a healthy mix of Parks and Rec). I can quote The Sandlot start to finish, and can rattle off most of John Stockton's career stat line.
+When I find the time, I love playing basketball and golf, as well as binge-watching The Office for the 27th time through (with a healthy mix of Parks and Rec). I can quote The Sandlot start to finish, and can rattle off most of John Stockton's career stat line.
