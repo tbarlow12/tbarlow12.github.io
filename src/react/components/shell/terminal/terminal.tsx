@@ -34,11 +34,6 @@ export default class MyTerminal extends React.Component<MyTerminalProps, MyTermi
   }
 
   commands = {
-    contact: {
-      description: "Contact Me via various methods",
-      usage: "contact <email (default)|github|linkedin>",
-      fn: this.contact.bind(this)
-    },
     echo: {
       description: "Echo a passed string.",
       usage: "echo <string>",
@@ -101,11 +96,6 @@ export default class MyTerminal extends React.Component<MyTerminalProps, MyTermi
 
   echo() {
     return `${Array.from(arguments).join(" ")}`
-  }
-
-  contact() {
-    const target = arguments[0];
-    const win = wind
   }
 
   cd () {
