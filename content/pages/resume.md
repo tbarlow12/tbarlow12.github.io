@@ -10,8 +10,11 @@ title: Resume
 ## Work Experience
 
 ### **Software Engineer 2** – *Microsoft (Commercial Software Engineering), Redmond, WA, Feb 2019 - Present*
-- [Top contributor](https://github.com/serverless/serverless-azure-functions/graphs/contributors) to the Serverless Framework Azure Functions plugin. Added support for running locally, rolling back code/infrastructure deployment, skipping of identical deployment, Linux support, Python support, .NET Core support and [more](https://github.com/serverless/serverless-azure-functions/pulls?utf8=%E2%9C%93&q=is%3Amerged+is%3Apr+author%3Atbarlow12+)
-- [#2 contributor](https://github.com/microsoft/VoTT/graphs/contributors) to VoTT, an open-source tool for image and video annotation. Designed, architected and implemented [many features](https://github.com/Microsoft/VoTT/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Amerged+author%3Atbarlow12), including the tag input component, dynamic help menu & cloud connections
+- Tech lead for team of 6 engineers in building and maintaining a data collection and processing pipeline
+- [#1 overall contributor](https://github.com/serverless/serverless-azure-functions/graphs/contributors) to the Serverless Framework Azure Functions plugin. Added support for running locally, rolling back code/infrastructure deployment, skipping of identical deployment, Linux support, Python support, .NET Core support and [more](https://github.com/serverless/serverless-azure-functions/pulls?utf8=%E2%9C%93&q=is%3Amerged+is%3Apr+author%3Atbarlow12+)
+- [#2 contributor](https://github.com/microsoft/VoTT/graphs/contributors) to VoTT, a popular open-source tool for image and video annotation (>2.8K stars on GitHub). Designed, architected and implemented [many features](https://github.com/Microsoft/VoTT/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Amerged+author%3Atbarlow12), including the tag input component, dynamic help menu & cloud connections
+- Designed and implemented many features of a storage brokering service for a major CMS solution
+- Inventor of [Clover](https://www.npmjs.com/package/clvr), a testing framework for validating results and output of CLI applications
 
 ### **Software Engineer** – *Microsoft (Commercial Software Engineering), Redmond, WA, Jan 2018 – Feb 2019*
 - Contributed [multiple features to Cloud Custodian](https://github.com/cloud-custodian/cloud-custodian/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Amerged+author%3Atbarlow12+), an open-source CLI tool for cloud subscription governance, including real-time metric filters, scheduled operations, and multi-subscription support
