@@ -13,7 +13,7 @@ The first 5-10 are books that I think everyone should read. Not saying that I ag
 - How Will You Measure Your Life - Clayton M. Christensen
 - Atomic Habits - James Clear
 - The Productivity Project - Chris Bailey
-- Grit: The Power of Passion and Perserverance - Angela Duckworth
+- Grit: The Power of Passion and Perseverance - Angela Duckworth
 - Algorithms to Live By - Tom Griffiths
 - Essentialism - Greg McKeown
 - Hyperfocus - Chris Bailey
