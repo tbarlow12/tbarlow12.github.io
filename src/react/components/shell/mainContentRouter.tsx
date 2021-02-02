@@ -1,6 +1,7 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
 import { appManifest } from "../../createManifest";
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { Manifest } from "../../manifest";
 import { DefaultPage, PageType } from "../../pages/defaultPage";
 

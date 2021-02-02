@@ -1,6 +1,7 @@
 
 import postsFull from "../content/blog/posts-full.json";
 import postsPreviews from "../content/blog/posts-preview.json";
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { BlogPostMetadata } from "../models/blog";
 const md5 = require("md5.js");
 
