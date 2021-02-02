@@ -18,7 +18,7 @@
 
 - [ ] Blog Previews
   - [ ] Thumbnails
-  - [ ] Syle
+  - [ ] Style
 - [ ] Blog post
   - [ ] Hero image
   - [ ] parallax scrolling

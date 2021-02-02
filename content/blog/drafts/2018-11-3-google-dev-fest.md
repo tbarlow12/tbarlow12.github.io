@@ -10,7 +10,7 @@
   
 
 ### Keynote: Actions on Google - Daniel Myers
-- Extends google assistant to do things via conversation
+- Extends Google assistant to do things via conversation
 - (I need to work on my presentation skills)
 - Major shift in computing every 10 years
     - Mainframe -> Desktop -> Internet -> Mobile -> AI/Assistants
@@ -61,7 +61,7 @@
     - Rules + Data -> Program -> answers
 - ML
     - Answers + Data -> Program -> Rules
-- Rules become infeasibly difficult to manage (walk, run, bike, golf)
+- Rules become very difficult to manage (walk, run, bike, golf)
 - Neural network - horribly named technology
     - functions that pass their output to other functions
 - Predictions
