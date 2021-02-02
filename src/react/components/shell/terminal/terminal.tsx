@@ -1,5 +1,6 @@
 import React from "react";
 import Terminal from "react-console-emulator";
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { RouteComponentProps, withRouter } from "react-router";
 import { PathService } from "../../../../services/pathService";
 import { icons } from "../../../../scss/icons";
