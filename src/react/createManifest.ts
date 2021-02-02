@@ -1,3 +1,4 @@
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { Manifest, ManifestOptions } from "./manifest";
 import { icons } from "../scss/icons"
 import { BlogPage } from "./pages/blogPage"

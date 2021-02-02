@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { BlogPostMetadata } from "../../../models/blog";
 import { Markdown } from "../markdown";
 

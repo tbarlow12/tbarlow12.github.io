@@ -1,4 +1,5 @@
 import { appManifest } from "../react/createManifest";
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { Manifest } from "../react/manifest";
 
 export class PathService {

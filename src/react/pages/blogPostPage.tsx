@@ -1,4 +1,5 @@
 import React from "react";
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { PageProps } from "../../models/generic";
 import { BlogService } from "../../services/blogService";
 import { Markdown } from "../components/markdown";

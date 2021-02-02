@@ -1,6 +1,7 @@
 import React from "react";
 import { BlogService } from "../../services/blogService";
 import { BlogPostPreview } from "../components/blog/blogPostPreview";
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { BlogPostMetadata } from "../../models/blog";
 
 export function BlogPage() {
