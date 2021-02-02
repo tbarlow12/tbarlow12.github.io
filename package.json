@@ -4,6 +4,12 @@
   "homepage": "https://tbarlow12.github.io/",
   "private": true,
   "scripts": {
+    "lint": "npm run lint:markdown && npm run lint:spellcheck",
+    "lint:fix": "npm run lint:markdown:fix",
+    "lint:markdown": "markdownlint **/*.md  --ignore node_modules --ignore content/blog/drafts",
+    "lint:markdown:fix": "markdownlint **/*.md --fix --ignore node_modules --ignore content/blog/drafts",
+    "lint:spellcheck": "mdspell \"**/*.md\" \"!**/node_modules/**/*.md\" \"!**/content/blog/drafts/**/*.md\" --en-us --ignore-numbers --ignore-acronyms --report",
+    "spell:fix": "mdspell \"**/*.md\" \"!**/node_modules/**/*.md\" \"!**/content/blog/drafts/**/*.md\" --en-us --ignore-numbers --ignore-acronyms",
     "prestart": "npm run markdown",
     "start": "react-scripts start",
     "prebuild": "npm run markdown",
@@ -62,6 +68,8 @@
     "@typescript-eslint/parser": "^2.3.1",
     "@typescript-eslint/typescript-estree": "^2.3.1",
     "eslint-plugin-react-hooks": "^2.0.1",
-    "gh-pages": "^2.1.1"
+    "gh-pages": "^2.1.1",
+    "markdown-spellcheck": "^1.3.1",
+    "markdownlint-cli": "^0.26.0"
   }
 }

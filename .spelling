@@ -1,0 +1,183 @@
+# markdown-spellcheck spelling configuration file
+# Format - lines beginning # are comments
+# global dictionary is at the start, file overrides afterwards
+# one word per line, to define a file override use ' - filename'
+# where filename is relative to this configuration file
+serverless
+Buenos
+Aires
+PyPI
+NuGet
+numpy
+dev
+StackOverflow
+upvoted
+node.js
+Kaggle
+PyCon
+learnings
+repo
+VoTT
+cyclomatic
+Halstead
+onboarding
+hashtable
+metadata
+config
+lifecycle
+npm
+devops
+devs
+gifs
+codebases
+ramping
+codebase
+webhook
+architected
+backend
+http
+ - backlog.md
+LinkedIn
+Dev
+ - content/blog/posts/2016-09-02-microsoft-2016.md
+analytics
+ - content/blog/posts/2017-04-08-nba-position-clustering.md
+LeBron
+dataset
+clusterings
+Westbrook
+programmatically
+alley-oop
+JaVale
+Rajon
+Jrue
+Bledsoe
+Jimmer
+Fredette
+McCollum
+Dellavedova
+J.J.
+Barea
+Jerryd
+Bayless
+Shelvin
+Iman
+Shumpert
+itemizations
+Iguodala
+playmaker
+Oubre
+ - content/blog/posts/2017-10-12-woodenisms.md
+Woodenisms
+ - content/blog/posts/2018-06-01-joining-microsoft.md
+12-hour
+Goulding
+informationals
+Hackathon
+ - content/blog/posts/2018-06-15-difference.md
+Zuckerbergs
+hackathon
+impactful
+hackathons
+Tensorflow
+HackTheU
+Grantland
+ - content/blog/posts/2018-08-31-bucket-list.md
+2x
+all-nighter
+ - content/blog/posts/2019-05-06-pycon.md
+Keith-Magee
+config-as-code
+mathy
+python.org
+Westrum's
+organisational
+DMs
+Bernat
+Gabor
+20x
+lookups
+typings
+namespace
+ - content/blog/posts/2019-09-17-serverless-part1.md
+pre-loaded
+issues.js
+pulls.js
+utils.js
+Http
+png
+Webpack
+ServerlessConf
+ - content/blog/posts/2019-10-01-serverless-part2.md
+465ecfe
+issues.test.js
+pulls.test.js
+ESLint
+c593308
+APIs
+38413a0
+4c5803f
+1aefac7
+Webpacking
+webpacked
+4cb42fd
+configurability
+a8fabf6
+CLI-level
+ - content/blog/posts/2019-10-15-twenty-questions.md
+LeetCode
+Pramp
+i.e.
+OneWeek
+Vandelay
+Bulgorrito
+ - content/blog/posts/2020-05-04-tasks.md
+COVID-19
+Trello
+Jira
+RabbitMQ
+OneNote
+Pomello
+searchable
+10-year
+TaskBoardAssistant
+Manatee.Trello
+AzDO
+runtime
+Pomodoro
+Bradberry
+Pomodoros
+WasteNoTime
+AppBlock
+hotspots
+Duckworth
+Griffiths
+McKeown
+Hyperfocus
+Sharma
+rando's
+ - content/pages/books.md
+Mecham
+Screwtape
+C.S.
+Hillenbrand
+Satya
+Nadella
+ - content/pages/home.md
+microservices
+Taggart's
+audiobooks
+ - content/pages/projects.md
+VSCode-Inspired
+ - content/pages/resume.md
+2.8K
+FamilySearch
+VSCode-Themed
+VSCode-inspired
+FoolTheAI
+SeeingAI
+LearnItYourWay
+Everton
+Haglund
+ - README.md
+filenames

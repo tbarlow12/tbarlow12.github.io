@@ -42,7 +42,7 @@ It’s important to note that the generated `serverless.yml` file will contain a
 
 For the sake of this demo, we’re going to create a basic wrapper of the GitHub API for [issues](https://developer.github.com/v3/issues/) and [pull requests](https://developer.github.com/v3/pulls/).
 
-As you’ve probably already noticed, the `azure-nodejs` [template](https://github.com/serverless/serverless/tree/master/lib/plugins/create/templates/azure-nodejs) comes preloaded with two functions: `hello` and `goodbye`. Let’s remove those before we start adding our own code. To do this, remove both the `hello.js` and `goodbye.js` files. Also, remove their configuration definitions from `serverless.yml`.
+As you’ve probably already noticed, the `azure-nodejs` [template](https://github.com/serverless/serverless/tree/master/lib/plugins/create/templates/azure-nodejs) comes pre-loaded with two functions: `hello` and `goodbye`. Let’s remove those before we start adding our own code. To do this, remove both the `hello.js` and `goodbye.js` files. Also, remove their configuration definitions from `serverless.yml`.
 
 Right now your file structure should look something like:
 
