@@ -8,7 +8,7 @@ path: serverlesspart1
 
 (_See the [original post here](https://serverless.com/blog/serverless-azure-functions-v2)._)
 
-With the [recent updates to the `serverless-azure-functions` plugin](https://github.com/serverless/serverless-azure-functions/blob/master/CHANGELOG.md), it is now easier than ever to create, deploy and maintain a real-world REST API running on Azure Functions. This post will walk you through the first few steps of doing that. 
+With the [recent updates to the `serverless-azure-functions` plugin](https://github.com/serverless/serverless-azure-functions/blob/master/CHANGELOG.md), it is now easier than ever to create, deploy and maintain a real-world REST API running on Azure Functions. This post will walk you through the first few steps of doing that.
 
 To see the full end-to-end example used to create this demo, check out [my GitHub repo](https://github.com/tbarlow12/sls-az-func-rest-api). I structured [each commit](https://github.com/tbarlow12/sls-az-func-rest-api/commits/master) to follow the steps described in this post. Any steps named `Step X.X` are steps that involve no code or configuration changes (and thus not tracked by source control), but actions that could/should be taken at that point in the process. This is done to preserve the "commit-per-step" structure of the example repo.
 
@@ -108,6 +108,7 @@ module.exports.handler = async (context, req) => {
   }
 };
 ```
+
 ```javascript
 // src/handlers/pulls.js
 
@@ -205,7 +206,7 @@ functions:
         x-azure-settings:
           authLevel: anonymous
 ```
- 
+
 ## Step 2.1: Test your API Locally
 
 Run the following command in your project directory to test your local service.
@@ -269,9 +270,9 @@ When I’m done running the service locally, I’ll hit `Ctrl/Cmd + C` in the AP
 
 ### Authentication
 
-That’s all the configuration we need, so we’re ready to deploy this Function App. In order to deploy, we’ll need to authenticate with Azure. There are two options for authentication: interactive login and a service principal (which, if you are unfamiliar, is essentially a service account). 
+That’s all the configuration we need, so we’re ready to deploy this Function App. In order to deploy, we’ll need to authenticate with Azure. There are two options for authentication: interactive login and a service principal (which, if you are unfamiliar, is essentially a service account).
 
-At first, when you run a command that requires authentication, the Interactive Login will open up a webpage for you to enter a code. You’ll only need to do this once. The authentication results are cached to your local machine. 
+At first, when you run a command that requires authentication, the Interactive Login will open up a webpage for you to enter a code. You’ll only need to do this once. The authentication results are cached to your local machine.
 
 If you have a service principal, you’ll set the appropriate environment variables on your machine, and the plugin will skip the interactive login process. Unfortunately, if you’re using a free trial account, your only option is a service principal. The process for creating one and setting up your environment variables is detailed in the [Azure plugin README](https://github.com/serverless/serverless-azure-functions#creating-a-service-principal).
 
@@ -313,4 +314,4 @@ Also, if you're going to be at ServerlessConf 2019 in NYC, the Microsoft team is
 
 ## Contributing
 
-We’re eager to get your feedback on the `serverless-azure-functions` plugin. Please [log issues on the GitHub repo with any bug reports or feature requests](https://github.com/serverless/serverless-azure-functions/issues/new/choose). Or better yet, fork the repo and open up a [pull request](https://github.com/serverless/serverless-azure-functions/pulls)! 
+We’re eager to get your feedback on the `serverless-azure-functions` plugin. Please [log issues on the GitHub repo with any bug reports or feature requests](https://github.com/serverless/serverless-azure-functions/issues/new/choose). Or better yet, fork the repo and open up a [pull request](https://github.com/serverless/serverless-azure-functions/pulls)!
