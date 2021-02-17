@@ -12,11 +12,11 @@ I first interviewed with Microsoft in 2015 for a summer internship. When they ca
 <!-- 
 ![alt text](https://github.com/tbarlow12/tbarlow12.github.io/blob/dev/resources/images/Microsoft/sign.jpg?raw=true) -->
 
-I didn't feel great about my interviews - a couple of them felt downright terrible. But I did try hard to explain my thought process and walk my interviewers through my solutions to the problems they presented. 
+I didn't feel great about my interviews - a couple of them felt downright terrible. But I did try hard to explain my thought process and walk my interviewers through my solutions to the problems they presented.
 
 After our brains had become sufficiently scrambled through the 4-hour interview process, the recruiters took us to lunch at the Commons. When we came back from lunch, they handed out Microsoft hoodies and swag (pretty much a participation trophy for interviewing, but **score** nonetheless). I was just about to head out the door to go back to the hotel, intent on enjoying the rest of the weekend in Seattle with my sweet wife, when one of the recruiters pulled me aside.
 
-We went into a nearby conference room with one of the other recruiters, where they explained that they had an offer on the table for me. Shock doesn't begin to describe what I was feeling. It was cool to see that they were genuinely excited for me. I think they were even more excited for me to tell my wife. 
+We went into a nearby conference room with one of the other recruiters, where they explained that they had an offer on the table for me. Shock doesn't begin to describe what I was feeling. It was cool to see that they were genuinely excited for me. I think they were even more excited for me to tell my wife.
 
 On principle, I wouldn't officially accept anything until I had talked to Kate first, so I told them I would send them an email later that day. I called Kate as soon as I left the building and could barely contain my excitement as I tried to explain what just happened, not really knowing the answer myself. We spent the night in downtown Seattle, fully able to relax and imagine what our summer would be like in this new place.
 
@@ -26,7 +26,7 @@ On principle, I wouldn't officially accept anything until I had talked to Kate f
 
 The day after I took my last final in May of 2016, we packed up our Highlander with everything we'd need for the next 3 months and made the 12-hour drive to our summer home. Microsoft put us up in an apartment in Redmond, which was close enough to one of the buildings that I could schedule a shuttle to pick me up and take me to the office. I became friends with many of the shuttle drivers I met that summer and remain very close friends with a few of them to this day. I've been to dinner with them, attended funerals of family members, and even stayed in one of their houses while I was looking for a place to stay for my family. Some of the finest people I've ever had the chance to meet.
 
-I spent that first summer in building 109 of Microsoft's campus, working with the WDG Global Services Localization Data Insights team (kind of a mouthful). My project was to automate the process by which our team identified meaningful feedback, particularly when it came to localization issues in Windows. I was able to work with a few teams across Microsoft to create a system that utilized an internal big data platform and natural language processing/machine learning tools to process and identify feedback most likely to be actionable in order to pass it along to developers. 
+I spent that first summer in building 109 of Microsoft's campus, working with the WDG Global Services Localization Data Insights team (kind of a mouthful). My project was to automate the process by which our team identified meaningful feedback, particularly when it came to localization issues in Windows. I was able to work with a few teams across Microsoft to create a system that utilized an internal big data platform and natural language processing/machine learning tools to process and identify feedback most likely to be actionable in order to pass it along to developers.
 
 <!-- ![alt text](https://github.com/tbarlow12/tbarlow12.github.io/blob/dev/resources/images/Microsoft/project.jpg?raw=true) -->
 
@@ -34,7 +34,7 @@ It solved a critical business need for the team, as they had previously been hir
 
 <!-- ![alt text](https://github.com/tbarlow12/tbarlow12.github.io/blob/dev/resources/images/Microsoft/team.jpg?raw=true) -->
 
-I accepted an offer to return to the same team the following summer. As these things go, there was a massive re-organization within the team, my manager left Microsoft to pursue a personal dream of civic engagement as the City of Seattle's new Open Data Program Manager, and I would be reporting directly to my previous skip-manager. Although I was very sad to hear my manager would be leaving, I was happy to still be working under someone I knew and respected a great deal. 
+I accepted an offer to return to the same team the following summer. As these things go, there was a massive re-organization within the team, my manager left Microsoft to pursue a personal dream of civic engagement as the City of Seattle's new Open Data Program Manager, and I would be reporting directly to my previous skip-manager. Although I was very sad to hear my manager would be leaving, I was happy to still be working under someone I knew and respected a great deal.
 
 ## Return of the Intern
 
@@ -60,4 +60,4 @@ I went to school and finished my last semester, graduating in December of 2017 a
 
 I've been officially back for just about 3 months now, and I have had a blast with some really cool projects and fun adventures. I'll do my best to keep the blog updated on the happenings here.
 
-So, there you have it. I joined Microsoft because I felt like it would be a place where I could grow as a Software Engineer and, even more importantly, as a husband and father. I stay because those things are still true. 
+So, there you have it. I joined Microsoft because I felt like it would be a place where I could grow as a Software Engineer and, even more importantly, as a husband and father. I stay because those things are still true.

@@ -29,6 +29,7 @@ John Wooden was not only one of the greatest coaches of all-time (10 National Ch
 10. *"You can’t live a perfect day without doing something for someone who will never be able to repay you."*
 
 ## Honorable Mentions
+
 - *"If you keep too busy learning the tricks of the trade, you may never learn the trade."*
 
 - *"Let’s face it, we’re all imperfect and we’re going to fall short on occasion. But we must learn from failure and that will enable us to avoid repeating our mistakes. Through adversity, we learn, grow stronger, and become better people."*

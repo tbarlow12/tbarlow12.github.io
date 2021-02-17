@@ -4,7 +4,7 @@ title: About Me
 
 # About Me
 
-## I'm Tanner Barlow, and I love to write code.
+## I'm Tanner Barlow, and I love to write code
 
 I've really enjoyed the breadth of experience I've gained as a software engineer on the Commercial Software Engineering team at Microsoft, particularly the time spent building out developer tools and scalable microservices. I'm an unabashed fanboy of serverless (both the concept and the framework), dependency injection, design patterns, git aliases and more. I've loved working with C# & .NET Core, Node.js (specifically, TypeScript), Python, Java and pretty much any other language
 

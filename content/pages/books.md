@@ -10,6 +10,7 @@ These are some of my favorite books I've read recently. When I get some more tim
 The first 5-10 are books that I think everyone should read. Not saying that I agree with every opinion shared in these books, but they are important ideas to consider. Each of them, in one way or another, revolve around making **deliberate** choices in how you live your everyday life.
 
 ## Recent Favorites
+
 - How Will You Measure Your Life - Clayton M. Christensen
 - Atomic Habits - James Clear
 - The Productivity Project - Chris Bailey

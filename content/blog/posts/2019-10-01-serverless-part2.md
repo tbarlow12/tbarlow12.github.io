@@ -68,8 +68,7 @@ That's exactly what I did for [Step 4](https://github.com/tbarlow12/sls-az-func-
 
 For more details on `authLevel`, check out the [trigger configuration docs](https://docs.microsoft.com/en-us/azure/azure-functions/functions-bindings-http-webhook#trigger---configuration).
 
-
-###### Consumption SKU
+##### Consumption SKU
 
 One important thing to note is that the API Management configuration will default to the `consumption` SKU, which [recently went GA](https://azure.microsoft.com/en-ca/updates/azure-api-management-consumption-tier-is-now-generally-available/). For now, the only regions where `Consumption` API Management is allowed are:
 
@@ -82,7 +81,7 @@ One important thing to note is that the API Management configuration will defaul
 
 If you are deploying to a region outside of that list, you will need to specify a different SKU (`Developer`, `Basic`, `Standard` or `Premium`) within the `apim` configuration, which will be demonstrated in the next section.
 
-###### Deploy your updates:
+Deploy your updates:
 
 ```bash
 $ sls deploy
@@ -166,7 +165,7 @@ provider:
 
 The example just uses the default and deploys to region(s) where Consumption API Management is currently available.
 
-###### Deploy your updates:
+Deploy your updates:
 
 ```bash
 $ sls deploy
@@ -186,7 +185,7 @@ You might be able to do the same, depending on your requirements.
 
 [Webpack](https://webpack.js.org/) dramatically reduces the packaging time as well as the size of your deployed package. After making these changes, your packaged Function App will be optimized with Webpack (You can run `sls package` to package it up or just run `sls deploy` which will include packaging as part of the lifecycle).
 
-Just as an example, even for this very small application, my package size went from **324 KB** to **28 KB**. 
+Just as an example, even for this very small application, my package size went from **324 KB** to **28 KB**.
 
 To accomplish this, we'll use another awesome Serverless plugin, [`serverless-webpack`](https://github.com/serverless-heaven/serverless-webpack) to make Webpacking our Azure Function app really easy.
 
@@ -231,6 +230,7 @@ module.exports = {
   plugins: [],
 };
 ```
+
 And just like that, your deployed Azure Function apps will be webpacked and ready to go.
 
 ![alt text](https://media.giphy.com/media/zcCGBRQshGdt6/giphy.gif)
@@ -257,7 +257,7 @@ We could do similar operations with `--prefix` and `--stage`. Now let's create a
 
 #### Step 8: Add CI/CD (with Azure DevOps) - (commit [a8fabf6](https://github.com/tbarlow12/sls-az-func-rest-api/commit/a8fabf6faa30f7ceab7c18395a5c69c21abd4640))
 
-For the CI/CD on my sample repo, I'm using [Azure DevOps](), but it would work the same on any other service you want to use. If you want to use Azure DevOps for an open-source project, [here are a few steps to get started](https://docs.microsoft.com/en-us/azure/devops/organizations/public/about-public-projects?view=azure-devops#get-started-with-a-public-project)
+For the CI/CD on my sample repo, I'm using Azure DevOps, but it would work the same on any other service you want to use. If you want to use Azure DevOps for an open-source project, [here are a few steps to get started](https://docs.microsoft.com/en-us/azure/devops/organizations/public/about-public-projects?view=azure-devops#get-started-with-a-public-project)
 
 No matter the CI/CD environment, here is what we are looking to accomplish:
 
@@ -284,6 +284,7 @@ There are a lot more bells and whistles we could add, but that's essentially wha
 For my pipelines, I'm actually going to split up my CI and CD into `unit-tests.yml` and `deploy.yml`. Unit tests will be run on PRs into `master` or `dev` (this is assuming there are branch policies in place to prevent devs from pushing straight to either branch). Deployment will be run on commits (merges) to `master`.
 
 ##### Unit Tests
+
 ```yaml
 # pipelines/unit-tests.yml
 
@@ -335,6 +336,7 @@ steps:
 ```
 
 ##### Deployment
+
 ```yaml
 # pipelines/deploy.yml
 

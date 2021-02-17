@@ -4,19 +4,5 @@
   "no-inline-html": false,
   "single-title": false,
   "fenced-code-language": false,
-  "heading-increment": false,
-  "no-duplicate-heading": false,
-  "no-empty-links": false,
-  "first-line-heading": false,
-  "no-trailing-spaces": false,
-  "blanks-around-headings": false,
-  "blanks-around-lists": false,
-  "no-hard-tabs": false,
-  "single-trailing-newline": false,
-  "no-trailing-punctuation": false,
-  "ul-indent": false,
-  "blanks-around-fences": false,
-  "commands-show-output": false,
-  "no-multiple-blanks": false,
-  "no-bare-urls": false
+  "commands-show-output": false
 }
