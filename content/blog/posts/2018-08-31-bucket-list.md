@@ -30,22 +30,22 @@ This is an ever-growing, ever-changing list of things I would like to accomplish
 - [x] Find a senior developer mentor
 - [x] Mentor a junior developer
 - [x] Submit code to these online package managers
-    - [x] PyPI
-    - [x] NuGet
-    - [x] NPM
+  - [x] PyPI
+  - [x] NuGet
+  - [x] NPM
 - [ ] Have a stranger submit a meaningful PR to an open-source project you created
 - [ ] Pull an all-nighter coding on a personal project
 - [x] Write a piece of software just for you that you actually use
-- [ ] Reading list: 
-    - [ ] [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
-    - [x] [The Night Watch](https://www.usenix.org/system/files/1311_05-08_mickens.pdf)
-    - [x] [Cracking the Coding Interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=dp_ob_title_bk)
-    - [ ] [Design Patterns: Elements of Reusable Object-Oriented Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
-    - [ ] [Code: The Hidden Language of Computer Hardware and Software](https://www.amazon.com/Code-Language-Computer-Hardware-Software/dp/0735611319)
-    - [ ] [Refactoring: Improving the Design of Existing Code](https://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672)
-    - [ ] [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X)
-    - [ ] [Code Complete: A Practical Handbook of Software Construction](https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670/ref=pd_lpo_sbs_14_t_1?_encoding=UTF8&psc=1&refRID=K75WSC0JK6J62XWX4AHR)
-    - [x] [Real Programmers Don't Use PASCAL](http://web.mit.edu/humor/Computers/real.programmers)
+- [ ] Reading list:
+  - [ ] [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
+  - [x] [The Night Watch](https://www.usenix.org/system/files/1311_05-08_mickens.pdf)
+  - [x] [Cracking the Coding Interview](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=dp_ob_title_bk)
+  - [ ] [Design Patterns: Elements of Reusable Object-Oriented Software](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612)
+  - [ ] [Code: The Hidden Language of Computer Hardware and Software](https://www.amazon.com/Code-Language-Computer-Hardware-Software/dp/0735611319)
+  - [ ] [Refactoring: Improving the Design of Existing Code](https://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672)
+  - [ ] [The Pragmatic Programmer](https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X)
+  - [ ] [Code Complete: A Practical Handbook of Software Construction](https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670/ref=pd_lpo_sbs_14_t_1?_encoding=UTF8&psc=1&refRID=K75WSC0JK6J62XWX4AHR)
+  - [x] [Real Programmers Don't Use PASCAL](http://web.mit.edu/humor/Computers/real.programmers)
 - [x] Work with a dataset larger than one petabyte
 - [x] Write your own ML model using nothing but a math library (numpy or equivalent)
 - [x] Throw away code for a project and start from scratch
@@ -67,23 +67,23 @@ This is an ever-growing, ever-changing list of things I would like to accomplish
 - [ ] Have an answer upvoted 100+ times on StackOverflow
 - [ ] Write a program using strictly Vim or Emacs in the terminal
 - [ ] Write a non-trivial program in:
-    - [x] C
-    - [x] MIPS
-    - [ ] Go
-    - [x] C++
-    - [x] C#
-    - [x] Node.js
-    - [x] TypeScript
-    - [x] Python
-    - [x] Java
-    - [x] Android
-    - [ ] Swift
-    - [ ] Rust
-    - [ ] Elixir
-    - [ ] Scala
+  - [x] C
+  - [x] MIPS
+  - [ ] Go
+  - [x] C++
+  - [x] C#
+  - [x] Node.js
+  - [x] TypeScript
+  - [x] Python
+  - [x] Java
+  - [x] Android
+  - [ ] Swift
+  - [ ] Rust
+  - [ ] Elixir
+  - [ ] Scala
 - [ ] Write a program in a functional language
 - [x] Write a program for a robot
 - [ ] Work on software that requires government clearance
 - [ ] Infiltrate a large system undetected
 - [ ] Place top 5 in a Kaggle competition
-- [x] Write a blog about your career 
+- [x] Write a blog about your career
