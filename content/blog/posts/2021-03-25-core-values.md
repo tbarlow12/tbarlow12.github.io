@@ -44,22 +44,63 @@ We could write volumes about what it means to "treat people right."
 We'd likely venture into some interesting moral, philosophical and/or religious discussions.
 For our purposes here, I'd like to share what I think it means to "treat people right" in the context of a software engineering team.
 
-Software engineering is very much a team sport.
-
-
 ### Assume Good Intent
 
-### Earn and Give Trust
+In a good team, there are bound to be differences of opinion.
+That's kind of the point.
+We discuss things, bounce ideas off each other, debate between alternatives and somehow, make decisions as a team.
+With these differences of opinion, it can be easy to get
+
+### Trust and Be Trustworthy
+
+While "zero trust" may be a good strategy when it comes to security practices, it can destroy an engineering team.
+Trust is a pre-requisite to honest and open communication.
+
+Trust is a two-way street.
+If you expect your teammates to trust that you have their back, you need to really have their back.
+
+This kind of trust doesn't necessarily mean you have the 2-weeks-out-of-college new hire approving builds for production.
+It means replacing
 
 ### Bring Others Along
 
-### Review With Empathy
+### Review Code With Empathy
+
+I talked about this in [one of my other posts](https://tannerbarlow.com/#/blog/mistakes), so I won't go into too much detail here.
+Bottom line - yes, we need to be honest and clear when providing a code review, but that does not mean we assume we work with morons.
+
+![Intelligent Life](https://media.giphy.com/media/LPf3apwI9qLOwMxuFc/giphy.gif)
+
+Rather than attacking or berating the author, **ask questions**.
+Not only will it help you gather the context you may be missing, but if it is indeed a mistake on the author's part, it will help the author teach themself as they answer your question.
+If necessary, suggest to hop on a call or grab a conference room to walk through some of your thoughts.
+
+We've *all* opened up a crappy pull request.
+And if you haven't, yes you have.
+Be kind.
+Assume you may not have all the facts.
+Invest in your teammate's growth and learning by building them up rather than tearing them down.
 
 ### Lead With Compassion
 
 ## Use the Right Tool
 
+As engineers, we don't write code exclusively `0`s and `1`s anymore.
+Everything we do is using *some* kind of tool.
+Languages, frameworks, design patterns, PaaS offerings, and the list goes on.
+It is important that we are using the *right tool* for the *right job*.
+
 ### No Silver Bullets
+
+A "silver bullet," metaphorically speaking, is something that can be applied almost magically to any problem - anytime, anywhere.
+For those of my generation, the term "[golden gun](https://jamesbond.fandom.com/wiki/Golden_Gun)" may be more appropriate here.
+
+![Golden Eye](https://media.giphy.com/media/rdeqKbI5wDGzS/giphy.gif)
+
+It's important that we don't pigeon hole too deep on any one particular tool.
+There will be some tools that will be great for some problems, and other tools that might be great for others.
+Part of our job as engineers is to evaluate the trade-offs between the various tools and make a decision on which to use for our current problem.
+Because this industry is changing at break-neck speed, we will need to stay up-to-date on the state of the art for the problem space we're working in, which leads me to...
 
 ### Learn Fast
 
