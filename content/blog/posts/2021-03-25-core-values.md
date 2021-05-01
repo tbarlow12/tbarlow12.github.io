@@ -1,5 +1,5 @@
 ---
-title: My Six Rights - Core Values I Hold as a Software Engineer
+title: Core Values I Hold as a Software Engineer
 date: 2021-3-25
 path: corevalues
 ---
@@ -17,8 +17,8 @@ Because I'm a sucker for alliteration, acronyms and any kind of mnemonic device,
 - Use the Right Tool
 - Build the Right Thing
 - Code the Right Way
-- Do the Right Thing Right Now
 - Make Time to Right the Ship
+- Do the Right Thing Right Now
 
 For the most astute among you, you'll notice that there are actually seven "rights" in that list.
 It seemed like "Seven Rights" would've been more confusing for people who only counted six bullet points, so we'll split the difference and think of it as "The Baker's Half-Dozen Rights" because of the bonus "right" you got near the end there.
@@ -49,7 +49,7 @@ For our purposes here, I'd like to share what I think it means to "treat people 
 In a good team, there are bound to be differences of opinion.
 That's kind of the point.
 We discuss things, bounce ideas off each other, debate between alternatives and somehow, make decisions as a team.
-With these differences of opinion, it can be easy to get
+With these differences of opinion, it can be easy to get worked up or offended.
 
 ### Trust and Be Trustworthy
 
@@ -82,6 +82,9 @@ Assume you may not have all the facts.
 Invest in your teammate's growth and learning by building them up rather than tearing them down.
 
 ### Lead With Compassion
+
+While this may seem like it's exclusively for managers or leads, that's just not true.
+Leadership does 
 
 ## Use the Right Tool
 
@@ -122,14 +125,14 @@ Because this industry is changing at break-neck speed, we will need to stay up-t
 
 ### Automate What You Can, Don't Automate What You Shouldn't
 
-## Do the Right Thing Right Now
-
-### Have a Plan for Every Day
-
-### Set Goals and Stick to Them
-
 ## Make Time to Right the Ship
 
 ### Reflect Early and Often
 
 ### Keep things balanced
+
+## Do the Right Thing Right Now
+
+### Have a Plan for Every Day
+
+### Set Goals and Stick to Them
