@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { HashRouter } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import '../scss/App.css';
 import "../scss/App.scss";
 import MainContentRouter from "./components/shell/mainContentRouter";
@@ -15,7 +15,7 @@ const App: React.FC = () => {
 
   return (
       <div className={`app`}>
-        <HashRouter>
+        <Router>
             <Sidebar
               toggleTerminal={() => setTerminalOpen(!terminalOpen)}
               toggleTheme={() => setDarkTheme(!darkTheme)}
@@ -29,7 +29,7 @@ const App: React.FC = () => {
                 closeTerminal={() => setTerminalOpen(false)}
               />
             </div>
-        </HashRouter>
+        </Router>
       </div>
   );
 }
