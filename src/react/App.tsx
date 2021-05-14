@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router } from "react-router-dom";
-import '../scss/App.css';
+import { HashRouter as Router } from "react-router-dom";
 import "../scss/App.scss";
 import MainContentRouter from "./components/shell/mainContentRouter";
 import { Sidebar } from "./components/shell/sidebar";
