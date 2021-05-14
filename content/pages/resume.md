@@ -6,11 +6,16 @@ title: Resume
 
 ## Skills
 
-- C#, Python, Node.js, TypeScript, JavaScript, Java, React, Serverless, NLP, ML/AI
+- C#, Node.js, Python, TypeScript, Golang, Java, React, Serverless, Docker, Terraform, CI/CD
 
 ## Work Experience
 
-### **Software Engineer 2** – *Microsoft (Commercial Software Engineering), Redmond, WA, Feb 2019 - Present*
+### **Senior Software Engineer** – *Microsoft (Commercial Software Engineering), Redmond, WA, Mar 2021 - Present*
+
+- Leading internal project for bootstrapping repos and work items to reduce duplicated efforts on projects
+- Worked on a multi-tenant, multi-regional application deployment pipeline using Terraform, K8s and Helm 
+
+### **Software Engineer 2** – *Microsoft (Commercial Software Engineering), Redmond, WA, Mar 2019 - Mar 2021*
 
 - Tech lead for team of 6 engineers in building and maintaining a data collection and processing pipeline
 - [#1 overall contributor](https://github.com/serverless/serverless-azure-functions/graphs/contributors) to the Serverless Framework Azure Functions plugin. Added support for running locally, rolling back code/infrastructure deployment, skipping of identical deployment, Linux support, Python support, .NET Core support and [more](https://github.com/serverless/serverless-azure-functions/pulls?utf8=%E2%9C%93&q=is%3Amerged+is%3Apr+author%3Atbarlow12+)
