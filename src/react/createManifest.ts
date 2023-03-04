@@ -4,6 +4,7 @@ import { icons } from "../scss/icons"
 import { BlogPage } from "./pages/blogPage"
 import { BlogPostPage } from "./pages/blogPostPage";
 import postsFull from "../content/blog/posts-full.json";
+import MentorshipPage from "./components/mentorship/mentorship";
 
 export const appManifest = createManifest();
 
@@ -33,6 +34,12 @@ function createManifest(): Manifest {
         })
       },
       {
+        title: "Mentorship",
+        name: "mentorship",
+        path: "/mentorship",
+        icon: icons.mentorship,
+      }
+      {
         title: "Projects",
         name: "projects",
         path: "/projects",
@@ -42,7 +49,8 @@ function createManifest(): Manifest {
         title: "Resume",
         name: "resume",
         path: "/resume",
-        icon: icons.resume
+        icon: icons.resume,
+        component: MentorshipPage,
       },
       {
         title: "Interests",
