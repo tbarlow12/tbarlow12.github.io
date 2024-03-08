@@ -1,30 +1,32 @@
 Tanner Barlow
 tanner.barlow12@gmail.com | GitHub: tbarlow12 | https://tannerbarlow.com/ 
 SKILLS
-Python, C#, Node.js, TypeScript, JavaScript, Java, React, Serverless, NLP, ML/AI
+Node, Python, Java, Scala, Ruby, C#, React, Technical Leadership, Architecture Design
 WORK EXPERIENCE
-Software Engineer 2 – Microsoft (Commercial Software Engineering), Redmond, WA, Mar 2019 - Present
-* Top contributor to the Serverless Framework Azure Functions plugin. Added support for running locally, rolling back code/infrastructure deployment, skipping of identical deployment, Linux support, Python support and more
-* Designed, architected and implemented many features of VoTT, an open-source tool for image and video annotation, including the tag input component, dynamic help menu, cloud connections, and dynamic string localization
-Software Engineer – Microsoft (Commercial Software Engineering), Redmond, WA, Jan 2018 – Mar 2019
-* Contributed multiple features to Cloud Custodian, an open-source CLI tool for cloud subscription governance, including real-time metric filters, scheduled operations, and multi-subscription support
-* Designed and implemented features for a cloud-agnostic serverless orchestrator for monitoring cloud resources
-* Developed POC voice-driven Android application for hands-free control of stationary bicycle
-Software Engineer Intern – Microsoft (Windows Localization), Redmond, WA, May 2016 – Aug 2017
-* Designed and implemented big data pipeline and k-means clustering analysis of Windows telemetry. Assigned score for the “representation factor” of each device in order to amplify feedback of highly representative users
+Senior Software Engineer – Stripe (LATAM Engineering & Cost Platform), Highland, UT | Nov 2021 - Present
+* Tech lead for implementation of quarterly interchange and scheme fee credit card network updates
+* Shipped support for card installments in Mexico on all Stripe hosted surfaces (checkout, invoice, payment link, etc.)
+* Led hackathon team lead in developing linting tool to identify untranslated strings in Stripe’s dashboard
+* Member of small team that implemented QR codes for payment links in Stripe’s dashboard
+* Implemented automation that accurately models and manages over $12M in monthly company incentives and rebates, reducing errors and saving significant operational hours.
+Senior Software Engineer – Microsoft (Commercial Software Engineering), Highland, UT | Mar 2021 – Nov 2021
+* Tech lead for internal project building CLI tool for bootstrapping work items to reduce duplicated efforts on projects
+* Contributed to the development of a robust multi-tenant, multi-regional application deployment pipeline leveraging Terraform, K8s, and Helm.
+Software Engineer 2 – Microsoft (Commercial Software Engineering), Redmond, WA | Mar 2019 – Mar 2021
+* Tech lead for team of 6 engineers in building and maintaining a data collection and processing pipeline
+* #1 overall contributor to the Serverless Framework Azure Functions plugin, a tool for deploying Azure Functions
+* #2 overall contributor to VoTT, a popular open-source tool for image and video annotation (>2.8K stars on GitHub)
+* Developed Clover, a specialized testing framework for validating CLI applications outputs and results
+Software Engineer – Microsoft (Commercial Software Engineering), Redmond, WA | Jan 2018 – Mar 2019
+* Enhanced Cloud Custodian, an open-source CLI tool for cloud subscription governance, by adding features such as real-time metric filters, scheduled operations, and multi-subscription support
+* Architected and implemented features for a multi-cloud serverless orchestrator, used for monitoring infrastructure
+* Developed voice-driven Android application for hands-free control of stationary bicycle
+Software Engineer Intern (2x) – Microsoft (Windows Localization), Redmond, WA | May 2016 – Aug 2017
+* Designed and implemented big data pipeline and k-means clustering analysis of Windows telemetry. Assigned score for the “representation factor” of each device to amplify feedback of highly representative users
 * Created CLI tool to automate process of identifying actionable feedback from Windows users
-Software Developer Intern – FamilySearch, Salt Lake City, UT, May 2015 – Aug 2015
-* Enhanced and maintained CLI tool for running bulk operations on database of historical places
-* Designed and created GUI to run on top of existing tool for users that struggled using the CLI
-ADDITIONAL PROJECTS
-* TaskBoardAssistant – Policy engine for automated management of task boards. Published as NuGet package.
-* FoolTheAI – “Human-in-the-loop” verification of crowd-sourced data collection for computer vision models. Users take pictures of objects and try to “fool” the model. Goal was to collect noisy training data for SeeingAI application
-* Guide – Mobile application for creating and consuming location-specific content (crowd-sourced audio tour guide). Sole developer for backend of application, including the API, cloud infrastructure and content delivery
 OTHER EXPERIENCE
-* PyCon Attendee 2018 & 2019 (participated in PyCon Dev Sprints in 2018)
+* Founder and mentor at MentorMe.dev, a platform for engineers to connect with experienced industry mentors
 * Co-Founder and Director of Technology for HackTheU (University of Utah official hackathon)
-* Founder and President of Computer Programmers at the U of U (CPU of U)
-* Microsoft Intern Ambassador (Aug 2016 – July 2017) & Student Partner (Jan 2016 – July 2017) 
 EDUCATION 
 Bachelor of Science: Computer Science
 University of Utah, College of Engineering, Salt Lake City, UT
